@@ -1142,3 +1142,873 @@ Summary: The paper proposes a method to detect the truthfulness of statements ge
 
 </details>
 </details>
+
+
+<details>
+<summary>Thu, 27 Apr 2023</summary>
+    
+<details>
+<summary>Diffusion Model</summary>
+    
+Title: [Fully Discrete Pointwise Smoothing Error Estimates for Measure Valued Initial Data](http://arxiv.org/pdf/2304.13694v1)     
+Summary: The paper analyzes a homogeneous parabolic problem with initial data in the space of regular Borel measures. The problem is discretized in time with a discontinuous Galerkin scheme of arbitrary degree and in space with continuous finite elements of orders one or two. The main results are interior $L^\infty$ error estimates for the evaluation at the endtime, in cases where the initial data is supported in a subdomain.
+
+Title: [Heuristic Barycenter Modeling of Fully Absorbing Receivers in Diffusive Molecular Communication Channels](http://arxiv.org/pdf/2304.13640v1)     
+Summary: The paper presents a heuristic barycenter modeling approach to simulate diffusive molecular communication channels with multiple fully absorbing receivers by utilizing the concept of negative particle sources. The position of the barycenter is obtained from the mean of molecules reaching the surface of each receiver and can simplify further modeling of such systems. The approach is verified by comparing analytical results with particle-based simulation data.
+
+Title: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+Summary: This paper proposes an approach called DiffuseExpand for expanding datasets for 2D medical image segmentation using Diffusion Probabilistic Models (DPMs). DiffuseExpand first samples a variety of masks from Gaussian noise to ensure diversity and then synthesizes images to ensure the alignment of images and masks. The effectiveness of DiffuseExpand is demonstrated through comparison and ablation experiments on COVID-19 and CGMH Pelvis datasets.
+
+Title: [Event-triggered Boundary Control of a Class of Reaction-Diffusion PDEs with Time-dependent Reactivity](http://arxiv.org/pdf/2304.13322v1)     
+Summary: This academic paper proposes an event-triggered boundary control strategy for a class of reaction-diffusion PDEs with time-varying reactivity under Robin actuation. The proposed approach includes a backstepping full-state feedback boundary controller and a dynamic event-triggering condition. The paper also establishes the well-posedness and global exponential convergence of the closed-loop system to zero in $L^2$-sense.
+
+Title: [Score-based Generative Modeling Through Backward Stochastic Differential Equations: Inversion and Generation](http://arxiv.org/pdf/2304.13224v1)     
+Summary: The paper proposes a novel score-based diffusion model through backward stochastic differential equations (BSDE), which can determine the initial conditions needed for a desired terminal distribution. The authors demonstrate the theoretical guarantees of the model, the benefits of using Lipschitz networks for score matching, and its potential applications in diffusion inversion, conditional diffusion, and uncertainty quantification. This work offers promising directions for solving real-world problems in score-based generative learning.
+
+</details>
+<details>
+<summary>Large Language Models</summary>
+    
+Title: [Evaluation of GPT-3.5 and GPT-4 for supporting real-world information needs in healthcare delivery](http://arxiv.org/pdf/2304.13714v1)     
+Summary: This paper evaluates the use of two general purpose large language models, GPT-3.5 and GPT-4, for answering questions in healthcare settings. The responses provided by the models were evaluated by physicians for safety and concordance with existing reports. Results showed that the models were largely safe, but responses often did not meet the specific information need of the question, suggesting the need for further research on prompt engineering, calibration, and custom-tailoring of the models.
+
+Title: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/pdf/2304.13712v2)     
+Summary: This paper provides a practical guide for practitioners and end-users working with Large Language Models (LLMs) in their downstream natural language processing (NLP) tasks. The paper discusses the importance of pre-training data, training data, and test data, and provides a detailed discussion about the use and non-use cases of LLMs for various NLP tasks. The paper also explores the impact of spurious biases on LLMs and other essential considerations for deploying LLMs in practice. The authors aim to provide researchers and practitioners with valuable insights and best practices for working with LLMs.
+
+Title: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+Summary: This paper presents the results of SemEval-2023 Task 12, a sentiment analysis task for low-resource African languages using Twitter data. The task had three subtasks, including a zero-shot sentiment classification. The study leveraged pre-trained large language models, including Afro-xlmr-large and BERT, for sentiment analysis in 14 African languages. The findings showed that Afro-xlmr-large performed better than the other models, and Nigerian languages had higher performance due to the larger volume of data. The paper also released the code on GitHub.
+
+Title: [Shades of meaning: Uncovering the geometry of ambiguous word representations through contextualised language models](http://arxiv.org/pdf/2304.13597v1)     
+Summary: This paper explores the challenge of lexical ambiguity and how it is represented in contextualized language models. The authors use simulations to show that these models can capture fine-grained distinctions between unambiguous, homonymous, and polysemous words, aligning with lexicographic classifications and psychological theories. The findings provide quantitative support for modern psychological conceptualizations of lexical ambiguity and raise new challenges for understanding the way contextual information shapes the meanings of words across different timescales.
+
+Title: [Toxic comments reduce the activity of volunteer editors on Wikipedia](http://arxiv.org/pdf/2304.13568v1)     
+Summary: This academic paper examines the impact of toxic speech on editors' behavior on Wikipedia. By analyzing 57 million comments made on user talk pages of 8.5 million editors, the paper finds that toxic comments consistently reduce the activity of editors and increase the risk of editors leaving the project altogether. The paper argues that mitigating toxic speech on collaborative platforms is essential for their continued success.
+
+Title: [Multidimensional Evaluation for Text Style Transfer Using ChatGPT](http://arxiv.org/pdf/2304.13462v1)     
+Summary: This paper investigates the use of ChatGPT as a multidimensional evaluator for text style transfer, comparing it to existing automatic metrics and human judgments. They focus on a zero-shot setting and test its performance on three dimensions of style transfer evaluation. The results show that ChatGPT achieved competitive correlations with human judgments and can be a useful tool in the multidimensional evaluation of stylized text generation.
+
+Title: [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System](http://arxiv.org/pdf/2304.13343v1)     
+Summary: The paper proposes a Self-Controlled Memory (SCM) system to enable large-scale language models (LLMs) to process ultra-long texts without modification or fine-tuning. The SCM system is composed of three modules: the language model agent, the memory stream, and the memory controller. The experimental results show that the SCM system enables LLMs to achieve multi-turn dialogue capabilities and outperform ChatGPT in scenarios involving ultra-long document summarization or long-term conversations.
+
+Title: [A Case-Based Reasoning Framework for Adaptive Prompting in Cross-Domain Text-to-SQL](http://arxiv.org/pdf/2304.13301v1)     
+Summary: The paper proposes a Case-Based Reasoning framework named CBR-ApSQL for adaptive prompting in Text-to-SQL tasks. The framework combines with GPT-3.5 and adapts to retrieve cases and control case-relevant and case-irrelevant knowledge. The proposed approach outperforms the state-of-the-art model in execution accuracy for three different cross-domain datasets.
+
+Title: [The Closeness of In-Context Learning and Weight Shifting for Softmax Regression](http://arxiv.org/pdf/2304.13276v1)     
+Summary: The paper studies the in-context learning ability of Transformers in natural language processing tasks. The authors show the upper bounds of the data transformations induced by a single self-attention layer and by gradient-descent on a regression loss for softmax prediction function. The results imply that when training self-attention-only Transformers for regression tasks, the models learned by gradient-descent and Transformers show great similarity.
+
+Title: [Exploring the Curious Case of Code Prompts](http://arxiv.org/pdf/2304.13250v1)     
+Summary: The paper examines the effectiveness of code prompts versus text prompts when interacting with language models. The authors compare the performance of code and text prompts across various tasks and find that, with a few exceptions, code prompts do not consistently outperform text prompts. The authors also show that the style of code prompt has a large effect on performance for some tasks, and that fine-tuning on text instructions leads to better relative performance of code prompts. Overall, the paper contributes to our understanding of how language models interact with different input types and provides insights into the use of code prompts for structured reasoning tasks.
+
+Title: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+Summary: The paper introduces a benchmark dataset, called TABLET, consisting of 20 diverse tabular datasets annotated with natural language instructions for solving tabular prediction problems using large language models (LLMs). The study finds that in-context instructions improve the zero-shot F1 performance of Flan-T5 11b and ChatGPT on TABLET. However, LLMs often ignore instructions and fail to predict specific instances correctly, even with examples, indicating the need for new capabilities in learning from instructions for tabular data.
+
+Title: [AI-assisted coding: Experiments with GPT-4](http://arxiv.org/pdf/2304.13187v1)     
+Summary: The paper reports experiments using GPT-4 to generate computer code and demonstrates that AI code generation can significantly improve the quality of code, but requires substantial human validation to ensure accuracy. The findings suggest that while AI coding tools are powerful, they still require humans in the loop to ensure validity and accuracy of the results.
+
+Title: [Generative Relevance Feedback with Large Language Models](http://arxiv.org/pdf/2304.13157v1)     
+Summary: The paper proposes Generative Relevance Feedback (GRF), a probabilistic feedback model that generates long-form text from Large Language Models to improve document retrieval effectiveness. The paper studies effective methods for generating text by varying subtasks: queries, entities, facts, news articles, documents, and essays. The authors evaluate GRF on diverse document retrieval benchmarks and show that it significantly outperforms previous pseudo-relevance feedback methods, improving MAP between 5-19% and NDCG@10 17-24% compared to RM3 expansion. The paper contributes to research on large language models and query expansion for document retrieval.
+
+</details>
+<details>
+<summary>Image Reconstruction</summary>
+    
+Title: [Multi-View Stereo Representation Revisit: Region-Aware MVSNet](http://arxiv.org/pdf/2304.13614v2)     
+Summary: The paper proposes a region-aware MVSNet for multi-view stereo representation that predicts a distance volume from the cost volume to estimate the signed distance of points around the surface, enhancing the perception range, completing textureless regions, reducing outliers at boundaries, and generating mesh topologies with fine details. The approach achieves state-of-the-art results on both DTU and Tanks & Temples datasets, demonstrating its effectiveness in reconstructing complete geometrically-detailed objects from multi-views.
+
+Title: [Neural-PBIR Reconstruction of Shape, Material, and Illumination](http://arxiv.org/pdf/2304.13445v1)     
+Summary: This paper introduces a robust object reconstruction pipeline combining neural based object reconstruction and physics-based inverse rendering. The pipeline produces high-quality object shape, reflectance, and illumination predictions using a neural stage, which are then refined using the physics-based inverse rendering stage. The pipeline significantly outperforms existing reconstruction methods in both quality and performance.
+
+Title: [Streamlined Global and Local Features Combinator (SGLC) for High Resolution Image Dehazing](http://arxiv.org/pdf/2304.13375v1)     
+Summary: This paper proposes a Streamlined Global and Local Features Combinator (SGLC) to address the issue of accurately dehazing high-resolution images. The SGLC contains two blocks - Global Features Generator (GFG) and Local Features Enhancer (LFE) - to combine global and local features in a streamlined manner. Tested on the Uformer architecture, SGLC significantly improved the PSNR metric. This approach can be applied to other dehazing models for high-resolution input data.
+
+Title: [Discrepancy-Guided Reconstruction Learning for Image Forgery Detection](http://arxiv.org/pdf/2304.13349v1)     
+Summary: The paper proposes a novel image forgery detection paradigm that uses a Discrepancy-Guided Encoder (DisGE) and a Double-Head Reconstruction (DouHR) module to extract forgery-sensitive visual patterns and enhance genuine compact visual patterns in different granular spaces, respectively. The proposed method also includes a Discrepancy-Aggregation Detector (DisAD) to aggregate these patterns for improved forgery detection capability on unknown patterns. The effectiveness of the proposed approach is validated through extensive experimental results on four challenging datasets.
+
+</details>
+<details>
+<summary>Medical Image</summary>
+    
+Title: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+Summary: The paper proposes a marker-less system for motion-based biomarker discovery in knee disorders using standard RGB cameras. Biomarkers are identified using Principal Component Analysis (PCA) and validated as statistically significant through a case study. The system provides a cheap and sensitive alternative to current commercial alternatives for analyzing biomechanics and tracking rehabilitation progress.
+
+Title: [FVP: Fourier Visual Prompting for Source-Free Unsupervised Domain Adaptation of Medical Image Segmentation](http://arxiv.org/pdf/2304.13672v1)     
+Summary: The paper proposes Fourier Visual Prompting (FVP), a method for Source-Free Unsupervised Domain Adaptation (SFUDA) of medical image segmentation. FVP adds a visual prompt to input target data, which is learned by minimizing the segmentation loss, and steers the frozen pre-trained model to perform well in the target domain. The proposed method is validated using three public datasets, and experiments show that FVP yields better segmentation results compared to various existing methods.
+
+Title: [Non-rigid Point Cloud Registration for Middle Ear Diagnostics with Endoscopic Optical Coherence Tomography](http://arxiv.org/pdf/2304.13618v1)     
+Summary: The paper proposes a non-rigid point cloud registration pipeline, C2P-Net, for merging ex-vivo middle ear models with in-vivo OCT volumetric data to facilitate fast diagnosis and measurement of middle ear infection. The pipeline is capable of handling realistic noise and incompleteness in synthetic and real OCT data. The proposed method can support the interpretation of in-vivo noisy and partial OCT images for the first time.
+
+Title: [Cluster Entropy: Active Domain Adaptation in Pathological Image Segmentation](http://arxiv.org/pdf/2304.13513v1)     
+Summary: The paper proposes a method for semi-supervised domain adaptation in pathological image segmentation by introducing a cluster entropy measure for selecting an effective whole slide image (WSI). The cluster entropy method calculates the entropy of each cluster to measure the image features of the WSI and covers the entire distribution of the target domain. The proposed method achieves competitive results against prior arts on datasets collected from two hospitals.
+
+Title: [A Secure Medical Record Sharing Scheme Based on Blockchain and Two-fold Encryption](http://arxiv.org/pdf/2304.13511v1)     
+Summary: The paper proposes a blockchain-based secure medical record sharing system that encrypts data using both an asymmetric cryptosystem and dynamic DNA encoding. The encrypted data is stored in distinct blocks designated for each user in the blockchain to ensure data integrity. The proposed scheme enables authorized entities to regain the electronic medical record through decryption. Preliminary evaluations show the efficacy of the scheme.
+
+Title: [Towards clinical AI fairness: A translational perspective](http://arxiv.org/pdf/2304.13493v1)     
+Summary: This paper discusses the issue of fairness in artificial intelligence (AI) in the field of healthcare. It highlights the misalignment between technical and clinical perspectives on AI fairness and provides possible solutions to address clinical concerns. The paper advocates for multidisciplinary collaboration to bridge the knowledge gap and ensure fairness in AI in healthcare.
+
+Title: [Effect of latent space distribution on the segmentation of images with multiple annotations](http://arxiv.org/pdf/2304.13476v1)     
+Summary: The paper proposes the Generalized Probabilistic U-Net for image segmentation with multiple annotations. The extension allows for more general forms of the Gaussian distribution in the latent space, improving the uncertainty estimation in reference segmentations. The study shows that the choice of distribution affects sample diversity and overlap with reference segmentations for lung tumors and brain white matter hyperintensities. Implementation is available on Github.
+
+Title: [GENIE-NF-AI: Identifying Neurofibromatosis Tumors using Liquid Neural Network (LTC) trained on AACR GENIE Datasets](http://arxiv.org/pdf/2304.13429v1)     
+Summary: This paper proposes an AI approach using logistic regression and black box models to diagnose neurofibromatosis tumors using blood tests and pathogenic variables. The models outperformed existing approaches in accuracy. The study demonstrates the potential of AI in the medical field.
+
+Title: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+Summary: The paper proposes a learnable prompt layer named Learnable Ophthalmology Segment Anything (SAM) for multiple target segmentation in ophthalmology multi-modal images. The prompt layer learns medical prior knowledge from each transformer layer and is trained based on a one-shot mechanism. The paper demonstrates the effectiveness of this approach on four medical segmentation tasks using nine publicly available datasets. The paper falls under the categories of Image Segmentation, Medical Image, Transformer, and Few-Shot/Zero-Shot Learning.
+
+Title: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+Summary: This paper proposes an approach called DiffuseExpand for expanding datasets for 2D medical image segmentation using Diffusion Probabilistic Models (DPMs). DiffuseExpand first samples a variety of masks from Gaussian noise to ensure diversity and then synthesizes images to ensure the alignment of images and masks. The effectiveness of DiffuseExpand is demonstrated through comparison and ablation experiments on COVID-19 and CGMH Pelvis datasets.
+
+Title: [Robust One-Step Estimation of Impulsive Time Series](http://arxiv.org/pdf/2304.13394v1)     
+Summary: The paper presents a one-step estimation algorithm for impulsive time series modeling, commonly found in biomedical data like hormone secretion. The algorithm uses a linear plant driven by a train of Dirac impulses to model the impulsive input. It effectively resolves the trade-off between data fit and impulsive input sparsity and is improved to handle outliers and unknown basal levels. The algorithm is evaluated on synthetic and clinical data and produces more accurate results through the use of an information criterion.
+
+Title: [Blockchain-based Federated Learning with SMPC Model Verification Against Poisoning Attack for Healthcare Systems](http://arxiv.org/pdf/2304.13360v1)     
+Summary: The paper proposes a blockchain-based federated learning framework for healthcare systems. The framework includes an SMPC model verification process to detect and remove malicious updates from FL clients. The proposed approach is evaluated using various medical datasets.
+
+Title: [Understanding the Security and Performance of the Web Presence of Hospitals: A Measurement Study](http://arxiv.org/pdf/2304.13278v1)     
+Summary: This academic paper presents a measurement-based analysis of the web presence of hospitals, with a focus on security attributes. The study examines characteristics of government, non-profit, and proprietary hospitals' utilization of domain name registrars, top-level domain distribution, and content type, as well as HTTP request features. The findings indicate a lack of basic security in many hospitals' websites, with only 1% of government hospitals utilizing DNSSEC and 25% using plain HTTP. Furthermore, the study connects these attributes with data breaches, highlighting that security attributes are a strong indicator of the likelihood of a hospital being breached.
+
+Title: [Towards Reliable Colorectal Cancer Polyps Classification via Vision Based Tactile Sensing and Confidence-Calibrated Neural Networks](http://arxiv.org/pdf/2304.13192v1)     
+Summary: The paper proposes a confidence-calibrated residual neural network for reliable colorectal cancer polyps classification by utilizing a vision-based tactile sensing system. The model addresses over-confident outputs via post-processing of temperature scaling and is evaluated for non-ideal inputs through reliability diagrams and statistical metrics.
+
+Title: [Towards Explainable and Safe Conversational Agents for Mental Health: A Survey](http://arxiv.org/pdf/2304.13191v1)     
+Summary: This paper presents a survey of existing conversational agents in mental health and discusses the need for a more comprehensive, safe, and explainable approach to build responsible Virtual Mental Health Assistants (VMHAs). The paper proposes new directions towards enriching the user experience of VMHAs with explainability, safety, and wholesome trustworthiness. The paper also offers evaluation metrics and practical considerations for VMHAs beyond current literature to build trust between VMHAs and patients in active communications.
+
+Title: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+Summary: This paper proposes a sample-specific debiasing approach to improve the quality of learned representations in self-supervised image-text representation learning for medical applications. The approach corrects for false negatives by using estimated sample-specific class probabilities. The paper provides theoretical analysis and empirical evidence of the advantages of the proposed approach.
+
+Title: [An explicit Fourier-Klibanov method for an age-dependent tumor growth model of Gompertz type](http://arxiv.org/pdf/2304.13177v1)     
+Summary: The paper proposes a new explicit Fourier-Klibanov method to approximate an age-dependent tumor growth model of Gompertz type in brain tissue. The method involves nonlinear and linear transformations, and a coupled transport-like PDE system is obtained using Fourier-Klibanov method, and approximated by explicit finite difference operators of characteristics. The resulting difference scheme's stability is analyzed, and the paper presents some computational results demonstrating the method's effectiveness.
+
+</details>
+<details>
+<summary>Image Classification</summary>
+    
+Title: [UniNeXt: Exploring A Unified Architecture for Vision Recognition](http://arxiv.org/pdf/2304.13700v1)     
+Summary: The paper proposes UniNeXt, a unified architecture for the vision backbone that can significantly improve the performance of various spatial token mixers, regardless of their design. The study shows the importance of the general architecture of vision recognition and suggests that an excellent spatial token mixer may be stifled by a suboptimal general architecture. UniNeXt equipped with naive local window attention even outperforms the previous state-of-the-art.
+
+Title: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+Summary: The paper proposes a marker-less system for motion-based biomarker discovery in knee disorders using standard RGB cameras. Biomarkers are identified using Principal Component Analysis (PCA) and validated as statistically significant through a case study. The system provides a cheap and sensitive alternative to current commercial alternatives for analyzing biomechanics and tracking rehabilitation progress.
+
+Title: [PVP: Pre-trained Visual Parameter-Efficient Tuning](http://arxiv.org/pdf/2304.13639v1)     
+Summary: This paper proposes a Pre-trained Visual Parameter-efficient (PVP) Tuning framework for fine-tuning pre-trained transformers in a parameter-efficient manner. The proposed method pre-trains the parameter-efficient tuning modules first and then combines them with the pre-trained transformer backbone to perform efficient tuning on downstream tasks. Experimental results show that PVP outperforms state-of-the-art Parameter-Efficient Tuning (PETuning) methods in low-data regimes on five Fine-Grained Visual Classification and VTAB-1k datasets.
+
+Title: [Tensor Decomposition for Model Reduction in Neural Networks: A Review](http://arxiv.org/pdf/2304.13539v1)     
+Summary: The paper reviews six tensor decomposition methods and their ability to reduce the computational cost of over-parameterized neural networks used in computer vision and natural language processing tasks. The review includes evaluations on compressed models with improved accuracy, reduced model size, run-time, and energy consumption. This approach is well-suited for implementing neural networks in edge devices.
+
+Title: [ElegansNet: a brief scientific report and initial experiments](http://arxiv.org/pdf/2304.13538v1)     
+Summary: 
+The paper introduces ElegansNet, a neural network architecture inspired by the connectome of the Caenorhabditis elegans worm. The network topology of the worm is used to design and generate improved deep learning systems, which are compared against both randomly wired networks and state-of-the-art artificial neural networks. ElegansNet outperforms randomly wired networks and achieves top-1 accuracy of 99.99% on Cifar10 and 99.84% on MNIST Unsup on the validation sets in supervised image classification tasks and unsupervised hand-written digits reconstruction. The study explores the interplay between connectome topology and deep learning systems, showcasing the potential of bio-plausible structures in efficiently solving complex tasks.
+
+Title: [Konzeption und Umsetzung einer mobilen Applikation zur Validierung von fälschungssicheren Produktlabeln](http://arxiv.org/pdf/2304.13519v1)     
+Summary: The paper proposes a cost-effective way to verify the authenticity of a product using a counterfeit-proof label composed of gold nanospheres or rods. The label's unique positions of elements can be measured precisely using a smartphone camera and additional technologies. The paper presents a proof of concept for implementing this system in a mobile application and outlines suitable methods to transmit and secure the required information. The results of validating counterfeit-proof product labels are analyzed, and existing weaknesses are pointed out.
+
+Title: [Efficient Explainable Face Verification based on Similarity Score Argument Backpropagation](http://arxiv.org/pdf/2304.13409v1)     
+Summary: This paper proposes an efficient and explainable approach, called xSSAB, for face verification that back-propagates similarity score-based arguments to visualize spatial maps indicating similar and dissimilar areas. The authors also introduce a new benchmark dataset and evaluation protocol for explainable face verification. Their approach achieves a superior trade-off between efficiency and performance compared to state-of-the-art techniques. The paper falls under the categories of Image Classification and Explainable AI.
+
+Title: [Towards Reliable Colorectal Cancer Polyps Classification via Vision Based Tactile Sensing and Confidence-Calibrated Neural Networks](http://arxiv.org/pdf/2304.13192v1)     
+Summary: The paper proposes a confidence-calibrated residual neural network for reliable colorectal cancer polyps classification by utilizing a vision-based tactile sensing system. The model addresses over-confident outputs via post-processing of temperature scaling and is evaluated for non-ideal inputs through reliability diagrams and statistical metrics.
+
+</details>
+<details>
+<summary>Image Registration</summary>
+    
+</details>
+<details>
+<summary>Reinforcement learning</summary>
+    
+Title: [Learning Agile Soccer Skills for a Bipedal Robot with Deep Reinforcement Learning](http://arxiv.org/pdf/2304.13653v1)     
+Summary: The paper explores the use of Deep Reinforcement Learning to train a humanoid robot to play soccer. Individual movement skills were trained in isolation and then composed for the game in a self-play setting. The resulting policy exhibited robust and dynamic movement skills and a basic strategic understanding of the game. The agents were trained in simulation and transferred to real robots. Combining high-frequency control, targeted dynamics randomization, and perturbations during training in simulation enabled good-quality transfer, despite significant unmodeled effects and variations across robot instances.
+
+Title: [CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing](http://arxiv.org/pdf/2304.13616v1)     
+Summary: This paper proposes a technique called Compact Reshaped Observation Processing (CROP) to improve the generalization capabilities of reinforcement learning. CROP reduces the state information used for policy optimization by providing only relevant information, which precludes overfitting to a specific training layout and improves generalization to unseen environments. The authors provide three CROPs that can be applied to fully observable observation- and action-spaces and empirically show the improvements of CROP in a distributionally shifted safety gridworld. They also provide benchmark comparisons to full observability and data-augmentation in two different-sized procedurally generated mazes.
+
+Title: [Safe Q-learning for continuous-time linear systems](http://arxiv.org/pdf/2304.13573v1)     
+Summary: The paper proposes a safe Q-learning algorithm for partially unknown linear time-invariant systems to solve the linear quadratic regulator problem with user-defined state constraints. The problem is framed as a constrained optimal control problem using reciprocal control barrier functions, providing a safety-assured control policy. The proposed method extends Q-learning to continuous-time systems with state constraints, which hasn't been reported in the literature before.
+
+Title: [Learning to Bid in Repeated First-Price Auctions with Budgets](http://arxiv.org/pdf/2304.13477v1)     
+Summary: The paper discusses the problem of budget management in repeated first-price auctions in online advertising markets. It proposes a dual-based algorithm with full information feedback and shows that it can achieve a nearly optimal regret with a complexity of $\widetilde{O}(\sqrt{T})$. The paper also considers the setting with one-sided information feedback and presents a modified algorithm that can achieve an $\widetilde{O}(\sqrt{T})$ regret. Theoretical results are complemented with numerical experiments to confirm the effectiveness of the proposed budget management policy.
+
+Title: [Optimizing Energy Efficiency in Metro Systems Under Uncertainty Disturbances Using Reinforcement Learning](http://arxiv.org/pdf/2304.13443v2)     
+Summary: The paper proposes a policy-based reinforcement learning approach to optimize energy efficiency in metro systems under disturbances by adjusting the train timetable and the dwell time and cruise speed of trains. The experiments conducted in a simulation environment demonstrate the superiority of the method in achieving a traction energy consumption reduction of up to 10.9% and an increase in regenerative braking energy utilization of up to 47.9%.
+
+Title: [FLEX: an Adaptive Exploration Algorithm for Nonlinear Systems](http://arxiv.org/pdf/2304.13426v1)     
+Summary: The paper introduces FLEX, an adaptive exploration algorithm for nonlinear systems in the context of model-based reinforcement learning. The algorithm employs optimal experimental design to maximize information of the next step and minimize the amount of data required to fit an accurate model of the system. FLEX is shown to be effective on a number of nonlinear environments and also competitive in downstream model-based classical control tasks with low computational cost.
+
+Title: [Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories](http://arxiv.org/pdf/2304.13424v1)     
+Summary: The paper proposes a method to improve the "relay-generalization" performance of reinforcement learning agents on out-of-distribution controllable states. The authors demonstrate the prevalence of generalization failure on controllable states from stranger agents and propose a novel method called Self-Trajectory Augmentation (STA) to reduce the failure rate without impacting agent performance. The proposed method is evaluated on the Humanoid environment and the results show a significant improvement in relay-evaluation.
+
+Title: [N$\text{A}^\text{2}$Q: Neural Attention Additive Model for Interpretable Multi-Agent Q-Learning](http://arxiv.org/pdf/2304.13383v1)     
+Summary: The paper introduces a new neural attention additive Q-learning (N$\text{A}^\text{2}$Q) method for cooperative multi-agent reinforcement learning that provides interpretable collaboration behavior. The method uses generalized additive models to factorize the joint policy into individual policies and construct identity semantics for estimating credits. Extensive experiments show superior performance compared to state-of-the-art methods on challenging tasks while maintaining human-like interpretability.
+
+Title: [Game-based Platforms for Artificial Intelligence Research](http://arxiv.org/pdf/2304.13269v1)     
+Summary: The paper reviews the game-based platforms for artificial intelligence research that have been implemented for studying various research areas, including learning and optimization, decision making, game theory, planning, scheduling, design, and education. These platforms provide ideal benchmarks for exploring and comparing artificial intelligence ideas and techniques. The paper discusses the research trend induced by the evolution of those platforms, and gives an outlook for future research in this area.
+
+Title: [Multi-criteria Hardware Trojan Detection: A Reinforcement Learning Approach](http://arxiv.org/pdf/2304.13232v1)     
+Summary: The paper proposes a multi-criteria Hardware Trojan (HT) detection tool that uses reinforcement learning to detect HTs based on different design criteria. The tool features a tunable reward function that allows for exploring existing detection strategies and adapting new detection scenarios with minimal effort. The proposed methodology for comparing HT detection methods fairly showed an average of 84.2% successful HT detection in the ISCAS-85 benchmark.
+
+Title: [Cooperative Hierarchical Deep Reinforcement Learning based Joint Sleep, Power, and RIS Control for Energy-Efficient HetNet](http://arxiv.org/pdf/2304.13226v1)     
+Summary: This paper proposes a cooperative hierarchical deep reinforcement learning (Co-HDRL) algorithm for energy-efficient heterogeneous networks (HetNets) using reconfigurable intelligent surfaces (RIS). The algorithm includes a cross-entropy enabled meta-controller for sleep control and correlated equilibrium-based sub-controllers for power control. The simulations show that the RIS-assisted sleep control can achieve more than 16% lower energy consumption and 30% higher energy efficiency than baseline algorithms.
+
+Title: [Reinforcement Learning with Partial Parametric Model Knowledge](http://arxiv.org/pdf/2304.13223v1)     
+Summary: The paper proposes a method called Partial Knowledge Least Squares Policy Iteration (PLSPI) that combines model-free RL and model-based control to adapt RL methods for continuous control with incomplete information from a partial model. The effectiveness of the proposed method is demonstrated through numerical experiments using the linear quadratic regulator.
+
+Title: [Dynamic Datasets and Market Environments for Financial Reinforcement Learning](http://arxiv.org/pdf/2304.13174v1)     
+Summary: The paper presents FinRL-Meta, an open-source library that processes dynamic datasets from real-world financial markets into gym-style market environments for training financial reinforcement learning agents, which is difficult due to the low signal-to-noise ratio and survivorship bias of financial data. The library provides a data curation pipeline, reproducible examples, cloud deployment, community-wise competitions, and documentation through Jupyter/Python demos. The library is openly accessible and maintained by the AI4Finance community.
+
+Title: [Roll-Drop: accounting for observation noise with a single parameter](http://arxiv.org/pdf/2304.13150v1)     
+Summary: This paper presents a new approach for sim-to-real in Deep Reinforcement Learning (DRL) called Roll-Drop, which uses dropout during simulation to take into account observation noise during deployment without explicitly modelling its distribution for each state. This approach enhances the robustness to sensor noise by tuning only a single parameter. The authors show an 80% success rate when up to 25% noise is injected in the observations and deploy the controller trained in simulation on a physical system to assess the improved robustness.
+
+</details>
+<details>
+<summary>Image Segmentation</summary>
+    
+Title: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+Summary: The paper proposes new network architectures and training strategies for unsupervised domain adaptation and generalization in semantic image segmentation. The proposed DAFormer network is based on Transformers and is trained using three strategies to avoid overfitting to the source domain. The authors also introduce a multi-resolution framework called HRDA that combines small high-resolution crops and large low-resolution crops to capture both fine segmentation details and long-range context dependencies. Experimental results show significant improvements in performance on five different benchmarks.
+
+Title: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+Summary: The paper proposes the use of synthetic aperture anomaly imaging to improve anomaly detection in the presence of foliage occlusion. The authors demonstrate that integrating detected anomalies is even more effective than detecting anomalies in integrals, resulting in enhanced occlusion removal, outlier suppression, and higher chances of visually as well as computationally detecting targets that are otherwise occluded. The paper includes simulations and field experiments to validate the hypothesis and present a real-time application designed to address use-cases that suffer from strong occlusion caused by vegetation, such as search and rescue, wildlife observation, early wildfire detection, and surveillance.
+
+Title: [Cluster Entropy: Active Domain Adaptation in Pathological Image Segmentation](http://arxiv.org/pdf/2304.13513v1)     
+Summary: The paper proposes a method for semi-supervised domain adaptation in pathological image segmentation by introducing a cluster entropy measure for selecting an effective whole slide image (WSI). The cluster entropy method calculates the entropy of each cluster to measure the image features of the WSI and covers the entire distribution of the target domain. The proposed method achieves competitive results against prior arts on datasets collected from two hospitals.
+
+Title: [EasyPortrait - Face Parsing and Portrait Segmentation Dataset](http://arxiv.org/pdf/2304.13509v1)     
+Summary: This paper introduces a new dataset called EasyPortrait, consisting of 20,000 indoor images with fine-grained segmentation masks separated into 9 classes, primarily used for portrait segmentation and face parsing tasks. The images are collected and labeled from crowdsourcing platforms and are publicly available. The paper also outlines the pipeline for creating a large-scale and clean image segmentation dataset using crowdsourcing, without the need for additional synthetic data. The proposed dataset and trained models are publicly available, and the paper discusses experimental results using several models trained on EasyPortrait.
+
+Title: [Compensation Learning in Semantic Segmentation](http://arxiv.org/pdf/2304.13428v1)     
+Summary: The paper proposes Compensation Learning in Semantic Segmentation, a framework to identify and compensate ambiguities as well as label noise in semantic segmentation. The proposed method employs a ground truth depending and globally learned bias to the classification logits and introduces a novel uncertainty branch for neural networks to induce the compensation bias only to relevant regions. The method improves the robustness against label noise during training and allows target-oriented manipulation during inference. The proposed method is evaluated on widely used datasets Cityscapes, KITTI-STEP, ADE20k, and COCO-stuff10k.
+
+Title: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+Summary: The paper proposes a learnable prompt layer named Learnable Ophthalmology Segment Anything (SAM) for multiple target segmentation in ophthalmology multi-modal images. The prompt layer learns medical prior knowledge from each transformer layer and is trained based on a one-shot mechanism. The paper demonstrates the effectiveness of this approach on four medical segmentation tasks using nine publicly available datasets. The paper falls under the categories of Image Segmentation, Medical Image, Transformer, and Few-Shot/Zero-Shot Learning.
+
+Title: [Exploiting CNNs for Semantic Segmentation with Pascal VOC](http://arxiv.org/pdf/2304.13216v1)     
+Summary: The paper presents a study on semantic segmentation with the Pascal VOC dataset. The authors use a Fully Convolution Network (FCN) baseline and address the issues in the baseline with three improvements: a cosine annealing learning rate scheduler, data augmentation, and class imbalance weights. They also explore three different architectures: Advanced FCN, Transfer Learning with ResNet, and U-Net. The authors observe that dataset augmentation has the greatest contribution to performance improvement and transfer learning model performs the best on the Pascal dataset. They use loss, accuracy, and IoU plots along with segmentation maps to draw valuable insights about the working of the models.
+
+</details>
+<details>
+<summary>Object Detection</summary>
+    
+Title: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+Summary: The paper proposes a marker-less system for motion-based biomarker discovery in knee disorders using standard RGB cameras. Biomarkers are identified using Principal Component Analysis (PCA) and validated as statistically significant through a case study. The system provides a cheap and sensitive alternative to current commercial alternatives for analyzing biomechanics and tracking rehabilitation progress.
+
+Title: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+Summary: The paper proposes the use of synthetic aperture anomaly imaging to improve anomaly detection in the presence of foliage occlusion. The authors demonstrate that integrating detected anomalies is even more effective than detecting anomalies in integrals, resulting in enhanced occlusion removal, outlier suppression, and higher chances of visually as well as computationally detecting targets that are otherwise occluded. The paper includes simulations and field experiments to validate the hypothesis and present a real-time application designed to address use-cases that suffer from strong occlusion caused by vegetation, such as search and rescue, wildlife observation, early wildfire detection, and surveillance.
+
+Title: [Konzeption und Umsetzung einer mobilen Applikation zur Validierung von fälschungssicheren Produktlabeln](http://arxiv.org/pdf/2304.13519v1)     
+Summary: The paper proposes a cost-effective way to verify the authenticity of a product using a counterfeit-proof label composed of gold nanospheres or rods. The label's unique positions of elements can be measured precisely using a smartphone camera and additional technologies. The paper presents a proof of concept for implementing this system in a mobile application and outlines suitable methods to transmit and secure the required information. The results of validating counterfeit-proof product labels are analyzed, and existing weaknesses are pointed out.
+
+Title: [From Chaos Comes Order: Ordering Event Representations for Object Detection](http://arxiv.org/pdf/2304.13455v2)     
+Summary: The paper proposes a new method for selecting the optimal event representation for object detection by using the Gromov-Wasserstein Discrepancy. The method is much faster than traditional neural network training, and it reveals new and powerful representations that improve the state-of-the-art results. By performing a hyperparameter search on a large family of event representations, the authors show that their optimized representation outperforms existing representations on multiple datasets by a significant margin. This work opens up a new field of explicit representation optimization for event-based learning methods.
+
+Title: [Training-Free Location-Aware Text-to-Image Synthesis](http://arxiv.org/pdf/2304.13427v1)     
+Summary: The paper proposes a new method for training-free location-aware text-to-image synthesis using the stable diffusion model. The method allows users to specify the position of generated objects without additional training and proposes an object detection-based evaluation metric to assess control capability. The experimental results indicate that the proposed method outperforms state-of-the-art methods on both control capacity and image quality.
+
+Title: [Group Equivariant BEV for 3D Object Detection](http://arxiv.org/pdf/2304.13390v1)     
+Summary: The paper proposes a group equivariant bird's eye view network (GeqBevNet) for 3D object detection in dynamic driving scenes. The network is based on the group equivariant theory and is embedded into the fused BEV feature map to extract rotational equivariant features, leading to lower average orientation error. The GeqBevNet is verified on the nuScenes validation dataset, and the experimental results demonstrate improved performance in object orientation prediction.
+
+Title: [Machine Vision-Based Crop-Load Estimation Using YOLOv8](http://arxiv.org/pdf/2304.13282v1)     
+Summary: This academic paper proposed a machine vision-based system for crop-load estimation in apple orchards to optimize automated pruning and thinning platforms. Using YOLOv8-based instance segmentation technique, the system identified trunks and branches of apple trees to estimate geometric and topological parameters such as branch diameter and orientation. The proposed workflow demonstrated high accuracy and efficiency in identifying tree canopy parts in commercial orchard environments, providing a foundation for robotic pruning, flower thinning, and fruitlet thinning to achieve desired yield and quality.
+
+</details>
+<details>
+<summary>Object Tracking</summary>
+    
+Title: [Development of a Realistic Crowd Simulation Environment for Fine-grained Validation of People Tracking Methods](http://arxiv.org/pdf/2304.13403v1)     
+Summary: This paper presents the development of a crowd simulation environment and its use in fine-grained validation of people-tracking algorithms. The simulator, developed using Unity 3D engine, focuses on realism in environment, weather conditions, traffic, and individual agent models. Three tracking methods were used to validate the generated dataset, namely IOU-Tracker, Deep-Sort, and Deep-TAMA.
+
+</details>
+<details>
+<summary>Point Cloud</summary>
+    
+Title: [Non-rigid Point Cloud Registration for Middle Ear Diagnostics with Endoscopic Optical Coherence Tomography](http://arxiv.org/pdf/2304.13618v1)     
+Summary: The paper proposes a non-rigid point cloud registration pipeline, C2P-Net, for merging ex-vivo middle ear models with in-vivo OCT volumetric data to facilitate fast diagnosis and measurement of middle ear infection. The pipeline is capable of handling realistic noise and incompleteness in synthetic and real OCT data. The proposed method can support the interpretation of in-vivo noisy and partial OCT images for the first time.
+
+</details>
+<details>
+<summary>Neural Rendering</summary>
+    
+Title: [Super-NeRF: View-consistent Detail Generation for NeRF super-resolution](http://arxiv.org/pdf/2304.13518v1)     
+Summary: The paper proposes a NeRF super-resolution method, called Super-NeRF, that generates high-resolution NeRF from low-resolution inputs by constructing a consistency-controlling super-resolution module. The module uses optimizable latent codes for each low-resolution image to control the 2D super-resolution images to converge to a view-consistent output. Super-NeRF achieves state-of-the-art NeRF super-resolution performance on high-resolution detail generation and cross-view consistency.
+
+Title: [Neural-PBIR Reconstruction of Shape, Material, and Illumination](http://arxiv.org/pdf/2304.13445v1)     
+Summary: This paper introduces a robust object reconstruction pipeline combining neural based object reconstruction and physics-based inverse rendering. The pipeline produces high-quality object shape, reflectance, and illumination predictions using a neural stage, which are then refined using the physics-based inverse rendering stage. The pipeline significantly outperforms existing reconstruction methods in both quality and performance.
+
+Title: [VGOS: Voxel Grid Optimization for View Synthesis from Sparse Inputs](http://arxiv.org/pdf/2304.13386v1)     
+Summary: The paper proposes VGOS, an approach for fast radiance field reconstruction from sparse inputs for novel view synthesis. Two methods are introduced to improve the performance of voxel-based radiance field in sparse input scenarios, preventing overfitting and using several regularization techniques to smooth the voxels. Experiments demonstrate state-of-the-art performance for sparse inputs with super-fast convergence.
+
+Title: [Neuro-symbolic Zero-Shot Code Cloning with Cross-Language Intermediate Representation](http://arxiv.org/pdf/2304.13350v1)     
+Summary: This paper proposes a meta-model based approach for finding semantically similar clones of codes in COBOL, without any training data, by using an Intermediate Representation (IR) in the form of Abstract Syntax Trees (ASTs). The authors fine-tune the UnixCoder model with SBT IRs of C codes and achieve a 12.85 MAP@2 improvement over the pre-trained model for COBOL codes, demonstrating the efficacy of their approach for cross-programming language transfer.
+
+Title: [TextDeformer: Geometry Manipulation using Text Guidance](http://arxiv.org/pdf/2304.13348v1)     
+Summary: The paper presents TextDeformer, a neural rendering framework that uses text guidance to produce deformations of input mesh geometry. The framework is able to handle both large, low-frequency shape changes, as well as small high-frequency details. The approach relies on differentiable rendering and pre-trained image encoders like CLIP and DINO. Deformations are represented through Jacobians to update deformations in a global, smooth manner. Deep features computed on the 2D encoding of the rendering are used to ensure coherence from all 3D viewpoints. The method is demonstrated to be capable of smoothly-deforming a wide variety of source mesh and target text prompts.
+
+Title: [EverLight: Indoor-Outdoor Editable HDR Lighting Estimation](http://arxiv.org/pdf/2304.13207v1)     
+Summary: The paper proposes a method called EverLight that combines a parametric light model with 360-degree panoramas to provide an editable lighting capability for indoor and outdoor environments. The method uses GAN-based LDR panorama extrapolation and introduces a lighting co-modulation method to blend the original or edited scene illumination within the panorama generation process. EverLight enables users to edit light direction, intensity, number, etc., to impact shading and reflections while seamlessly blending with the edits. The paper demonstrates state-of-the-art results even when compared to domain-specific methods.
+
+</details>
+<details>
+<summary>Domain Generalization/Adaptation</summary>
+    
+Title: [FVP: Fourier Visual Prompting for Source-Free Unsupervised Domain Adaptation of Medical Image Segmentation](http://arxiv.org/pdf/2304.13672v1)     
+Summary: The paper proposes Fourier Visual Prompting (FVP), a method for Source-Free Unsupervised Domain Adaptation (SFUDA) of medical image segmentation. FVP adds a visual prompt to input target data, which is learned by minimizing the segmentation loss, and steers the frozen pre-trained model to perform well in the target domain. The proposed method is validated using three public datasets, and experiments show that FVP yields better segmentation results compared to various existing methods.
+
+Title: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+Summary: The paper proposes new network architectures and training strategies for unsupervised domain adaptation and generalization in semantic image segmentation. The proposed DAFormer network is based on Transformers and is trained using three strategies to avoid overfitting to the source domain. The authors also introduce a multi-resolution framework called HRDA that combines small high-resolution crops and large low-resolution crops to capture both fine segmentation details and long-range context dependencies. Experimental results show significant improvements in performance on five different benchmarks.
+
+</details>
+<details>
+<summary>Few-Shot/Zero-Shot Learning</summary>
+    
+Title: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+Summary: This paper presents the results of SemEval-2023 Task 12, a sentiment analysis task for low-resource African languages using Twitter data. The task had three subtasks, including a zero-shot sentiment classification. The study leveraged pre-trained large language models, including Afro-xlmr-large and BERT, for sentiment analysis in 14 African languages. The findings showed that Afro-xlmr-large performed better than the other models, and Nigerian languages had higher performance due to the larger volume of data. The paper also released the code on GitHub.
+
+Title: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+Summary: The paper proposes a learnable prompt layer named Learnable Ophthalmology Segment Anything (SAM) for multiple target segmentation in ophthalmology multi-modal images. The prompt layer learns medical prior knowledge from each transformer layer and is trained based on a one-shot mechanism. The paper demonstrates the effectiveness of this approach on four medical segmentation tasks using nine publicly available datasets. The paper falls under the categories of Image Segmentation, Medical Image, Transformer, and Few-Shot/Zero-Shot Learning.
+
+Title: [Neuro-symbolic Zero-Shot Code Cloning with Cross-Language Intermediate Representation](http://arxiv.org/pdf/2304.13350v1)     
+Summary: This paper proposes a meta-model based approach for finding semantically similar clones of codes in COBOL, without any training data, by using an Intermediate Representation (IR) in the form of Abstract Syntax Trees (ASTs). The authors fine-tune the UnixCoder model with SBT IRs of C codes and achieve a 12.85 MAP@2 improvement over the pre-trained model for COBOL codes, demonstrating the efficacy of their approach for cross-programming language transfer.
+
+Title: [Zero-Shot Slot and Intent Detection in Low-Resource Languages](http://arxiv.org/pdf/2304.13292v1)     
+Summary: The paper presents a study on zero-shot slot and intent detection in low-resource languages. Various models and settings were tested, including the recently successful multitask-prompted fine-tuning approach using large language models. The results show that the best model outperforms the baseline by a significant margin in both tasks, demonstrating the potential of zero-shot learning for low-resource language understanding.
+
+Title: [ESPT: A Self-Supervised Episodic Spatial Pretext Task for Improving Few-Shot Learning](http://arxiv.org/pdf/2304.13287v1)     
+Summary: This paper proposes a novel self-supervised approach, called ESPT, to improve few-shot learning performance. ESPT uses a pretext task to capture and utilize local visual information and data structure information of the whole episode, promoting learning more transferable feature representations. The experiments demonstrate that ESPT achieves state-of-the-art performance on three benchmark datasets for few-shot image classification.
+
+Title: [From Association to Generation: Text-only Captioning by Unsupervised Cross-modal Mapping](http://arxiv.org/pdf/2304.13273v2)     
+Summary: This paper proposes a zero-shot method, K-nearest-neighbor Cross-modality Mapping (Knight), for generating image and video captions by mapping images/videos to the language modality. The proposed method achieves state-of-the-art performance in zero-shot methods for image and video captioning with text-only unsupervised training. The paper addresses the modality gap between the CLIP representations of different modalities and the inability of CLIP to transfer concepts across modalities for generation-based tasks.
+
+Title: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+Summary: The paper presents StepFormer, a self-supervised transformer decoder model that can discover and localize instruction steps in videos without any human annotation. The model is trained on a large dataset of instructional videos using automatically generated subtitles, and it outperforms previous unsupervised and weakly-supervised approaches on step detection and localization tasks by a significant margin. Additionally, the model can perform zero-shot multi-step localization, and it demonstrates emergent properties that allow it to achieve better performance than relevant baselines.
+
+Title: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+Summary: The paper introduces a benchmark dataset, called TABLET, consisting of 20 diverse tabular datasets annotated with natural language instructions for solving tabular prediction problems using large language models (LLMs). The study finds that in-context instructions improve the zero-shot F1 performance of Flan-T5 11b and ChatGPT on TABLET. However, LLMs often ignore instructions and fail to predict specific instances correctly, even with examples, indicating the need for new capabilities in learning from instructions for tabular data.
+
+</details>
+<details>
+<summary>Visual Question Answering (VQA)</summary>
+    
+Title: [HeySQuAD: A Spoken Question Answering Dataset](http://arxiv.org/pdf/2304.13689v1)     
+Summary: The paper introduces a new large-scale community-shared spoken question answering (SQA) dataset, HeySQuAD, consisting of human-spoken and machine-generated questions and corresponding textual answers. The dataset aims to measure the ability of machines to understand noisy spoken questions and answer them accurately. The paper also presents benchmarks and observations on the impact of noise from human-spoken and machine-generated questions on model and answering accuracy. Significantly, the paper highlights that training using transcribed human-spoken questions leads to significant improvements over training on original textual questions only, for the task of SQA.
+
+Title: [A Symmetric Dual Encoding Dense Retrieval Framework for Knowledge-Intensive Visual Question Answering](http://arxiv.org/pdf/2304.13649v1)     
+Summary: The paper proposes a new framework for Knowledge-Intensive Visual Question Answering (KI-VQA) tasks, consisting of a retriever and a reader. The retriever is based on a symmetric dual encoding dense retrieval framework called DEDR, which outperforms state-of-the-art baselines on two KI-VQA datasets. The paper also introduces MM-FiD, an encoder-decoder multi-modal fusion-in-decoder model, which utilizes the retrieved passages to generate textual answers for KI-VQA tasks and improves question answering accuracy compared to competitive baselines in the literature.
+
+</details>
+<details>
+<summary>Image-to-Image Translation</summary>
+    
+</details>
+<details>
+<summary>Transformer</summary>
+    
+Title: [UniNeXt: Exploring A Unified Architecture for Vision Recognition](http://arxiv.org/pdf/2304.13700v1)     
+Summary: The paper proposes UniNeXt, a unified architecture for the vision backbone that can significantly improve the performance of various spatial token mixers, regardless of their design. The study shows the importance of the general architecture of vision recognition and suggests that an excellent spatial token mixer may be stifled by a suboptimal general architecture. UniNeXt equipped with naive local window attention even outperforms the previous state-of-the-art.
+
+Title: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+Summary: The paper proposes new network architectures and training strategies for unsupervised domain adaptation and generalization in semantic image segmentation. The proposed DAFormer network is based on Transformers and is trained using three strategies to avoid overfitting to the source domain. The authors also introduce a multi-resolution framework called HRDA that combines small high-resolution crops and large low-resolution crops to capture both fine segmentation details and long-range context dependencies. Experimental results show significant improvements in performance on five different benchmarks.
+
+Title: [SIMARA: a database for key-value information extraction from full pages](http://arxiv.org/pdf/2304.13606v1)     
+Summary: The paper introduces SIMARA, a database for information extraction from historical handwritten documents. The corpus includes annotated finding aids from the National Archives of France. The proposed model is based on the Transformer architecture trained for end-to-end information extraction, and three sets are provided for training, validation, and testing. The database is freely accessible.
+
+Title: [Impact of Position Bias on Language Models in Token Classification](http://arxiv.org/pdf/2304.13567v1)     
+Summary: The paper investigates the impact of position bias on the performance of language models in token classification tasks. The study includes various benchmark datasets for named entity recognition and part-of-speech tagging. The authors propose two methods to mitigate the effect of position bias and show improvement in model performance. The paper focuses on evaluating the performance of Transformer models in a specific issue of language models.
+
+Title: [Key-value information extraction from full handwritten pages](http://arxiv.org/pdf/2304.13530v1)     
+Summary: The paper proposes a Transformer-based approach for extracting key-value information from full handwritten pages. The model combines feature extraction, handwriting recognition, and named entity recognition in a single model, and is compared with traditional two-stage methods. The attention-based model is able to learn from key-value annotations and outperforms previous methods on three public databases.
+
+Title: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+Summary: The paper proposes a learnable prompt layer named Learnable Ophthalmology Segment Anything (SAM) for multiple target segmentation in ophthalmology multi-modal images. The prompt layer learns medical prior knowledge from each transformer layer and is trained based on a one-shot mechanism. The paper demonstrates the effectiveness of this approach on four medical segmentation tasks using nine publicly available datasets. The paper falls under the categories of Image Segmentation, Medical Image, Transformer, and Few-Shot/Zero-Shot Learning.
+
+Title: [STIR: Siamese Transformer for Image Retrieval Postprocessing](http://arxiv.org/pdf/2304.13393v2)     
+Summary: The paper proposes a new approach called Siamese Transformer for Image Retrieval (STIR) that reranks top image retrieval results in a single forward pass, achieving state-of-the-art performance on image retrieval datasets. The approach uses attention mechanism to compare query images and retrieved candidates on a pixel level, without relying on global/local feature extraction. The paper also introduces a simpler model using triplet loss with hard negatives mining that performs at the state-of-the-art level but is more scalable to production environments.
+
+Title: [The Closeness of In-Context Learning and Weight Shifting for Softmax Regression](http://arxiv.org/pdf/2304.13276v1)     
+Summary: The paper studies the in-context learning ability of Transformers in natural language processing tasks. The authors show the upper bounds of the data transformations induced by a single self-attention layer and by gradient-descent on a regression loss for softmax prediction function. The results imply that when training self-attention-only Transformers for regression tasks, the models learned by gradient-descent and Transformers show great similarity.
+
+Title: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+Summary: The paper presents StepFormer, a self-supervised transformer decoder model that can discover and localize instruction steps in videos without any human annotation. The model is trained on a large dataset of instructional videos using automatically generated subtitles, and it outperforms previous unsupervised and weakly-supervised approaches on step detection and localization tasks by a significant margin. Additionally, the model can perform zero-shot multi-step localization, and it demonstrates emergent properties that allow it to achieve better performance than relevant baselines.
+
+Title: [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/pdf/2304.13166v1)     
+Summary: The paper introduces a self-supervised pre-training method called LEMaRT for image harmonization using large-scale unannotated image datasets. They generate pre-training data using the Label-Efficient Masked Region Transform (LEMaRT) pipeline and pre-train a new image harmonization model, SwinIH, by retrofitting the Swin Transformer with a combination of local and global self-attention mechanisms. SwinIH outperforms the state of the art on the iHarmony4 dataset and is label-efficient.
+
+</details>
+<details>
+<summary>Semi-supervised learning</summary>
+    
+Title: [Diffsurv: Differentiable sorting for censored time-to-event data](http://arxiv.org/pdf/2304.13594v1)     
+Summary: This paper proposes a novel method called Diffsurv for survival analysis, a crucial semi-supervised task in machine learning with numerous real-world applications, particularly in healthcare. Diffsurv is a differentiable sorting method that can account for censoring in datasets by predicting matrices of possible permutations that take into account the label uncertainty introduced by censored samples. Experimental results show that Diffsurv outperforms established baselines in various simulated and real-world risk prediction scenarios. The paper also presents a novel method for top-k risk prediction that leverages the algorithmic supervision enabled by Diffsurv.
+
+Title: [SEAL: Simultaneous Label Hierarchy Exploration And Learning](http://arxiv.org/pdf/2304.13374v1)     
+Summary: This paper proposes a Simultaneous label hierarchy Exploration And Learning (SEAL) framework that explores the label hierarchy by augmenting observed labels with latent labels that follow a prior hierarchical structure. It uses a 1-Wasserstein metric on the tree metric space to learn a data-driven label hierarchy and perform both supervised and semi-supervised learning. The approach shows superior results on various datasets and reveals insightful label structure.
+
+</details>
+<details>
+<summary>Self-supervised learning</summary>
+    
+Title: [ESPT: A Self-Supervised Episodic Spatial Pretext Task for Improving Few-Shot Learning](http://arxiv.org/pdf/2304.13287v1)     
+Summary: This paper proposes a novel self-supervised approach, called ESPT, to improve few-shot learning performance. ESPT uses a pretext task to capture and utilize local visual information and data structure information of the whole episode, promoting learning more transferable feature representations. The experiments demonstrate that ESPT achieves state-of-the-art performance on three benchmark datasets for few-shot image classification.
+
+Title: [Self-Supervised Multi-Modal Sequential Recommendation](http://arxiv.org/pdf/2304.13277v1)     
+Summary: This paper proposes a self-supervised multi-modal pretraining method for sequential recommendation systems. The method uses a dual-tower retrieval architecture and enables the alignment of various feature combinations of items, thereby generalizing to diverse datasets with different item features. The proposed method outperforms traditional sequential recommendation methods on five publicly available datasets.
+
+Title: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+Summary: The paper presents StepFormer, a self-supervised transformer decoder model that can discover and localize instruction steps in videos without any human annotation. The model is trained on a large dataset of instructional videos using automatically generated subtitles, and it outperforms previous unsupervised and weakly-supervised approaches on step detection and localization tasks by a significant margin. Additionally, the model can perform zero-shot multi-step localization, and it demonstrates emergent properties that allow it to achieve better performance than relevant baselines.
+
+Title: [Learning to Predict Navigational Patterns from Partial Observations](http://arxiv.org/pdf/2304.13242v1)     
+Summary: The paper presents a self-supervised learning method for learning to infer navigational patterns in real-world environments from partial observations only. The model predicts unbiased local directional soft lane probabilities and infers global navigational patterns using a maximum likelihood graph. Experiments show that the SSL model outperforms two SOTA supervised lane graph prediction models on the nuScenes dataset. The proposed SSL method is suggested as a scalable and interpretable continual learning paradigm for navigation by perception.
+
+Title: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+Summary: This paper proposes a sample-specific debiasing approach to improve the quality of learned representations in self-supervised image-text representation learning for medical applications. The approach corrects for false negatives by using estimated sample-specific class probabilities. The paper provides theoretical analysis and empirical evidence of the advantages of the proposed approach.
+
+Title: [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/pdf/2304.13166v1)     
+Summary: The paper introduces a self-supervised pre-training method called LEMaRT for image harmonization using large-scale unannotated image datasets. They generate pre-training data using the Label-Efficient Masked Region Transform (LEMaRT) pipeline and pre-train a new image harmonization model, SwinIH, by retrofitting the Swin Transformer with a combination of local and global self-attention mechanisms. SwinIH outperforms the state of the art on the iHarmony4 dataset and is label-efficient.
+
+</details>
+<details>
+<summary>UAV/Remote Sensing/Satellite Image</summary>
+    
+Title: [An Investigation into Active Control for Accessible Orbital Flight](http://arxiv.org/pdf/2304.13704v1)     
+Summary: The paper discusses the development of an accessible and miniaturized thrust-vector-control technology for miniature scale orbital flights using an Arduino-based flight computer, state machine control software, and active-control hardware. Initial test flights and ground test data show stable control, providing adaptability and control applicable to both small and large scale test vehicles. The technology holds potential for faster amateur rocket development and accessible orbital flights for conducting concurrent experiments.
+
+Title: [Drones on the Rise: Exploring the Current and Future Potential of UAVs](http://arxiv.org/pdf/2304.13702v1)     
+Summary: The paper provides an overview of the current state and potential advancements in Unmanned Aerial Vehicles (UAVs) technology and their applications in various fields such as aerial photography, surveying, agriculture, infrastructure inspection, disaster management, and military operations. The article also discusses concerns related to the impact of UAVs on society.
+
+Title: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+Summary: The paper proposes the use of synthetic aperture anomaly imaging to improve anomaly detection in the presence of foliage occlusion. The authors demonstrate that integrating detected anomalies is even more effective than detecting anomalies in integrals, resulting in enhanced occlusion removal, outlier suppression, and higher chances of visually as well as computationally detecting targets that are otherwise occluded. The paper includes simulations and field experiments to validate the hypothesis and present a real-time application designed to address use-cases that suffer from strong occlusion caused by vegetation, such as search and rescue, wildlife observation, early wildfire detection, and surveillance.
+
+Title: [Thermal Vision for Soil Assessment in a Multipurpose Environmental Chamber under Martian Conditions towards Robot Navigation](http://arxiv.org/pdf/2304.13525v1)     
+Summary: The paper proposes a framework using multipurpose environmental chambers to generate diurnal cycle dataset pairs which can be useful to relate the thermal behavior of soil on Earth for robot remote sensing data to target planetary exploration conditions. The proposed framework is applied to generate datasets using the UMA-Laserlab chamber which replicates the atmospheric composition of Mars. The resulting dataset pairs have been made available for the scientific community.
+
+Title: [Leveraging Compositional Methods for Modeling and Verification of an Autonomous Taxi System](http://arxiv.org/pdf/2304.13517v1)     
+Summary: The paper proposes the use of compositional formal modeling and verification methods for an autonomous taxi system. The authors identify several research needs, such as libraries of formal models, probabilistic contract frameworks, and standard high-level functional architectures. They believe that addressing these needs will improve the adoption of formal methods in the design of autonomous systems, including learning-enabled systems, and increase confidence in their safe operations.
+
+Title: [Routing Heterogeneous Traffic in Delay-Tolerant Satellite Networks](http://arxiv.org/pdf/2304.13501v1)     
+Summary: This paper proposes adaptations to Contact Graph Routing (CGR) to prioritize traffic with different quality of service (QoS) requirements in Delay-tolerant networking (DTN) satellite networks. The proposed algorithms effectively improve delivery ratio and energy efficiency while meeting latency constraints. An integer linear programming optimization model is also presented as a performance upper bound. The simulations show promising results for improving QoS-compliant delivery ratio in heterogeneous traffic routing.
+
+Title: [A Cooperative NOMA User Pairing in UAV-Based Wireless Networks](http://arxiv.org/pdf/2304.13499v1)     
+Summary: The paper proposes a cooperative NOMA user pairing in UAV-based wireless networks to enhance the downlink transmission performance and optimum use of power and bandwidth resources. The paper studies joint user pair and resource allocation-based distance to optimize fair throughput, which concentrates on UAV-aided communication from different wireless-powered nodes, and the simulation results illustrate that the proposed user pairing strategies enhance the system's efficiency.
+
+Title: [Network Coding Power Control Mechanisms for Time Varying Channels](http://arxiv.org/pdf/2304.13498v1)     
+Summary: The paper proposes a network-coding structure for compensating channel variations in satellite communications using a markov process model for large scale fading channels. The model exploits the channel delay profile and dependency between channel states to predict variations under fading and closed form delay induced. The proposed mechanism works under fixed power and adaptive power control, providing compensation for zero packet transmissions.
+
+Title: [An Adaptive Control Strategy for Neural Network based Optimal Quadcopter Controllers](http://arxiv.org/pdf/2304.13460v1)     
+Summary: The paper presents an adaptive control strategy for neural network based optimal quadcopter controllers. The strategy addresses the reality gap issue encountered in sim-to-real transfer by identifying the unmodeled pitch moment and proposing an adaptive control strategy that learns from optimal trajectories of a system affected by constant external pitch, roll, and yaw moments. The effectiveness of the method is demonstrated through energy-optimal hover-to-hover flights, and the advantages are compared with state-of-the-art differential-flatness-based controllers.
+
+Title: [ESCM: An Efficient and Secure Communication Mechanism for UAV Networks](http://arxiv.org/pdf/2304.13244v1)     
+Summary: The paper proposes a communication mechanism called ESCM, specifically designed for UAV networks. ESCM includes a routing protocol based on artificial bee colony algorithm and a blockchain system with a consensus algorithm based on network coding. The concept of digital twin is used to map UAVs from the physical world into cyberspace, transforming the UAV network into a static network. The proposed mechanism improves communication efficiency and security through network coding and encryption, respectively, and is suitable for high mobility network scenarios. Simulation results confirm the advantages of ESCM in terms of performance improvements.
+
+Title: [Single-View Height Estimation with Conditional Diffusion Probabilistic Models](http://arxiv.org/pdf/2304.13214v1)     
+Summary: The paper proposes a single-view height estimation method using a generative diffusion model trained on optical and DSM images. The model is conditioned on the source image to generate high-resolution 3D surfaces. The approach shows promising results on the Vaihingen benchmark dataset.
+
+Title: [Autoencoder-based Radio Frequency Interference Mitigation For SMAP Passive Radiometer](http://arxiv.org/pdf/2304.13158v1)     
+Summary: The paper proposes an autoencoder-based method for mitigating radio frequency interference (RFI) in passive space-borne radiometers operating in the 1400-1427 MHz protected frequency band. The proposed method aims to remove the dominant RFI caused by potential coexistent terrestrial users (i.e., 5G base station) from the received contaminated signal at the passive receiver side, potentially preserving valuable information and preventing the contaminated data from being discarded.
+
+</details>
+<details>
+<summary>Image Synthesis/Generation</summary>
+    
+Title: [Controllable Image Generation via Collage Representations](http://arxiv.org/pdf/2304.13722v1)     
+Summary: The paper proposes a new approach for fine-grained scene controllability in image generation through the use of image collages. The approach, called "mixing and matching scenes", utilizes an adversarially trained generative image model conditioned on appearance features and spatial positions of objects in a collage to generate coherent images. The model is evaluated on the OpenImages and MS-COCO datasets and outperforms baselines in terms of fine-grained scene controllability while maintaining competitive image quality and sample diversity. The study highlights the potential of collage-based generative models for efficient and effective content creation.
+
+Title: [Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation](http://arxiv.org/pdf/2304.13681v1)     
+Summary: The paper proposes a technique called ray conditioning that generates multi-view images by conditioning a 2D GAN on a light field prior. The method allows for explicit viewpoint control, state-of-the-art photorealism, and identity consistency, making it suitable for the viewpoint editing task. By relaxing the photo-consistency constraint, the method achieves a balance between photo-consistency and photorealism, addressing the trade-off between the two.
+
+Title: [Video Frame Interpolation with Densely Queried Bilateral Correlation](http://arxiv.org/pdf/2304.13596v1)     
+Summary: The paper proposes a new approach for Video Frame Interpolation (VFI) called Densely Queried Bilateral Correlation (DQBC). This approach models correlations between neighboring frames in a way that is more friendly to small and fast-moving objects. The motion fields generated by DQBC are refined and up-sampled with context features before a CNN-based SynthNet synthesizes the final interpolated frame. The approach results in higher accuracy and less inference time than state-of-the-art approaches.
+
+Title: [Super-NeRF: View-consistent Detail Generation for NeRF super-resolution](http://arxiv.org/pdf/2304.13518v1)     
+Summary: The paper proposes a NeRF super-resolution method, called Super-NeRF, that generates high-resolution NeRF from low-resolution inputs by constructing a consistency-controlling super-resolution module. The module uses optimizable latent codes for each low-resolution image to control the 2D super-resolution images to converge to a view-consistent output. Super-NeRF achieves state-of-the-art NeRF super-resolution performance on high-resolution detail generation and cross-view consistency.
+
+Title: [Training-Free Location-Aware Text-to-Image Synthesis](http://arxiv.org/pdf/2304.13427v1)     
+Summary: The paper proposes a new method for training-free location-aware text-to-image synthesis using the stable diffusion model. The method allows users to specify the position of generated objects without additional training and proposes an object detection-based evaluation metric to assess control capability. The experimental results indicate that the proposed method outperforms state-of-the-art methods on both control capacity and image quality.
+
+Title: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+Summary: This paper proposes an approach called DiffuseExpand for expanding datasets for 2D medical image segmentation using Diffusion Probabilistic Models (DPMs). DiffuseExpand first samples a variety of masks from Gaussian noise to ensure diversity and then synthesizes images to ensure the alignment of images and masks. The effectiveness of DiffuseExpand is demonstrated through comparison and ablation experiments on COVID-19 and CGMH Pelvis datasets.
+
+Title: [A Portrait of Emotion: Empowering Self-Expression through AI-Generated Art](http://arxiv.org/pdf/2304.13324v1)     
+Summary: This paper investigates the ability of AI-generated artwork to reflect human cognitive processes and self-expression. The study found that AI can facilitate creativity and self-expression of emotions, suggesting its potential use in mental health interventions. The research framework with generative AIs can help design AI-based interventions in related fields such as therapy and counseling.
+
+Title: [Single-View Height Estimation with Conditional Diffusion Probabilistic Models](http://arxiv.org/pdf/2304.13214v1)     
+Summary: The paper proposes a single-view height estimation method using a generative diffusion model trained on optical and DSM images. The model is conditioned on the source image to generate high-resolution 3D surfaces. The approach shows promising results on the Vaihingen benchmark dataset.
+
+Title: [EverLight: Indoor-Outdoor Editable HDR Lighting Estimation](http://arxiv.org/pdf/2304.13207v1)     
+Summary: The paper proposes a method called EverLight that combines a parametric light model with 360-degree panoramas to provide an editable lighting capability for indoor and outdoor environments. The method uses GAN-based LDR panorama extrapolation and introduces a lighting co-modulation method to blend the original or edited scene illumination within the panorama generation process. EverLight enables users to edit light direction, intensity, number, etc., to impact shading and reflections while seamlessly blending with the edits. The paper demonstrates state-of-the-art results even when compared to domain-specific methods.
+
+Title: [Generating Procedural Materials from Text or Image Prompts](http://arxiv.org/pdf/2304.13172v1)     
+Summary: The paper proposes a multi-modal node graph generation neural architecture for high-quality procedural material synthesis, which can be conditioned on different inputs, using a CLIP-based encoder. It also creates a substantially augmented material graph dataset to improve generation quality. The proposed model generates high-quality graph samples using a regularized sampling process and improves matching quality by differentiable optimization for top-ranked samples. The paper compares the proposed method with CLIP-based database search baselines and achieves superior or similar performance without requiring massive data storage. The model can produce a set of material graphs unconditionally, conditioned on images, text prompts, or partial graphs, serving as a tool for automatic visual programming completion.
+
+Title: [LumiGAN: Unconditional Generation of Relightable 3D Human Faces](http://arxiv.org/pdf/2304.13153v1)     
+Summary: This paper introduces LumiGAN, an unconditional GAN for generating 3D human faces with a physically based lighting module that enables relighting under novel illumination at inference time. LumiGAN can create realistic shadow effects using an efficient visibility formulation that is learned in a self-supervised manner, and generates plausible physical properties for relightable faces without any ground truth data. The paper showcases significantly improved geometry generation compared to state-of-the-art non-relightable 3D GANs and notably better photorealism than existing relightable GANs.
+
+</details>
+<details>
+<summary>Graph Neural Networks</summary>
+    
+Title: [Hitting Subgraphs in Sparse Graphs and Geometric Intersection Graphs](http://arxiv.org/pdf/2304.13695v1)     
+Summary: The paper investigates the (Induced) Subgraph Hitting problem in graph theory, where the aim is to compute the minimum-sized set of vertices that does not contain any forbidden subgraph. The authors propose an efficient approximation scheme with a linear running time for various broad graph classes, including geometric intersection graphs. The reduction technique introduced in the paper has potential applications in different areas of computer science, such as approximation algorithms, parameterized complexity, and graph theory.
+
+Title: [ElegansNet: a brief scientific report and initial experiments](http://arxiv.org/pdf/2304.13538v1)     
+Summary: 
+The paper introduces ElegansNet, a neural network architecture inspired by the connectome of the Caenorhabditis elegans worm. The network topology of the worm is used to design and generate improved deep learning systems, which are compared against both randomly wired networks and state-of-the-art artificial neural networks. ElegansNet outperforms randomly wired networks and achieves top-1 accuracy of 99.99% on Cifar10 and 99.84% on MNIST Unsup on the validation sets in supervised image classification tasks and unsupervised hand-written digits reconstruction. The study explores the interplay between connectome topology and deep learning systems, showcasing the potential of bio-plausible structures in efficiently solving complex tasks.
+
+Title: [SCV-GNN: Sparse Compressed Vector-based Graph Neural Network Aggregation](http://arxiv.org/pdf/2304.13532v1)     
+Summary: This paper proposes a new sparse compressed vector-based graph neural network aggregation method called SCV-GNN. The authors use Z-Morton ordering to derive a data-locality-based computation ordering and partitioning scheme optimized for the aggregation operation. The proposed method achieves a significant speedup and reduces memory traffic compared to traditional compressed sparse column and compressed sparse row methods. The paper provides experimental results over various datasets to support the effectiveness of their proposed method.
+
+Title: [Scene Graph Lossless Compression with Adaptive Prediction for Objects and Relations](http://arxiv.org/pdf/2304.13359v1)     
+Summary: The paper proposes a new framework for lossless compression of scene graph data using adaptive predictors and context modeling with a Graph Context Convolution approach. The framework consists of a unified prior extractor and specialized element predictors to adapt for different data elements. Experiments show the effectiveness of this framework for scene graph compression.
+
+Title: [An Approximation Algorithm for Two-Edge-Connected Subgraph Problem via Triangle-free Two-Edge-Cover](http://arxiv.org/pdf/2304.13228v1)     
+Summary: The paper proposes a $(1.3+\varepsilon)$-approximation algorithm for the 2-Edge-Connected Spanning Subgraph problem (2-ECSS) using a minimum triangle-free 2-edge-cover in the graph. This algorithm improves upon the previously known best approximation ratio and uses techniques from both finding a maximum triangle-free 2-matching and arguments by previous approximation algorithms for the 2-ECSS problem.
+
+Title: [Reconfiguration of the Union of Arborescences](http://arxiv.org/pdf/2304.13217v1)     
+Summary: The paper demonstrates the reconfigurability of the union of k arborescences in digraphs, generalizing a previous result for k=1. The union of k arborescences can be represented as a common matroid basis of two matroids, giving a non-trivial example of matroid pairs for which two common bases are always reconfigurable to each other. This paper falls under the categories of Graph Neural Networks and Theory.
+
+Title: [Graph-CoVis: GNN-based Multi-view Panorama Global Pose Estimation](http://arxiv.org/pdf/2304.13201v1)     
+Summary: The paper introduces Graph-CoVis, a novel Graph Neural Network-based architecture for global multi-view spherical camera pose estimation. The proposed approach extends CoVisPose from relative two-view to global multi-view spherical camera pose estimation by jointly learning the co-visible structure and global motion in an end-to-end and fully-supervised approach. The performance of the model is evaluated on real homes presenting wide-baselines, occlusion, and limited visual overlap using the ZInD dataset. The results show that Graph-CoVis performs competitively with state-of-the-art approaches.
+
+Title: [Connector 0.5: A unified framework for graph representation learning](http://arxiv.org/pdf/2304.13195v1)     
+Summary: The paper introduces a unified framework called Connector for graph representation learning. The framework covers various graph embedding models ranging from shallow to state-of-the-art models, and includes the ability to construct various types of graphs with different structural relations. The framework aims to provide an efficient open-source solution for deep graph embedding models to represent structural relations in graphs. The framework is available on Github at https://github.com/NSLab-CUK/Connector.
+
+Title: [Jet: Multilevel Graph Partitioning on GPUs](http://arxiv.org/pdf/2304.13194v1)     
+Summary: The paper introduces a new parallel algorithm named Jet for partition refinement in multilevel graph partitioning, specifically designed for GPUs. The algorithm is combined with GPU-aware coarsening to develop a k-way graph partitioner. The study shows that the new partitioner outperforms state-of-the-art shared memory graph partitioners on a large collection of test graphs.
+
+Title: [Generating Procedural Materials from Text or Image Prompts](http://arxiv.org/pdf/2304.13172v1)     
+Summary: The paper proposes a multi-modal node graph generation neural architecture for high-quality procedural material synthesis, which can be conditioned on different inputs, using a CLIP-based encoder. It also creates a substantially augmented material graph dataset to improve generation quality. The proposed model generates high-quality graph samples using a regularized sampling process and improves matching quality by differentiable optimization for top-ranked samples. The paper compares the proposed method with CLIP-based database search baselines and achieves superior or similar performance without requiring massive data storage. The model can produce a set of material graphs unconditionally, conditioned on images, text prompts, or partial graphs, serving as a tool for automatic visual programming completion.
+
+Title: [SAFE: Machine Unlearning With Shard Graphs](http://arxiv.org/pdf/2304.13169v1)     
+Summary: The paper presents SAFE, a method for machine unlearning with shard graphs. The method introduces the notion of a shard graph in which limited information from other shards is incorporated during training, instead of treating each shard as independent. This results in a modest increase in expected forgetting cost but a significant increase in accuracy, while still achieving complete removal of residual influence after forgetting. SAFE is trained on shards an order-of-magnitude smaller than current state-of-the-art methods, while maintaining high accuracy, as demonstrated empirically on fine-grained computer vision datasets.
+
+</details>
+<details>
+<summary>Vision-Language (Multimodality)</summary>
+    
+Title: [Controllable Image Generation via Collage Representations](http://arxiv.org/pdf/2304.13722v1)     
+Summary: The paper proposes a new approach for fine-grained scene controllability in image generation through the use of image collages. The approach, called "mixing and matching scenes", utilizes an adversarially trained generative image model conditioned on appearance features and spatial positions of objects in a collage to generate coherent images. The model is evaluated on the OpenImages and MS-COCO datasets and outperforms baselines in terms of fine-grained scene controllability while maintaining competitive image quality and sample diversity. The study highlights the potential of collage-based generative models for efficient and effective content creation.
+
+Title: [Multimodal Grounding for Embodied AI via Augmented Reality Headsets for Natural Language Driven Task Planning](http://arxiv.org/pdf/2304.13676v1)     
+Summary: The paper proposes the use of an Augmented Reality (AR) headset for multimodal grounding in Embodied Artificial Intelligence (EAI) systems for industrial tasks. The study shows the feasibility of co-located human-robot teaming using an AR headset for information exchange between an EAI agent and a human operator for various inspection tasks. The paper highlights potential pitfalls in EAI's construction and provides both quantitative and qualitative analysis on prompt robustness.
+
+Title: [Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables](http://arxiv.org/pdf/2304.13559v1)     
+Summary: This paper proposes Multi-Modal Databases (MMDBs), a new class of database systems that can seamlessly query text and tables using SQL. They extend relational databases with Multi-Modal Operators (MMOps) based on recent large language models to allow textual data to be treated as tables without manual transformation. The evaluation shows that the MMDB prototype outperforms text-to-table approaches in accuracy and performance, requiring significantly less training data to fine-tune the model for an unseen text collection.
+
+Title: [From Association to Generation: Text-only Captioning by Unsupervised Cross-modal Mapping](http://arxiv.org/pdf/2304.13273v2)     
+Summary: This paper proposes a zero-shot method, K-nearest-neighbor Cross-modality Mapping (Knight), for generating image and video captions by mapping images/videos to the language modality. The proposed method achieves state-of-the-art performance in zero-shot methods for image and video captioning with text-only unsupervised training. The paper addresses the modality gap between the CLIP representations of different modalities and the inability of CLIP to transfer concepts across modalities for generation-based tasks.
+
+</details>
+<details>
+<summary>Model Compression/Knowledge Distillation/Pruning</summary>
+    
+Title: [Sparsified Model Zoo Twins: Investigating Populations of Sparsified Neural Network Models](http://arxiv.org/pdf/2304.13718v1)     
+Summary: This paper investigates the robustness and performance of two sparsification methods for Neural Networks on large populations of models. The authors apply the methods on model zoos to create sparsified versions of the zoos and compare them with the original models. They find both methods to be robust and highly correlated with the original models, with magnitude pruning outperforming variational dropout in most cases. The models and sparsified versions are publicly available.
+
+Title: [Tensor Decomposition for Model Reduction in Neural Networks: A Review](http://arxiv.org/pdf/2304.13539v1)     
+Summary: The paper reviews six tensor decomposition methods and their ability to reduce the computational cost of over-parameterized neural networks used in computer vision and natural language processing tasks. The review includes evaluations on compressed models with improved accuracy, reduced model size, run-time, and energy consumption. This approach is well-suited for implementing neural networks in edge devices.
+
+Title: [Scene Graph Lossless Compression with Adaptive Prediction for Objects and Relations](http://arxiv.org/pdf/2304.13359v1)     
+Summary: The paper proposes a new framework for lossless compression of scene graph data using adaptive predictors and context modeling with a Graph Context Convolution approach. The framework consists of a unified prior extractor and specialized element predictors to adapt for different data elements. Experiments show the effectiveness of this framework for scene graph compression.
+
+Title: [Concept-Monitor: Understanding DNN training through individual neurons](http://arxiv.org/pdf/2304.13346v1)     
+Summary: The paper proposes a framework called Concept-Monitor that helps to understand and visualize the DNN training process through a novel embedding space and concept diversity metric. The paper also introduces a new training regularizer that incentivizes hidden neurons to learn diverse concepts, improving training performance. The paper applies Concept-Monitor to conduct several case studies on various training paradigms, including adversarial training, fine-tuning, and network pruning via the Lottery Ticket Hypothesis.
+
+Title: [Making Models Shallow Again: Jointly Learning to Reduce Non-Linearity and Depth for Latency-Efficient Private Inference](http://arxiv.org/pdf/2304.13274v1)     
+Summary: The paper proposes a joint optimization method to reduce non-linearity and depth in deep neural networks for latency-efficient private inference. The method leverages ReLU sensitivity of a convolutional block to remove a ReLU layer and merge its surrounding convolution layers to create a shallower block. The joint reduction method can yield models with improved reduction of both non-linear and linear operations without significant accuracy drop. Evaluation on ResNet18 on CIFAR-100 shows up to 1.73x and 1.47x improvement in reducing ReLUs and linear operations, respectively.
+
+Title: [C2PI: An Efficient Crypto-Clear Two-Party Neural Network Private Inference](http://arxiv.org/pdf/2304.13266v1)     
+Summary: The paper proposes C2PI, a two-party private inference framework for neural networks that significantly reduces computational and communication costs compared to existing frameworks. They achieve this by introducing an empirically-defined privacy evaluation based on inference data privacy attacks and leveraging the findings to perform more efficient partitioning of the neural network model. Based on experimental evaluations, C2PI can speed up existing private inference frameworks and save communication costs.
+
+Title: [Towards Compute-Optimal Transfer Learning](http://arxiv.org/pdf/2304.13164v1)     
+Summary: The paper proposes a solution to the high computational and memory requirements of finetuning or using large pretrained models in transfer learning by implementing zero-shot structured pruning of pretrained models. The authors show that this method can increase compute efficiency with minimal reduction in performance and improve performance in low computational regimes by more than 20%. The method is evaluated on the Nevis'22 continual learning benchmark, which offers a diverse set of transfer scenarios.
+
+</details>
+<details>
+<summary>Contrastive Learning</summary>
+    
+Title: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+Summary: This paper proposes a sample-specific debiasing approach to improve the quality of learned representations in self-supervised image-text representation learning for medical applications. The approach corrects for false negatives by using estimated sample-specific class probabilities. The paper provides theoretical analysis and empirical evidence of the advantages of the proposed approach.
+
+</details>
+<details>
+<summary>Continual Learning</summary>
+    
+Title: [Deep Lifelong Cross-modal Hashing](http://arxiv.org/pdf/2304.13357v1)     
+Summary: The paper proposes a method for lifelong cross-modal hashing which allows for efficient retrieval of data with new categories without the need for re-training the hash function. The method introduces a lifelong learning strategy and hashing loss that enable the original hash codes to participate in lifelong learning while maintaining similarity and dissimilarity among original and incremental hash codes. Experimental results show comparative performance with state-of-the-art cross-modal hashing methods, with significant improvements in retrieval accuracy and training time reduction when new data arrives continuously.
+
+Title: [Evaluation of Regularization-based Continual Learning Approaches: Application to HAR](http://arxiv.org/pdf/2304.13327v1)     
+Summary: The paper evaluates three regularization-based approaches for Continual Learning in the domain of Human Activity Recognition (HAR) and compares their performance on the UCI HAR dataset. The paper highlights the strengths and limitations of each approach and concludes that no single technique outperforms all others in every scenario. The paper contributes to the growing field of Continual Learning, which enables the evolution of Machine Learning models without complete retraining.
+
+Title: [SAFE: Machine Unlearning With Shard Graphs](http://arxiv.org/pdf/2304.13169v1)     
+Summary: The paper presents SAFE, a method for machine unlearning with shard graphs. The method introduces the notion of a shard graph in which limited information from other shards is incorporated during training, instead of treating each shard as independent. This results in a modest increase in expected forgetting cost but a significant increase in accuracy, while still achieving complete removal of residual influence after forgetting. SAFE is trained on shards an order-of-magnitude smaller than current state-of-the-art methods, while maintaining high accuracy, as demonstrated empirically on fine-grained computer vision datasets.
+
+</details>
+<details>
+<summary>Adversarial Learning</summary>
+    
+Title: [Robust decentralised proof-of-position algorithms for smart city applications](http://arxiv.org/pdf/2304.13543v1)     
+Summary: The paper presents a class of decentralised algorithms called Tree-Proof-of-Position (T-PoP) for smart city applications. T-PoP algorithms are designed to establish the likelihood of an agent being in the position they claim to be, even under adversarial conditions. The paper presents a theoretical formulation for T-PoP, analyses its security and reliability properties, and validates the model through Monte-Carlo simulations. Use-cases and applications for T-PoP in smart city environments are also discussed.
+
+Title: [Improving Adversarial Transferability by Intermediate-level Perturbation Decay](http://arxiv.org/pdf/2304.13410v1)     
+Summary: The paper proposes a novel intermediate-level method, named intermediate-level perturbation decay (ILPD), to improve the transferability of adversarial examples. ILPD crafts adversarial examples within a single stage of optimization, encouraging the intermediate-level perturbation to be in an effective adversarial direction and to possess a great magnitude simultaneously. Experimental results show that ILPD outperforms state-of-the-arts by large margins in attacking various victim models on ImageNet and CIFAR-10 datasets.
+
+Title: [Concept-Monitor: Understanding DNN training through individual neurons](http://arxiv.org/pdf/2304.13346v1)     
+Summary: The paper proposes a framework called Concept-Monitor that helps to understand and visualize the DNN training process through a novel embedding space and concept diversity metric. The paper also introduces a new training regularizer that incentivizes hidden neurons to learn diverse concepts, improving training performance. The paper applies Concept-Monitor to conduct several case studies on various training paradigms, including adversarial training, fine-tuning, and network pruning via the Lottery Ticket Hypothesis.
+
+Title: [SHIELD: Thwarting Code Authorship Attribution](http://arxiv.org/pdf/2304.13255v1)     
+Summary: This paper introduces SHIELD, a method to examine the robustness of different code authorship attribution approaches against adversarial attacks. The paper defines and implements four attacks on attribution techniques using adversarial code perturbation and experiments with a dataset of 200 programmers from the Google Code Jam competition. The study shows the vulnerability of current authorship attribution methods against non-targeted attacks with a success rate exceeding 98.5% and the possibility of impersonating a programmer using targeted-adversarial perturbations with a success rate ranging from 66% to 88%.
+
+Title: [Analyzing In-browser Cryptojacking](http://arxiv.org/pdf/2304.13253v1)     
+Summary: This paper analyzes the static, dynamic, and economic aspects of in-browser cryptojacking, which involves the unauthorized use of a device's resources to mine cryptocurrencies via malicious JavaScript codes. The paper categorizes and analyzes samples of cryptojacking scripts using machine learning techniques, tests the effect of cryptojacking on system resources, and builds an analytical model to evaluate the feasibility of cryptojacking as an alternative to online advertising. The paper also proposes countermeasures for in-browser cryptojacking that improve existing remedies.
+
+Title: [Generating Adversarial Examples with Task Oriented Multi-Objective Optimization](http://arxiv.org/pdf/2304.13229v1)     
+Summary: The paper proposes a novel approach called Task Oriented Multi-Objective Optimization (TAMOO) to generate adversarial examples which satisfy specific objectives. The proposed approach aims to maintain task-goals that have already been achieved and allocate more effort towards improving task-goals that have not been achieved yet. Comprehensive experiments show that TAMOO outperforms existing methods in generating effective and diverse adversarial examples.
+
+</details>
+<details>
+<summary>Federated Learning</summary>
+    
+Title: [Unlocking the Potential of Collaborative AI -- On the Socio-technical Challenges of Federated Machine Learning](http://arxiv.org/pdf/2304.13688v2)     
+Summary: This academic paper focuses on the challenges of collaborative AI projects and how Federated Machine Learning can potentially unlock untapped data silos. Through a systematic literature review, focus group, and expert interviews, the paper provides a collection of socio-technical challenges and an extended Business Model Canvas for the initial viability assessment of collaborative AI projects.
+
+Title: [FLCC: Efficient Distributed Federated Learning on IoMT over CSMA/CA](http://arxiv.org/pdf/2304.13549v1)     
+Summary: This paper proposes an efficient distributed federated learning approach called FLCC to improve a remote healthcare system over ad hoc networks. The FL model utilizes CSMA/CA to schedule transmissions and eliminates untrusted devices. The approach uses spatial clustering and frequency allocation techniques to improve the data exchange process between nodes. The proposed FLCC approach surpasses the baseline FL algorithms in terms of explicitly defining user criteria and achieving high accuracy in a robust network.
+
+Title: [Killing Two Birds with One Stone: Quantization Achieves Privacy in Distributed Learning](http://arxiv.org/pdf/2304.13545v1)     
+Summary: This paper proposes a quantization-based solution to address privacy-preserving machine learning and communication efficiency in distributed settings. The proposed method adds binomial noise to uniformly quantized gradients to achieve differential privacy levels while maintaining communication efficiency. The approach is demonstrated in the context of distributed stochastic gradient descent and provides new insights into the trade-offs between communication, privacy, and learning performance.
+
+Title: [Byzantine-Resilient Learning Beyond Gradients: Distributing Evolutionary Search](http://arxiv.org/pdf/2304.13540v1)     
+Summary: The paper proposes a method to create byzantine-resilient distributed learning algorithms in a gradient-free setting. The authors introduce a general definition of byzantine-resilience in machine learning - the model-consensus - that extends classical distributed consensus. They show that gradient-free ($1,\lambda$)-Evolutionary Search algorithms can be combined with classical distributed consensus algorithms to generate gradient-free byzantine-resilient distributed learning algorithms. The method is demonstrated using Total Order Broadcast and proof-of-work leader election.
+
+Title: [Fair Selection of Edge Nodes to Participate in Clustered Federated Multitask Learning](http://arxiv.org/pdf/2304.13423v1)     
+Summary: This paper introduces a two-phased client selection and scheduling approach to improve the convergence speed while capturing all data distributions in clustered federated multitask learning. The proposed algorithms reduce training time and improve the convergence speed while providing every user with a customized model tailored to its data distribution.
+
+Title: [Secure Communication Model For Quantum Federated Learning: A Post Quantum Cryptography (PQC) Framework](http://arxiv.org/pdf/2304.13413v1)     
+Summary: The paper presents a Secure Communication Model for Quantum Federated Learning using a Post Quantum Cryptography (PQC) Framework. The model includes a dynamic server selection and investigates convergence and security conditions. The results and implementation of the framework are publicly available. The approach combines federated learning with quantum computing techniques, making it an interesting contribution to both fields.
+
+Title: [FedVS: Straggler-Resilient and Privacy-Preserving Vertical Federated Learning for Split Models](http://arxiv.org/pdf/2304.13407v1)     
+Summary: This paper proposes FedVS, a solution to address two major challenges in split vertical federated learning: performance degradation due to straggling clients during training and data and model privacy leakage from clients' uploaded data embeddings. FedVS uses secret sharing schemes for local data and models to ensure information-theoretical privacy and reconstructs aggregation of embeddings via decrypting computation shares from non-straggling clients. The experiments demonstrate the advantages of FedVS in straggler mitigation and privacy protection over baseline protocols on various types of VFL datasets.
+
+Title: [Blockchain-based Federated Learning with SMPC Model Verification Against Poisoning Attack for Healthcare Systems](http://arxiv.org/pdf/2304.13360v1)     
+Summary: The paper proposes a blockchain-based federated learning framework for healthcare systems. The framework includes an SMPC model verification process to detect and remove malicious updates from FL clients. The proposed approach is evaluated using various medical datasets.
+
+Title: [SMPC-based Federated Learning for 6G enabled Internet of Medical Things](http://arxiv.org/pdf/2304.13352v1)     
+Summary: The paper proposes a Secure Multi-Party Computation (SMPC)-based Federated Learning framework for the Internet of Medical Things (IoMT) powered by Sixth Generation (6G) connectivity. The framework employs Convolutional Neural Networks (CNNs) and Encrypted Inference methods to improve model accuracy and maintain data and model privacy among multiple hospitals with clusters of mixed IoMT and edge devices. The proposed framework's performance was evaluated through experiments with various CNN models and datasets.
+
+Title: [Bayesian Federated Learning: A Survey](http://arxiv.org/pdf/2304.13267v1)     
+Summary: This paper provides a survey of Bayesian federated learning (BFL), which addresses the limitations of existing federated learning methods, including limited and dynamic data and conditions, heterogeneities, and uncertainties. The paper discusses client- and server-side and federated BFL methods and their pros and cons, as well as the limitations of existing BFL methods and future directions for BFL research to address the complex requirements of real-life federated learning applications.
+
+</details>
+<details>
+<summary>Video</summary>
+    
+Title: [A Control-Centric Benchmark for Video Prediction](http://arxiv.org/pdf/2304.13723v1)     
+Summary: The paper proposes a control-centric benchmark called VP2 for action-conditioned video prediction in the context of robotic manipulation. The benchmark is designed to evaluate how accurately a given model can predict execution success through sampling-based planning. The authors use the benchmark to analyze the effects of model size, training data quantity, and ensembling on planning performance. They find that while scale can improve perceptual quality, uncertainty awareness is also important for planning.
+
+Title: [Video Frame Interpolation with Densely Queried Bilateral Correlation](http://arxiv.org/pdf/2304.13596v1)     
+Summary: The paper proposes a new approach for Video Frame Interpolation (VFI) called Densely Queried Bilateral Correlation (DQBC). This approach models correlations between neighboring frames in a way that is more friendly to small and fast-moving objects. The motion fields generated by DQBC are refined and up-sampled with context features before a CNN-based SynthNet synthesizes the final interpolated frame. The approach results in higher accuracy and less inference time than state-of-the-art approaches.
+
+Title: [Latency Target based Analysis of the DASH.js Player](http://arxiv.org/pdf/2304.13551v1)     
+Summary: This paper analyses the low latency performance of the Adaptive Bitrate (ABR) algorithms in the dash.js Dynamic Adaptive Streaming over HTTP (DASH) player with respect to a range of latency targets and configuration options. The study shows that the default Dynamic algorithm achieves the best overall QoE and highlights how some low latency configuration settings can be detrimental to performance. The paper also provides modifications to the L2A-LL algorithm to demonstrate significant improvements.
+
+Title: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+Summary: The paper presents StepFormer, a self-supervised transformer decoder model that can discover and localize instruction steps in videos without any human annotation. The model is trained on a large dataset of instructional videos using automatically generated subtitles, and it outperforms previous unsupervised and weakly-supervised approaches on step detection and localization tasks by a significant margin. Additionally, the model can perform zero-shot multi-step localization, and it demonstrates emergent properties that allow it to achieve better performance than relevant baselines.
+
+</details>
+<details>
+<summary>3D</summary>
+    
+Title: [Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation](http://arxiv.org/pdf/2304.13681v1)     
+Summary: The paper proposes a technique called ray conditioning that generates multi-view images by conditioning a 2D GAN on a light field prior. The method allows for explicit viewpoint control, state-of-the-art photorealism, and identity consistency, making it suitable for the viewpoint editing task. By relaxing the photo-consistency constraint, the method achieves a balance between photo-consistency and photorealism, addressing the trade-off between the two.
+
+Title: [Multi-View Stereo Representation Revisit: Region-Aware MVSNet](http://arxiv.org/pdf/2304.13614v2)     
+Summary: The paper proposes a region-aware MVSNet for multi-view stereo representation that predicts a distance volume from the cost volume to estimate the signed distance of points around the surface, enhancing the perception range, completing textureless regions, reducing outliers at boundaries, and generating mesh topologies with fine details. The approach achieves state-of-the-art results on both DTU and Tanks & Temples datasets, demonstrating its effectiveness in reconstructing complete geometrically-detailed objects from multi-views.
+
+Title: [Hydra-Multi: Collaborative Online Construction of 3D Scene Graphs with Multi-Robot Teams](http://arxiv.org/pdf/2304.13487v1)     
+Summary: This paper proposes Hydra-Multi, the first multi-robot spatial perception system capable of constructing a joint 3D scene graph online from sensor data collected by robots in a team. It is a centralized system that incorporates loop closure detections and effectively finds the relative transforms between the robots' frames, while supporting heterogeneous teams by fusing different map representations built by robots with different sensor suites. The proposed method is evaluated on simulated and real scenarios and shows accurate 3D scene reconstruction.
+
+Title: [Group Equivariant BEV for 3D Object Detection](http://arxiv.org/pdf/2304.13390v1)     
+Summary: The paper proposes a group equivariant bird's eye view network (GeqBevNet) for 3D object detection in dynamic driving scenes. The network is based on the group equivariant theory and is embedded into the fused BEV feature map to extract rotational equivariant features, leading to lower average orientation error. The GeqBevNet is verified on the nuScenes validation dataset, and the experimental results demonstrate improved performance in object orientation prediction.
+
+Title: [ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning](http://arxiv.org/pdf/2304.13219v1)     
+Summary: The paper presents a new dataset called ZRG that contains high resolution orthomosaics of aerial imagery of residential rooftops along with corresponding digital surface models, 3D rooftop wireframes, and multiview imagery generated point clouds to enable residential rooftop geometry and scene understanding. The paper also provides baselines for the tasks of roof outline extraction, monocular height estimation, and planar roof structure extraction.
+
+Title: [LumiGAN: Unconditional Generation of Relightable 3D Human Faces](http://arxiv.org/pdf/2304.13153v1)     
+Summary: This paper introduces LumiGAN, an unconditional GAN for generating 3D human faces with a physically based lighting module that enables relighting under novel illumination at inference time. LumiGAN can create realistic shadow effects using an efficient visibility formulation that is learned in a self-supervised manner, and generates plausible physical properties for relightable faces without any ground truth data. The paper showcases significantly improved geometry generation compared to state-of-the-art non-relightable 3D GANs and notably better photorealism than existing relightable GANs.
+
+</details>
+<details>
+<summary>Sound</summary>
+    
+</details>
+<details>
+<summary>Dataset</summary>
+    
+Title: [HeySQuAD: A Spoken Question Answering Dataset](http://arxiv.org/pdf/2304.13689v1)     
+Summary: The paper introduces a new large-scale community-shared spoken question answering (SQA) dataset, HeySQuAD, consisting of human-spoken and machine-generated questions and corresponding textual answers. The dataset aims to measure the ability of machines to understand noisy spoken questions and answer them accurately. The paper also presents benchmarks and observations on the impact of noise from human-spoken and machine-generated questions on model and answering accuracy. Significantly, the paper highlights that training using transcribed human-spoken questions leads to significant improvements over training on original textual questions only, for the task of SQA.
+
+Title: [What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging](http://arxiv.org/pdf/2304.13651v1)     
+Summary: This paper introduces a new dataset called Thermal-IM, which is the first RGB-Thermal dataset for human motion analysis. The authors also propose a three-stage neural network model for accurate past human pose estimation using thermal cues. The dataset and model achieve remarkable performance, demonstrating the usefulness of thermal imaging in inferring past human-object interactions.
+
+Title: [ChartSumm: A Comprehensive Benchmark for Automatic Chart Summarization of Long and Short Summaries](http://arxiv.org/pdf/2304.13620v1)     
+Summary: The paper introduces ChartSumm, a large-scale benchmark dataset for automatic chart summarization consisting of 84,363 charts with metadata and descriptions covering various types and topics. The dataset is a challenging benchmark for future research as strong baseline models face issues such as hallucination and missing out on important data points. The potential of expanding ChartSumm to other languages is also investigated.
+
+Title: [SIMARA: a database for key-value information extraction from full pages](http://arxiv.org/pdf/2304.13606v1)     
+Summary: The paper introduces SIMARA, a database for information extraction from historical handwritten documents. The corpus includes annotated finding aids from the National Archives of France. The proposed model is based on the Transformer architecture trained for end-to-end information extraction, and three sets are provided for training, validation, and testing. The database is freely accessible.
+
+Title: [The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis](http://arxiv.org/pdf/2304.13556v1)     
+Summary: The paper titled "The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis" argues for a revolution in the meta-level approach to research within HCI, emphasizing the need for greater rigour in primary research reporting and careful consideration of both primary and secondary research methods, expectations, and infrastructure. The paper calls for the development of an inclusive but rigorous set of standards that support systematic review work in HCI.
+
+Title: [LoRaWAN-enabled Smart Campus: The Dataset and a People Counter Use Case](http://arxiv.org/pdf/2304.13366v1)     
+Summary: This paper presents a detailed description of a Smart Campus dataset based on LoRaWAN technology. The dataset is openly available and includes missing transmission analysis and a solution using k-nearest neighbor as well as future readings prediction through long short-term memory (LSTM) models. One application is demonstrated with a deep neural network predicting the number of people inside a room with an accuracy of 95%.
+
+Title: [ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning](http://arxiv.org/pdf/2304.13219v1)     
+Summary: The paper presents a new dataset called ZRG that contains high resolution orthomosaics of aerial imagery of residential rooftops along with corresponding digital surface models, 3D rooftop wireframes, and multiview imagery generated point clouds to enable residential rooftop geometry and scene understanding. The paper also provides baselines for the tasks of roof outline extraction, monocular height estimation, and planar roof structure extraction.
+
+Title: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+Summary: The paper introduces a benchmark dataset, called TABLET, consisting of 20 diverse tabular datasets annotated with natural language instructions for solving tabular prediction problems using large language models (LLMs). The study finds that in-context instructions improve the zero-shot F1 performance of Flan-T5 11b and ChatGPT on TABLET. However, LLMs often ignore instructions and fail to predict specific instances correctly, even with examples, indicating the need for new capabilities in learning from instructions for tabular data.
+
+Title: [Dynamic Datasets and Market Environments for Financial Reinforcement Learning](http://arxiv.org/pdf/2304.13174v1)     
+Summary: The paper presents FinRL-Meta, an open-source library that processes dynamic datasets from real-world financial markets into gym-style market environments for training financial reinforcement learning agents, which is difficult due to the low signal-to-noise ratio and survivorship bias of financial data. The library provides a data curation pipeline, reproducible examples, cloud deployment, community-wise competitions, and documentation through Jupyter/Python demos. The library is openly accessible and maintained by the AI4Finance community.
+
+Title: [Introducing MBIB -- the first Media Bias Identification Benchmark Task and Dataset Collection](http://arxiv.org/pdf/2304.13148v1)     
+Summary: The paper introduces MBIB, a Media Bias Identification Benchmark consisting of nine tasks and 22 associated datasets for evaluating media bias detection techniques. The authors evaluate the benchmark using state-of-the-art Transformer techniques and find an uneven distribution of research interest and resource allocation to individual bias types. The unified benchmark shifts the current paradigm towards developing more robust systems that tackle multiple bias types simultaneously.
+
+</details>
+<details>
+<summary>Theory</summary>
+    
+Title: [Cut-restriction: from cuts to analytic cuts](http://arxiv.org/pdf/2304.13657v1)     
+Summary: This paper introduces a procedure called cut-restriction to restrict arbitrary cuts to analytic cuts. This procedure applies to all sequent calculi satisfying language-independent and simple-to-check conditions and is obtained by adapting the age-old cut-elimination. The paper encompasses existing results in a uniform way and establishes novel analytic subformula properties.
+
+Title: [Automatic Amortized Resource Analysis with Regular Recursive Types](http://arxiv.org/pdf/2304.13627v1)     
+Summary: The paper presents a solution to the challenge of inferring bounds on the resource consumption of programs that use complex custom data structures. The paper proposes a type-based automatic amortized resource analysis (AARA) technique, which uses potential method of amortized analysis to reduce bound inference to standard type inference with additional linear constraint solving. The paper introduces resource polynomials, which are functions that generate the space of possible bounds for values of a given type, and demonstrates their ability to be integrated with AARA while preserving the benefits of past techniques. The authors show that resource polynomials can be uniformly constructed for algebraic data structures defined by regular recursive types, enabling a broad generalization of all previously proposed polynomial resource functions. The paper also proposes the use of new techniques for stating the rules of this type system and proving its soundness.
+
+Title: [On the Order of Power Series and the Sum of Square Roots Problem](http://arxiv.org/pdf/2304.13605v1)     
+Summary: The paper focuses on the study of the order of power series and the sum of square roots problem. The authors show that the Wronskian approach used to bound the order of the sum of square roots is optimal up to a polynomial blowup. They also investigate upper bounds for the order of power series in various scenarios and solve a special case of the inequality testing problem. The second part of the paper deals with a generalization of the equality variant of the sum of square roots problem and identifies the key mathematical challenges in solving it.
+
+Title: [Leapfrog methods for relativistic charged-particle dynamics](http://arxiv.org/pdf/2304.13578v1)     
+Summary: The paper proposes and analyses basic leapfrog integrators, their energy-preserving and variational/symplectic variants for numerical integration of the equations of motion of relativistic charged particles in an electromagnetic field. The numerical methods preserve structure such as conservation and long-time near-conservation of energy and mass shell, and preservation of volume in phase space. In the non-relativistic limit, the considered methods reduce to the Boris algorithm for non-relativistic charged-particle dynamics and its energy-preserving and variational/symplectic variants.
+
+Title: [A strongly universal cellular automaton on the heptagrif with seven states, new proof](http://arxiv.org/pdf/2304.13575v1)     
+Summary: The paper presents a new proof for the existence of a strongly universal cellular automaton with seven states on the heptagrid that is rotation invariant. The new proof improves upon a previous paper by simplifying the structures and reducing the number of rules required.
+
+Title: [The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis](http://arxiv.org/pdf/2304.13556v1)     
+Summary: The paper titled "The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis" argues for a revolution in the meta-level approach to research within HCI, emphasizing the need for greater rigour in primary research reporting and careful consideration of both primary and secondary research methods, expectations, and infrastructure. The paper calls for the development of an inclusive but rigorous set of standards that support systematic review work in HCI.
+
+Title: [Turning block-sequential automata networks into smaller parallel networks with isomorphic limit dynamics](http://arxiv.org/pdf/2304.13550v1)     
+Summary: The paper presents an algorithm to turn block-sequential automata networks into smaller parallel networks with isomorphic limit dynamics. The algorithm is restricted to a family of automata cycles known as tangential cycles and can reduce any instance of these networks while conserving their limit dynamics. The paper also characterizes the number of reductions operated and shows that any tangential cycle reduced by the algorithm is transformed into a network whose size is that of the largest cycle of the initial network. Additionally, the paper allows the direct characterization of block-sequential double cycles as parallel ones.
+
+Title: [A Two-Step Rule for Backpropagation](http://arxiv.org/pdf/2304.13537v1)     
+Summary: This paper presents a simplified two-step computational rule for the back-propagation algorithm in artificial neural networks. The rule incorporates both the forward and backward phases of computations involved in the learning process and efficiently propagates changes to all synaptic weights in the network. The paper specifically focuses on computing up and down partial derivatives of the cost function of all connections feeding into the output layer.
+
+Title: [Towards replicated algorithms](http://arxiv.org/pdf/2304.13524v1)     
+Summary: The paper introduces the concept of replicated algorithms, which are capable of replicating themselves and solving problems in parallel similar to the human brain. These algorithms operate as a model for mapping known inputs to known outputs and can operate in the condition of open-ended evolution.
+
+Title: [Sequential decomposition of propositional logic programs](http://arxiv.org/pdf/2304.13522v1)     
+Summary: The paper proposes a study of the sequential decomposition of propositional logic programs by examining well-known Green's relations in semigroup theory between programs. The ultimate goal is to contribute to the development of an algebraic theory of logic programming.
+
+Title: [Deterministic stream-sampling for probabilistic programming: semantics and verification](http://arxiv.org/pdf/2304.13504v1)     
+Summary: This paper presents a higher-order probabilistic programming language centered on the notion of samplers and sampler operations, and provides an operational and denotational semantics in terms of continuous maps between topological spaces. The paper also develops tools for the formal verification of sampler correctness, presenting an equational calculus to reason about equivalence of samplers and a sound calculus to prove semantic correctness of samplers.
+
+Title: [How Semantic Information G Measure Relates to Distortion, Freshness, Purposiveness, and Efficiency](http://arxiv.org/pdf/2304.13502v1)     
+Summary: The paper proposes a semantic information measure called G measure, which combines distortion, freshness, purposiveness, and efficiency to improve communication efficiency and provide more useful information. The measure is discussed in the context of semantic predictive information and purposive information and is applied to optimization problems. The paper also suggests that the G measure may have potential applications in deep learning. Further research is needed to explore semantic communication optimization combining utilities.
+
+Title: [Fundamental Tradeoffs in Learning with Prior Information](http://arxiv.org/pdf/2304.13479v1)     
+Summary: The paper explores the tradeoffs between the accuracy of prior information and learning performance in statistical estimation problems. It introduces the concept of prioritized risk and presents a reduction-based approach for lower bounding the prioritized risk. The approach provides insights into tradeoffs between prior information and learning performance for different problems, including estimation, regression, and reinforcement learning.
+
+Title: [An efficient multiple harmonic balance method for computing quasi-periodic responses of nonlinear systems](http://arxiv.org/pdf/2304.13446v1)     
+Summary: The paper proposes a reconstruction multiple harmonic balance (RMHB) method for computing quasi-periodic responses of nonlinear systems. The method is based on discrete time domain collocations and addresses the issue of non-physical solutions in existing time domain MHB-like methods caused by aliasing. The proposed method is shown to be more efficient and robust than state-of-the-art methods in numerical examples.
+
+Title: [The Logic of Logic Programming](http://arxiv.org/pdf/2304.13430v1)     
+Summary: The paper explores the logic of logic programming and argues that it is not programming in the Horn clause sublogic of classical logic, but rather programming in a logic of (inductive) definitions. They propose that this provides a natural solution to the main semantic questions of logic programming and its extensions.
+
+Title: [With a little help from your friends: semi-cooperative games via Joker moves](http://arxiv.org/pdf/2304.13417v1)     
+Summary: The paper introduces the concept of "Joker games", where Player 2 helps Player 1 by playing a Joker move in semi-cooperative games. The paper formalizes these games as cost games and studies their theoretical properties. The paper also illustrates the use of Joker games in model-based testing.
+
+Title: [MacWilliams' Extension Theorem for rank-metric codes](http://arxiv.org/pdf/2304.13341v1)     
+Summary: The paper explores the applicability of MacWilliams' Extension Theorem to rank-metric codes, which are codes endowed with a metric that measures the rank distance between two codewords. It provides examples of obstructions to the existence of an extension and a positive result.
+
+Title: [Game-Theoretically Secure Protocols for the Ordinal Random Assignment Problem](http://arxiv.org/pdf/2304.13338v1)     
+Summary: The paper studies game-theoretically secure protocols for the ordinal random assignment problem, where players have a total preference order on items. The authors investigate the game-theoretic notion of maximin security and give an impossibility result that shows no maximin secure protocol can achieve both fairness and ordinal efficiency. They also propose a maximin secure protocol that achieves fairness and stability and a variant inspired by the probabilistic serial mechanism that achieves fairness, stability, and uniform dominance.
+
+Title: [Nominal Topology for Data Languages](http://arxiv.org/pdf/2304.13337v1)     
+Summary: The paper introduces a new topological perspective on data languages that are recognized by orbit-finite nominal monoids. They propose pro-orbit-finite nominal topological spaces and characterize recognizable data languages as topologically clopen sets of pro-orbit-finite words. The paper also explores the expressive power of pro-orbit-finite equations by establishing a nominal version of Reiterman's pseudovariety theorem.
+
+Title: [Entropy-based convergence rates of greedy algorithms](http://arxiv.org/pdf/2304.13332v1)     
+Summary: The paper presents convergence estimates of two types of greedy algorithms in terms of the metric entropy of underlying compact sets. The first part measures the error of a standard greedy reduced basis method for parametric PDEs, while the second part derives a novel and simple convergence analysis of the classical orthogonal greedy algorithm for nonlinear dictionary approximation. The entropy-based convergence estimate is compared with classical width-based analysis for reduced basis methods and improves upon existing results for dictionary approximation.
+
+Title: [Specifying programs with propositions and with congruences](http://arxiv.org/pdf/2304.13321v1)     
+Summary: The paper presents Krivine and Parigot's Second-order functional arithmetic in Deduction modulo and highlights the unique aspect of the theory where programs are specified with congruences instead of propositions.
+
+Title: [Simple Type Theory as a Clausal Theory](http://arxiv.org/pdf/2304.13319v1)     
+Summary: The paper presents Simple Type Theory as a clausal rewrite system in Polarized deduction modulo. It gives a formal presentation of the theory and demonstrates how it can be used as a basis for logical reasoning. The paper falls under the category of Theory.
+
+Title: [The physical Church thesis and the sensitivity to initial conditions](http://arxiv.org/pdf/2304.13318v1)     
+Summary: The paper discusses the physical Church thesis and its compatibility with chaotic dynamical systems. It argues that there exist computable chaotic systems, thereby suggesting that chaos is not inconsistent with computability, similar to how it is not incompatible with determinism.
+
+Title: [Preconditioned discontinuous Galerkin method and convection-diffusion-reaction problems with guaranteed bounds to resulting spectra](http://arxiv.org/pdf/2304.13315v1)     
+Summary: This paper presents a new preconditioning concept for linear second-order partial differential equations, specifically for convection-diffusion-reaction problems discretized by Galerkin or discontinuous Galerkin methods. The method provides guaranteed bounds to resulting spectra, including all individual eigenvalues of the preconditioned matrix in the case of a symmetric problem, and real and imaginary parts of resulting eigenvalues in the case of a non-symmetric problem. The approach is shown to be effective through numerical experiments.
+
+Title: [Technical Note: Defining and Quantifying AND-OR Interactions for Faithful and Concise Explanation of DNNs](http://arxiv.org/pdf/2304.13312v1)     
+Summary: The paper proposes a new method for explaining the inference logic of deep neural networks (DNNs) by quantifying the AND-OR interactions between input variables. The authors redefine the definition of interactions and demonstrate the uniqueness of AND and OR interactions in quantifying the effect of the relationship between input variables. They also propose techniques to boost the conciseness of the explanation while maintaining faithfulness. The paper provides a new way to explain the behavior of DNNs using symbolic concepts.
+
+Title: [Solution of planar elastic stress problems using stress basis functions](http://arxiv.org/pdf/2304.13251v1)     
+Summary: This paper proposes two methods for solving stress problems in linear elasticity using stress basis functions. The first method involves minimizing the strain energy using a complementary energy principle. The second method is restricted to planar homogeneous isotropic bodies and involves minimizing the squared L^2 norm of the trace of stress. The paper demonstrates the application of these methods to solve various stress problems, including those with sharp corners, multiple-connectedness, and material inhomogeneity. The proposed methods present new principles in the field of linear elasticity.
+
+Title: [Numerical Approximation of Andrews Plots with Optimal Spatial-Spectral Smoothing](http://arxiv.org/pdf/2304.13239v1)     
+Summary: This paper presents a technical analysis of Andrews plots and develops a solution to an infinite-dimensional quadratic minimization program over linear isometries from Euclidean space to $L^2([0,1])$. The authors also introduce spectral smoothing terms to induce optimal spatial-spectral smoothing in Andrews plots and show that the resulting plots have efficient numerical approximations.
+
+Title: [Performance of the Gittins Policy in the G/G/1 and G/G/k, With and Without Setup Times](http://arxiv.org/pdf/2304.13231v1)     
+Summary: This academic paper investigates the performance of the Gittins policy in the G/G/1 and G/G/k queue models, with and without setup times, and assesses whether the policy is still effective beyond the M/G/1 model. The paper establishes that Gittins is optimal in these systems under heavy traffic, with negligible suboptimality gaps, and provides a theoretical analysis of the policy that can handle multiple servers, non-Poisson arrivals, and setup times.
+
+Title: [The Nonlocal Neural Operator: Universal Approximation](http://arxiv.org/pdf/2304.13221v1)     
+Summary: This paper introduces a new class of operator approximators, called nonlocal neural operators (NNOs), which are capable of approximating operators between functions defined on arbitrary geometries, and includes the Fourier neural operator (FNO) as a special case. The paper also presents analysis of the NNOs, which shows that if the architecture includes computation of a spatial average, it benefits from universal approximation. The result unifies the analysis of a wide range of neural operator architectures and sheds new light on the interaction of nonlocality and nonlinearity.
+
+Title: [Reconfiguration of the Union of Arborescences](http://arxiv.org/pdf/2304.13217v1)     
+Summary: The paper demonstrates the reconfigurability of the union of k arborescences in digraphs, generalizing a previous result for k=1. The union of k arborescences can be represented as a common matroid basis of two matroids, giving a non-trivial example of matroid pairs for which two common bases are always reconfigurable to each other. This paper falls under the categories of Graph Neural Networks and Theory.
+
+</details>
+<details>
+<summary>Natural Language Processing</summary>
+    
+Title: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/pdf/2304.13712v2)     
+Summary: This paper provides a practical guide for practitioners and end-users working with Large Language Models (LLMs) in their downstream natural language processing (NLP) tasks. The paper discusses the importance of pre-training data, training data, and test data, and provides a detailed discussion about the use and non-use cases of LLMs for various NLP tasks. The paper also explores the impact of spurious biases on LLMs and other essential considerations for deploying LLMs in practice. The authors aim to provide researchers and practitioners with valuable insights and best practices for working with LLMs.
+
+Title: [Using Implicit Feedback to Improve Question Generation](http://arxiv.org/pdf/2304.13664v1)     
+Summary: The paper proposes a system called GEN that learns from implicit feedback to improve question generation in NLP. GEN takes sentence/question pairs as input and creates patterns to generate new questions. Each generated question, when corrected by the user, is used as a new seed in the next iteration to create more patterns. GEN takes advantage of the corrections to score patterns and rank generated questions. Results show that GEN improves by learning from implicit feedback and can increase question generation performance by up to 10%.
+
+Title: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+Summary: This paper presents the results of SemEval-2023 Task 12, a sentiment analysis task for low-resource African languages using Twitter data. The task had three subtasks, including a zero-shot sentiment classification. The study leveraged pre-trained large language models, including Afro-xlmr-large and BERT, for sentiment analysis in 14 African languages. The findings showed that Afro-xlmr-large performed better than the other models, and Nigerian languages had higher performance due to the larger volume of data. The paper also released the code on GitHub.
+
+Title: [Shades of meaning: Uncovering the geometry of ambiguous word representations through contextualised language models](http://arxiv.org/pdf/2304.13597v1)     
+Summary: This paper explores the challenge of lexical ambiguity and how it is represented in contextualized language models. The authors use simulations to show that these models can capture fine-grained distinctions between unambiguous, homonymous, and polysemous words, aligning with lexicographic classifications and psychological theories. The findings provide quantitative support for modern psychological conceptualizations of lexical ambiguity and raise new challenges for understanding the way contextual information shapes the meanings of words across different timescales.
+
+Title: [Impact of Position Bias on Language Models in Token Classification](http://arxiv.org/pdf/2304.13567v1)     
+Summary: The paper investigates the impact of position bias on the performance of language models in token classification tasks. The study includes various benchmark datasets for named entity recognition and part-of-speech tagging. The authors propose two methods to mitigate the effect of position bias and show improvement in model performance. The paper focuses on evaluating the performance of Transformer models in a specific issue of language models.
+
+Title: ["I'm" Lost in Translation: Pronoun Missteps in Crowdsourced Data Sets](http://arxiv.org/pdf/2304.13557v1)     
+Summary: The paper discusses the biases and challenges in the translation of pronouns between English and Japanese in crowdsourced data sets for natural language processing (NLP) tasks. The authors identify biases towards masculine pronouns and nuanced reactions towards feminine, neutral, and non-binary pronouns. Their solution includes embedding plurality in NLP data sets to address these biases.
+
+Title: [Zero-Shot Slot and Intent Detection in Low-Resource Languages](http://arxiv.org/pdf/2304.13292v1)     
+Summary: The paper presents a study on zero-shot slot and intent detection in low-resource languages. Various models and settings were tested, including the recently successful multitask-prompted fine-tuning approach using large language models. The results show that the best model outperforms the baseline by a significant margin in both tasks, demonstrating the potential of zero-shot learning for low-resource language understanding.
+
+Title: [Improving Conversational Passage Re-ranking with View Ensemble](http://arxiv.org/pdf/2304.13290v1)     
+Summary: The paper proposes a conversational passage re-ranker called ConvRerank, which uses a new pseudo-labeling approach to improve its fine-tuning. The proposed view-ensemble method enhances the quality of the pseudo-labeled data, resulting in a balance between effectiveness and efficiency when combined with a conversational dense retriever in a cascaded pipeline. The approach shows potential in improving the effectiveness of conversational search.
+
+Title: [Structure Diagram Recognition in Financial Announcements](http://arxiv.org/pdf/2304.13240v1)     
+Summary: The paper proposes a new method for accurately recognizing and extracting structured data from financial announcements' structure diagrams, which can be used to build financial knowledge graphs and improve financial applications' efficiency. The method includes detecting and extracting different types of connecting lines, synthesizing and annotating a large number of diagrams to create a benchmark, and experimentally verifying the significant performance advantage over previous methods.
+
+Title: [Towards Explainable and Safe Conversational Agents for Mental Health: A Survey](http://arxiv.org/pdf/2304.13191v1)     
+Summary: This paper presents a survey of existing conversational agents in mental health and discusses the need for a more comprehensive, safe, and explainable approach to build responsible Virtual Mental Health Assistants (VMHAs). The paper proposes new directions towards enriching the user experience of VMHAs with explainability, safety, and wholesome trustworthiness. The paper also offers evaluation metrics and practical considerations for VMHAs beyond current literature to build trust between VMHAs and patients in active communications.
+
+Title: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+Summary: The paper introduces a benchmark dataset, called TABLET, consisting of 20 diverse tabular datasets annotated with natural language instructions for solving tabular prediction problems using large language models (LLMs). The study finds that in-context instructions improve the zero-shot F1 performance of Flan-T5 11b and ChatGPT on TABLET. However, LLMs often ignore instructions and fail to predict specific instances correctly, even with examples, indicating the need for new capabilities in learning from instructions for tabular data.
+
+Title: [Sebis at SemEval-2023 Task 7: A Joint System for Natural Language Inference and Evidence Retrieval from Clinical Trial Reports](http://arxiv.org/pdf/2304.13180v1)     
+Summary: The paper describes a joint system for natural language inference and evidence retrieval from clinical trial reports. Two systems were developed: a pipeline and a joint system with a shared representation and multi-task learning approach. The final system combines their outputs in an ensemble system. The paper formalizes the models, presents their characteristics and challenges, and provides an analysis of achieved results.
+
+Title: [Modeling Spoken Information Queries for Virtual Assistants: Open Problems, Challenges and Opportunities](http://arxiv.org/pdf/2304.13149v1)     
+Summary: This academic paper focuses on the challenges and opportunities of modeling spoken information queries for virtual assistants. The authors suggest using query domain classification, knowledge graphs, user interaction data, and query personalization to improve speech recognition accuracy. The paper also covers current problems and challenges in speech recognition.
+
+Title: [Introducing MBIB -- the first Media Bias Identification Benchmark Task and Dataset Collection](http://arxiv.org/pdf/2304.13148v1)     
+Summary: The paper introduces MBIB, a Media Bias Identification Benchmark consisting of nine tasks and 22 associated datasets for evaluating media bias detection techniques. The authors evaluate the benchmark using state-of-the-art Transformer techniques and find an uneven distribution of research interest and resource allocation to individual bias types. The unified benchmark shifts the current paradigm towards developing more robust systems that tackle multiple bias types simultaneously.
+
+</details>
+</details>

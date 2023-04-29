@@ -14,7 +14,7 @@ Subscribe to the topics you follow, and we'll send you the everyday relevant arx
 
 
 <details>
-<summary>Thu, 27 Apr 2023</summary>
+<summary>Fri, 28 Apr 2023</summary>
     
 <details>
 <summary>Diffusion Model</summary>
@@ -1137,6 +1137,875 @@ Subscribe to the topics you follow, and we'll send you the everyday relevant arx
 
 标题: [The Internal State of an LLM Knows When its Lying](http://arxiv.org/pdf/2304.13734v1)     
 摘要: 本文提出了一种使用LLM的内部状态来检测大语言模型（LLMS）产生的陈述的真实性的方法。他们使用LLM隐藏层中的激活值来确定语句是对还是错误。他们组成了一个真实和错误语句的数据集，并培训一个分类器，该分类器的表现优于少数弹药的提示方法。该论文在增强LLM生成内容的可靠性方面具有实际适用性。
+
+</details>
+</details>
+
+
+
+<details>
+<summary>Thu, 27 Apr 2023</summary>
+    
+<details>
+<summary>Diffusion Model</summary>
+    
+标题: [Fully Discrete Pointwise Smoothing Error Estimates for Measure Valued Initial Data](http://arxiv.org/pdf/2304.13694v1)     
+摘要: 本文分析了常规Borel措施空间中的初始数据均匀的抛物线问题。该问题随着任意程度的不连续的盖尔金方案的及时离散，并在一个或两个订单的连续有限元中进行了空间。主要结果是在终点内评估的内部$ l^\ infty $错误估计，如果在子域中支持初始数据的情况下。
+
+标题: [Heuristic Barycenter Modeling of Fully Absorbing Receivers in Diffusive Molecular Communication Channels](http://arxiv.org/pdf/2304.13640v1)     
+摘要: 本文提出了一种启发式的barycenter建模方法，通过利用负粒子源的概念，使用多个完全吸收的接收器模拟扩散分子通信通道。重中心的位置是从到达每个接收器表面的分子的平均值中获得的，并可以简化此类系统的进一步建模。通过将分析结果与基于粒子的仿真数据进行比较来验证该方法。
+
+标题: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+摘要: 本文提出了一种使用扩散概率模型（DPMS）扩展2D医疗图像分割数据集的称为diffuseexpand的方法。diffuseexpand首先从高斯噪声中采样了各种掩模，以确保多样性，然后合成图像以确保图像和掩模的对齐。通过比较-19和CGMH骨盆数据集进行了比较和消融实验，可以证明扩散量的有效性。
+
+标题: [Event-triggered Boundary Control of a Class of Reaction-Diffusion PDEs with Time-dependent Reactivity](http://arxiv.org/pdf/2304.13322v1)     
+摘要: 该学术论文提出了一类事件触发的边界控制策略，该策略在罗宾动理下具有随时间变化的反应性。所提出的方法包括一个反替代的全州反馈边界控制器和动态事件触发条件。该论文还建立了闭环系统在$ l^2 $  -  sense中零的供应良好和全球指数融合。
+
+标题: [Score-based Generative Modeling Through Backward Stochastic Differential Equations: Inversion and Generation](http://arxiv.org/pdf/2304.13224v1)     
+摘要: 本文通过向后随机微分方程（BSDE）提出了一种基于分数的新型扩散模型，该模型可以确定所需终端分布所需的初始条件。作者展示了模型的理论保证，使用Lipschitz网络进行得分匹配的好处以及其在扩散反转，条件扩散和不确定性定量方面的潜在应用。这项工作为解决基于分数的生成学习中的现实世界问题提供了有希望的方向。
+
+</details>
+<details>
+<summary>Large Language Models</summary>
+    
+标题: [Evaluation of GPT-3.5 and GPT-4 for supporting real-world information needs in healthcare delivery](http://arxiv.org/pdf/2304.13714v1)     
+摘要: 本文评估了两种通用大语模型GPT-3.5和GPT-4的使用，以回答医疗保健环境中的问题。模型提供的反应是由医生评估的，以与现有报告的安全性和一致性。结果表明，这些模型在很大程度上是安全的，但是回答通常不满足问题的特定信息需求，这表明需要对迅速的工程，校准和对模型的定制进行进一步研究。
+
+标题: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/pdf/2304.13712v2)     
+摘要: 本文为从业者和最终用户提供了与大型语言模型（LLMS）在其下游自然语言处理（NLP）任务中的实用指南。本文讨论了预培训数据，培训数据和测试数据的重要性，并提供了有关LLMS对各种NLP任务的使用和不使用案例的详细讨论。本文还探讨了虚假偏见对LLM的影响以及在实践中部署LLM的其他基本考虑因素。作者旨在为研究人员和从业者提供与LLMS合作的宝贵见解和最佳实践。
+
+标题: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+摘要: 本文介绍了Semeval-2023 Task 12的结果，这是使用Twitter数据针对低资源非洲语言的情感分析任务。该任务具有三个子任务，包括零击的情感分类。该研究利用了包括非洲XLMR-LARGE和BERT在内的预先培训的大语言模型，以14种非洲语言进行情感分析。研究结果表明，非洲 -  XLMR-LARGE的性能要比其他模型更好，而且由于数据量较大，尼日利亚语言的性能更高。该论文还在GitHub上发布了代码。
+
+标题: [Shades of meaning: Uncovering the geometry of ambiguous word representations through contextualised language models](http://arxiv.org/pdf/2304.13597v1)     
+摘要: 本文探讨了词汇歧义的挑战及其在上下文化语言模型中的表示。作者使用模拟表明这些模型可以捕获明确，同义词和多义单词之间的细粒度区分，并与词典分类和心理理论保持一致。这些发现为词汇歧义的现代心理概念化提供了定量支持，并提出了理解上下文信息塑造不同时间尺度词的含义的新挑战。
+
+标题: [Toxic comments reduce the activity of volunteer editors on Wikipedia](http://arxiv.org/pdf/2304.13568v1)     
+摘要: 该学术论文研究了有毒语音对编辑行为对维基百科的影响。通过分析对850万编辑的用户谈话页面的5700万条评论，该论文发现有毒评论始终减少编辑的活动，并增加编辑人员完全离开项目的风险。该论文认为，在协作平台上减轻有毒的演讲对于他们持续的成功至关重要。
+
+标题: [Multidimensional Evaluation for Text Style Transfer Using ChatGPT](http://arxiv.org/pdf/2304.13462v1)     
+摘要: 本文研究了将Chatgpt用作文本样式转移的多维评估者，将其与现有的自动指标和人类判断进行了比较。他们专注于零拍设置，并在样式转移评估的三个维度上测试其性能。结果表明，CHATGPT与人类判断达到了竞争性相关性，并且可以成为对程式化文本生成的多维评估的有用工具。
+
+标题: [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System](http://arxiv.org/pdf/2304.13343v1)     
+摘要: 本文提出了一个自我控制的内存（SCM）系统，以使大规模的语言模型（LLMS）能够在不修改或微调的情况下处理超长的文本。SCM系统由三个模块组成：语言模型代理，内存流和内存控制器。实验结果表明，在涉及超长文档摘要或长期对话的情况下，SCM系统使LLM可以实现多转向对话能力，并且表现优于Chatgpt。
+
+标题: [A Case-Based Reasoning Framework for Adaptive Prompting in Cross-Domain Text-to-SQL](http://arxiv.org/pdf/2304.13301v1)     
+摘要: 本文提出了一个名为cbr-apsql的基于案例的推理框架，用于在文本到SQL任务中进行自适应提示。该框架与GPT-3.5结合使用，并适应检索案例并控制病例与病例和病例知识的知识。所提出的方法在三个不同的跨域数据集的执行精度上优于最新模型。
+
+标题: [The Closeness of In-Context Learning and Weight Shifting for Softmax Regression](http://arxiv.org/pdf/2304.13276v1)     
+摘要: 该论文研究了自然语言处理任务中变形金刚的文化学习能力。作者显示了由单个自我发项层引起的数据转换的上限，以及通过梯度散发出对SoftMax预测函数的回归损失的上限。结果表明，当训练只有自我注意力的变压器来进行回归任务时，梯度偏生和变压器学到的模型表现出极大的相似性。
+
+标题: [Exploring the Curious Case of Code Prompts](http://arxiv.org/pdf/2304.13250v1)     
+摘要: 本文研究了代码提示的有效性与文本提示在与语言模型交互时会提示。作者比较了各种任务中代码和文本提示的性能，发现除少数例外，代码提示并不能始终超过文本提示。作者还表明，代码提示的样式对某些任务的性能有很大的影响，并且对文本指令进行微调会导致代码提示的相对性能更好。总体而言，本文有助于我们对语言模型如何与不同输入类型进行交互的理解，并为使用代码提示的结构化推理任务提供了见解。
+
+标题: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+摘要: 本文引入了一个名为Tablet的基准数据集，该数据集由20个不同的表格数据集组成，并带有自然语言指令，用于使用大语言模型（LLMS）解决表格预测问题。该研究发现，在平板电脑上，在flan-t5 11b和chatgpt的零射击F1性能中提高了零摄像的F1性能。但是，LLM通常忽略指令，即使有示例也无法正确预测特定实例，这表明需要从表格数据的说明中学习新功能。
+
+标题: [AI-assisted coding: Experiments with GPT-4](http://arxiv.org/pdf/2304.13187v1)     
+摘要: 论文报告使用GPT-4生成计算机代码的实验，并证明AI代码生成可以显着提高代码质量，但需要大量的人类验证才能确保准确性。研究结果表明，尽管AI编码工具很强大，但它们仍然需要循环中的人来确保结果的有效性和准确性。
+
+标题: [Generative Relevance Feedback with Large Language Models](http://arxiv.org/pdf/2304.13157v1)     
+摘要: 本文提出了生成性相关反馈（GRF），这是一种概率反馈模型，该模型从大型语言模型中生成长格式文本以提高文档检索效率。论文研究通过不同的子任务来生成文本的有效方法：查询，实体，事实，新闻文章，文档和论文。作者评估了GRF对不同文档检索基准测试的评估，并表明它的表现明显胜过以前的伪回馈方法，而与RM3的扩展相比，MAP在5-19％和NDCG@10 17-24％之间提高了地图。本文有助于研究大型语言模型和查询扩展以进行文件检索。
+
+</details>
+<details>
+<summary>Image Reconstruction</summary>
+    
+标题: [Multi-View Stereo Representation Revisit: Region-Aware MVSNet](http://arxiv.org/pdf/2304.13614v2)     
+摘要: 本文提出了一种具有多视图立体表示的区域感知的MVSNET，该表示可以预测从成本体积的距离体积，以估算表面周围点的签名距离，增强了感知范围，完成无纹理区域，减少边界处的异常值，并产生产生。网格拓扑带有细节。该方法可在DTU和Tanks＆Semples数据集上获得最新的结果，从而证明了其在从多视图中重建完整的几何尾部对象方面的有效性。
+
+标题: [Neural-PBIR Reconstruction of Shape, Material, and Illumination](http://arxiv.org/pdf/2304.13445v1)     
+摘要: 本文介绍了一个可靠的对象重建管道，结合了基于神经的对象重建和基于物理的逆渲染。该管道使用神经阶段产生高质量的对象形状，反射率和照明预测，然后使用基于物理的逆渲染阶段对其进行完善。该管道在质量和性能方面大大优于现有的重建方法。
+
+标题: [Streamlined Global and Local Features Combinator (SGLC) for High Resolution Image Dehazing](http://arxiv.org/pdf/2304.13375v1)     
+摘要: 本文提出了一个简化的全球和本地特征组合器（SGLC），以解决准确脱掩的高分辨率图像的问题。SGLC包含两个块 - 全局功能生成器（GFG）和本地功能增强器（LFE） - 以简化的方式组合全球和本地功能。SGLC在Uformer架构上进行了测试，可显着提高PSNR度量。该方法可以应用于其他飞行模型的高分辨率输入数据。
+
+标题: [Discrepancy-Guided Reconstruction Learning for Image Forgery Detection](http://arxiv.org/pdf/2304.13349v1)     
+摘要: 本文提出了一种新型的图像伪造检测范式，该范式使用差异引导的编码器（DISGE）和双头重建（DOUHR）模块来提取伪造敏感的视觉模式并分别增强不同粒状空间中真正的紧凑型视觉模式。所提出的方法还包括一个差异 - 聚集检测器（缺点），以汇总这些模式，以改善未知模式上的伪造能力。通过对四个具有挑战性的数据集进行广泛的实验结果来验证所提出方法的有效性。
+
+</details>
+<details>
+<summary>Medical Image</summary>
+    
+标题: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+摘要: 本文提出了一个无标记的系统，用于使用标准RGB摄像机在膝盖疾病中发现基于运动的生物标志物。使用主成分分析（PCA）确定生物标志物，并通过案例研究对统计学意义进行验证。该系统为当前商业替代品提供了一种廉价且敏感的替代方法，用于分析生物力学和跟踪康复进度。
+
+标题: [FVP: Fourier Visual Prompting for Source-Free Unsupervised Domain Adaptation of Medical Image Segmentation](http://arxiv.org/pdf/2304.13672v1)     
+摘要: 本文提出了傅立叶视觉提示（FVP），这是一种医学图像分割的无源无监督域适应（SFUDA）的方法。FVP添加了一个视觉提示以输入目标数据，这是通过最小化分割损失来学习的，并引导冷冻的预训练模型在目标域中表现良好。使用三个公共数据集对所提出的方法进行了验证，实验表明，与现有方法相比，FVP可以产生更好的分割结果。
+
+标题: [Non-rigid Point Cloud Registration for Middle Ear Diagnostics with Endoscopic Optical Coherence Tomography](http://arxiv.org/pdf/2304.13618v1)     
+摘要: 本文提出了一个非刚性点云登记管道C2P-NET，用于将前后耳模型与体内的OCT体积数据合并，以促进中耳感染的快速诊断和测量。该管道能够处理合成和真实OCT数据中逼真的噪声和不完整性。提出的方法可以首次支持对体内嘈杂和部分OCT图像的解释。
+
+标题: [Cluster Entropy: Active Domain Adaptation in Pathological Image Segmentation](http://arxiv.org/pdf/2304.13513v1)     
+摘要: 本文提出了一种通过引入一个用于选择有效的全幻灯片图像（WSI）的集群熵测量的病理图像分割中半监督结构域适应的方法。群集熵方法计算每个群集的熵，以测量WSI的图像特征，并覆盖目标域的整个分布。所提出的方法可以针对从两家医院收集的数据集上的先前艺术取得竞争成果。
+
+标题: [A Secure Medical Record Sharing Scheme Based on Blockchain and Two-fold Encryption](http://arxiv.org/pdf/2304.13511v1)     
+摘要: 本文提出了一个基于区块链的安全病历共享系统，该系统使用不对称的密码系统和动态DNA编码来对数据进行加密。加密数据存储在为区块链中的每个用户指定的不同块中，以确保数据完整性。提出的计划使授权实体能够通过解密重新获得电子病历。初步评估显示了该方案的功效。
+
+标题: [Towards clinical AI fairness: A translational perspective](http://arxiv.org/pdf/2304.13493v1)     
+摘要: 本文讨论了医疗保健领域人工智能（AI）公平性的问题。它突出了对AI公平性的技术和临床观点之间的错位，并提供了解决临床问题的可能解决方案。该论文倡导多学科合作，以弥合知识差距并确保AI在医疗保健中的公平性。
+
+标题: [Effect of latent space distribution on the segmentation of images with multiple annotations](http://arxiv.org/pdf/2304.13476v1)     
+摘要: 本文提出了通用的概率U-NET，用于带有多个注释的图像分割。该扩展允许在潜在空间中更一般的高斯分布形式，从而改善了参考分割中的不确定性估计。研究表明，分布的选择会影响样品多样性和与肺肿瘤和脑白质超强度的参考分割重叠。实施可在GitHub上获得。
+
+标题: [GENIE-NF-AI: Identifying Neurofibromatosis Tumors using Liquid Neural Network (LTC) trained on AACR GENIE Datasets](http://arxiv.org/pdf/2304.13429v1)     
+摘要: 本文提出了使用逻辑回归和黑匣子模型的AI方法，以使用血液检查和致病变量诊断神经纤维瘤病肿瘤。这些模型的准确性优于现有方法。该研究证明了AI在医疗领域的潜力。
+
+标题: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+摘要: 本文提出了一个可学习的提示层，称为可学习的眼科细分段（SAM），用于在眼科多模式图像中多个目标分割。及时层从每个变压器层中学习医学知识，并根据一声机制进行训练。本文使用九个公开可用的数据集证明了这种方法对四个医疗细分任务的有效性。该论文属于图像分割，医学图像，变压器和少量/零照片学习的类别。
+
+标题: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+摘要: 本文提出了一种使用扩散概率模型（DPMS）扩展2D医疗图像分割数据集的称为diffuseexpand的方法。diffuseexpand首先从高斯噪声中采样了各种掩模，以确保多样性，然后合成图像以确保图像和掩模的对齐。通过比较-19和CGMH骨盆数据集进行了比较和消融实验，可以证明扩散量的有效性。
+
+标题: [Robust One-Step Estimation of Impulsive Time Series](http://arxiv.org/pdf/2304.13394v1)     
+摘要: 本文提出了一种脉冲时间序列建模的一步估计算法，该算法通常在激素分泌等生物医学数据中发现。该算法使用由一系列狄拉克冲动驱动的线性植物来对冲动输入进行建模。它有效地解决了数据拟合和冲动输入稀疏之间的权衡，并得到改进以处理异常值和未知的基础水平。该算法对合成和临床数据进行评估，并通过使用信息标准产生更准确的结果。
+
+标题: [Blockchain-based Federated Learning with SMPC Model Verification Against Poisoning Attack for Healthcare Systems](http://arxiv.org/pdf/2304.13360v1)     
+摘要: 本文提出了一个基于区块链的医疗保健系统联合学习框架。该框架包括一个SMPC模型验证过程，以检测和删除FL客户端的恶意更新。使用各种医疗数据集评估所提出的方法。
+
+标题: [Understanding the Security and Performance of the Web Presence of Hospitals: A Measurement Study](http://arxiv.org/pdf/2304.13278v1)     
+摘要: 该学术论文对医院的网络存在进行了基于衡量的分析，重点是安全属性。该研究研究了政府，非营利和专有医院对域名注册商，顶级域分布和内容类型的利用以及HTTP请求功能的特征。研究结果表明，许多医院的网站缺乏基本安全性，只有1％的政府医院使用DNSSEC，使用普通的HTTP使用了25％。此外，该研究将这些属性与数据泄露联系起来，强调安全属性是违反医院可能性的有力指示。
+
+标题: [Towards Reliable Colorectal Cancer Polyps Classification via Vision Based Tactile Sensing and Confidence-Calibrated Neural Networks](http://arxiv.org/pdf/2304.13192v1)     
+摘要: 本文提出了一个置信度校准的残留神经网络，用于利用基于视觉的触觉传感系统，用于可靠的结直肠癌息肉分类。该模型通过后处理温度缩放来解决过度注重的输出，并通过可靠性图和统计指标对非理想输入进行评估。
+
+标题: [Towards Explainable and Safe Conversational Agents for Mental Health: A Survey](http://arxiv.org/pdf/2304.13191v1)     
+摘要: 本文介绍了对心理健康中现有的对话代理的调查，并讨论了建立负责任的虚拟心理健康助理（VMHA）的更全面，安全和可解释的方法的必要性。本文提出了新的方向，以通过解释性，安全性和有益健康的信任度丰富VMHA的用户体验。该论文还为VMHA提供了评估指标和实际考虑，超越了当前文献，以在主动沟通中建立VMHA和患者之间的信任。
+
+标题: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+摘要: 本文提出了一种特定于样本的偏见方法，以提高医疗应用自我监督图像文本表示学习中学到的表示的质量。该方法通过使用估计的特定于样本的类概率来纠正假否定性。本文提供了所提出方法优势的理论分析和经验证据。
+
+标题: [An explicit Fourier-Klibanov method for an age-dependent tumor growth model of Gompertz type](http://arxiv.org/pdf/2304.13177v1)     
+摘要: 本文提出了一种新的显式傅里叶 - 克利巴诺夫方法，以近似脑组织中gompertz类型的年龄依赖性肿瘤生长模型。该方法涉及非线性和线性变换，并使用傅立叶 -  klibanov方法获得了类似运输的PDE系统，并通过特征的显式有限差差算子进行近似。分析了由此产生的差异方案的稳定性，并提出了一些计算结果，证明了该方法的有效性。
+
+</details>
+<details>
+<summary>Image Classification</summary>
+    
+标题: [UniNeXt: Exploring A Unified Architecture for Vision Recognition](http://arxiv.org/pdf/2304.13700v1)     
+摘要: 本文提出了Uninext，这是视觉主链的统一体系结构，可以显着提高各种空间令牌混合器的性能，而不管其设计如何。该研究表明，视力识别的一般结构的重要性，表明出色的空间令牌混合器可能会被次优的一般体系结构扼杀。uninext配备了幼稚的本地窗户注意力，即使表现优于先前的最先前。
+
+标题: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+摘要: 本文提出了一个无标记的系统，用于使用标准RGB摄像机在膝盖疾病中发现基于运动的生物标志物。使用主成分分析（PCA）确定生物标志物，并通过案例研究对统计学意义进行验证。该系统为当前商业替代品提供了一种廉价且敏感的替代方法，用于分析生物力学和跟踪康复进度。
+
+标题: [PVP: Pre-trained Visual Parameter-Efficient Tuning](http://arxiv.org/pdf/2304.13639v1)     
+摘要: 本文提出了一个预先训练的视觉参数效率（PVP）调谐框架，用于以参数效率的方式进行微调预训练的变压器。提出的方法首先预先进行参数有效调整模块，然后将它们与预训练的变压器主链结合使用，以在下游任务上执行有效的调整。实验结果表明，在五个细颗粒的视觉分类和VTAB-1K数据集的低数据表格中，PVP优于最先进的参数效率调整（petuning）方法。
+
+标题: [Tensor Decomposition for Model Reduction in Neural Networks: A Review](http://arxiv.org/pdf/2304.13539v1)     
+摘要: 本文回顾了六种张量分解方法及其减少计算机视觉和自然语言处理任务中使用过度参数化神经网络的计算成本的能力。审查包括对改善准确性，模型尺寸，运行时间和能耗的压缩模型的评估。这种方法非常适合在边缘设备中实现神经网络。
+
+标题: [ElegansNet: a brief scientific report and initial experiments](http://arxiv.org/pdf/2304.13538v1)     
+摘要: 该论文介绍了秀丽隐犬，这是一种灵感来自Caenorhabditis elegans蠕虫的连接仪的神经网络架构。蠕虫的网络拓扑用于设计和生成改进的深度学习系统，这些系统与随机有线网络和最先进的人工神经网络进行了比较。在监督图像分类任务中的验证集上，在CIFAR10上，Elegansnet的表现优于随机有线网络，并在CIFAR10上获得99.99％的TOP-1准确性，而MNIST UNSUST的准确性为99.84％。该研究探讨了Connectome拓扑结构与深度学习系统之间的相互作用，展示了生物可靠结构在有效解决复杂任务中的潜力。
+
+标题: [Konzeption und Umsetzung einer mobilen Applikation zur Validierung von fälschungssicheren Produktlabeln](http://arxiv.org/pdf/2304.13519v1)     
+摘要: 本文提出了一种具有成本效益的方式，可以使用由金纳米球或杆组成的假冒标签来验证产品的真实性。可以使用智能手机摄像头和其他技术来精确测量标签的元素独特位置。本文提供了用于在移动应用程序中实现此系统的概念证明，并概述了传输和保护所需信息的合适方法。分析了验证假货产品标签的结果，并指出了现有的弱点。
+
+标题: [Efficient Explainable Face Verification based on Similarity Score Argument Backpropagation](http://arxiv.org/pdf/2304.13409v1)     
+摘要: 本文提出了一种有效且可解释的方法，称为XSSAB，以验证面部验证，该方法反向传播基于分数的参数，以可视化表明相似和不同领域的空间图。作者还引入了一个新的基准数据集和评估协议，以进行可解释的面部验证。与最先进的技术相比，他们的方法在效率和性能之间取得了较高的权衡。该论文属于图像分类和可解释的AI类别。
+
+标题: [Towards Reliable Colorectal Cancer Polyps Classification via Vision Based Tactile Sensing and Confidence-Calibrated Neural Networks](http://arxiv.org/pdf/2304.13192v1)     
+摘要: 本文提出了一个置信度校准的残留神经网络，用于利用基于视觉的触觉传感系统，用于可靠的结直肠癌息肉分类。该模型通过后处理温度缩放来解决过度注重的输出，并通过可靠性图和统计指标对非理想输入进行评估。
+
+</details>
+<details>
+<summary>Image Registration</summary>
+    
+</details>
+<details>
+<summary>Reinforcement learning</summary>
+    
+标题: [Learning Agile Soccer Skills for a Bipedal Robot with Deep Reinforcement Learning](http://arxiv.org/pdf/2304.13653v1)     
+摘要: 该论文探讨了使用深厚的增强学习来训练人形机器人踢足球。个人运动技能是孤立的培训，然后在自我游戏环境中为游戏组成。最终的政策表现出强大而动态的运动技巧以及对游戏的基本战略理解。对代理商进行了模拟训练，并转移到了真实的机器人中。尽管在机器人实例之间存在明显的未建模效果和差异，但在模拟过程中训练期间训练期间的高频控制，有针对性的动力学随机化和扰动可以良好转移。
+
+标题: [CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing](http://arxiv.org/pdf/2304.13616v1)     
+摘要: 本文提出了一种称为紧凑型重塑观察加工（农作物）的技术，以提高增强学习的概括能力。农作物通过仅提供相关信息来减少用于策略优化的状态信息，从而使特定的培训布局过于拟合并改善对看不见的环境的概括。作者提供了三种农作物，可用于完全可观察到的观测和动作空间，并从经验上显示出分布移动的安全网格世界中作物的改善。他们还提供了两个不同大小的程序产生的迷宫中的完全可观察性和数据提高性的基准比较。
+
+标题: [Safe Q-learning for continuous-time linear systems](http://arxiv.org/pdf/2304.13573v1)     
+摘要: 本文提出了针对部分未知的线性时间传播系统的安全Q学习算法，以通过用户定义的状态约束来解决线性二次调节器问题。该问题使用相互控制的屏障功能作为约束的最佳控制问题，从而提供了安全保存的控制策略。所提出的方法将Q学习扩展到具有状态约束的连续时间系统，这在文献中尚未报告。
+
+标题: [Learning to Bid in Repeated First-Price Auctions with Budgets](http://arxiv.org/pdf/2304.13477v1)     
+摘要: 本文讨论了在在线广告市场中重复的第一价格拍卖中预算管理的问题。它提出了一种具有完整信息反馈的基于双基的算法，并表明它可以以$ \ widetilde {o}（\ sqrt {t}）$的复杂性获得几乎最佳的遗憾。本文还考虑了单方面信息反馈的设置，并提出了一种修改的算法，该算法可以实现$ \ widetilde {o}（\ sqrt {t}）$遗憾。理论结果与数值实验相辅相成，以确认拟议的预算管理政策的有效性。
+
+标题: [Optimizing Energy Efficiency in Metro Systems Under Uncertainty Disturbances Using Reinforcement Learning](http://arxiv.org/pdf/2304.13443v2)     
+摘要: 本文提出了一种基于政策的增强学习方法，以通过调整火车时间表以及火车的停留时间和巡航速度，以在干扰下优化地铁系统的能源效率。在模拟环境中进行的实验证明了该方法在达到高达10.9％和再生制动能量利用率最高47.9％方面的牵引能消耗量的优势。
+
+标题: [FLEX: an Adaptive Exploration Algorithm for Nonlinear Systems](http://arxiv.org/pdf/2304.13426v1)     
+摘要: 本文介绍了FLEX，这是一种在基于模型的增强学习的背景下非线性系统的自适应探索算法。该算法采用最佳的实验设计来最大程度地提高下一步的信息，并最大程度地减少适合系统准确模型所需的数据量。flex被证明在许多非线性环境中有效，并且在基于下游模型的经典控制任务中也具有低计算成本的竞争力。
+
+标题: [Can Agents Run Relay Race with Strangers? Generalization of RL to Out-of-Distribution Trajectories](http://arxiv.org/pdf/2304.13424v1)     
+摘要: 本文提出了一种改善强化学习剂在不可控制状态的“继电器将军”性能的方法。作者证明了陌生人对可控状态的概括失败的普遍性，并提出了一种称为“自动攻击性增强”（STA）的新方法，以降低故障率，而不会影响剂性能。对人类机体环境进行了评估，该方法对中继评估的结果有显着改善。
+
+标题: [N$\text{A}^\text{2}$Q: Neural Attention Additive Model for Interpretable Multi-Agent Q-Learning](http://arxiv.org/pdf/2304.13383v1)     
+摘要: 本文介绍了一种新的神经关注添加Q-学习（n $ \ text {a}^\ text {2} $ q）方法，用于合作的多代理增强学习，以提供可解释的协作行为。该方法使用通用的添加剂模型将联合政策分解为单个策略，并构建身份语义来估计信用。与最先进的任务相比，广泛的实验表现出优越的性能，同时保持人类样的可解释性。
+
+标题: [Game-based Platforms for Artificial Intelligence Research](http://arxiv.org/pdf/2304.13269v1)     
+摘要: 本文回顾了针对人工智能研究的基于游戏的平台，该平台已用于研究各个研究领域，包括学习和优化，决策，游戏理论，计划，计划，设计和教育。这些平台为探索和比较人工智能思想和技术提供了理想的基准。本文讨论了这些平台的演变引起的研究趋势，并为该领域的未来研究提供了前景。
+
+标题: [Multi-criteria Hardware Trojan Detection: A Reinforcement Learning Approach](http://arxiv.org/pdf/2304.13232v1)     
+摘要: 本文提出了一种多标准硬件木马（HT）检测工具，该工具使用强化学习根据不同的设计标准检测HTS。该工具具有可调奖励功能，可探索现有的检测策略，并以最小的努力调整新的检测方案。提出的用于比较HT检测方法的方法表明，在ISCAS-85基准测试中，平均成功的HT检测为84.2％。
+
+标题: [Cooperative Hierarchical Deep Reinforcement Learning based Joint Sleep, Power, and RIS Control for Energy-Efficient HetNet](http://arxiv.org/pdf/2304.13226v1)     
+摘要: 本文提出了使用可重新配置的智能表面（RIS）的能节能异质网络（HETNETS）的合作分层深钢筋学习（Co-HDRL）算法。该算法包括用于睡眠控制的跨凝结式元控制器和用于功率控制的基于平衡的子控制器。模拟表明，与基线算法相比，由RIS辅助的睡眠控制能量可以达到16％以上的能源效率。
+
+标题: [Reinforcement Learning with Partial Parametric Model Knowledge](http://arxiv.org/pdf/2304.13223v1)     
+摘要: 本文提出了一种称为部分知识最小二乘策略迭代（PLSPI）的方法，该方法结合了无模型的RL和基于模型的控制，以使RL方法与部分模型中的不完整信息一起调整RL方法。通过使用线性二次调节器的数值实验证明了所提出方法的有效性。
+
+标题: [Dynamic Datasets and Market Environments for Financial Reinforcement Learning](http://arxiv.org/pdf/2304.13174v1)     
+摘要: 该论文介绍了FINRL-META，这是一个开源库，该图书馆从现实世界的金融市场处理动态数据集到体育型市场环境中，以培训金融强化学习剂，这是由于信噪比和幸存比率较低而困难财务数据的偏见。该图书馆通过Jupyter/Python演示提供了数据策划管道，可再现的示例，云部署，社区竞争和文档。AI4FINANCE社区公开访问和维护图书馆。
+
+标题: [Roll-Drop: accounting for observation noise with a single parameter](http://arxiv.org/pdf/2304.13150v1)     
+摘要: 本文提出了一种新的在深钢筋学习（DRL）中使用的新方法，称为Roll-Drop，该方法在模拟过程中使用辍学来考虑部署期间的观察噪声，而无需明确的每个状态建模其分布。这种方法通过仅调谐一个参数来增强传感器噪声的鲁棒性。当观察值注入多达25％的噪声并在物理系统上训练的控制器以评估改善的鲁棒性时，作者显示了80％的成功率。
+
+</details>
+<details>
+<summary>Image Segmentation</summary>
+    
+标题: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+摘要: 本文提出了针对语义图像细分中无监督域的适应和概括的新网络体系结构和培训策略。拟议的Daformer网络基于变形金刚，并使用三种策略进行训练，以避免过度适合源域。作者还引入了一个称为HRDA的多分辨率框架，该框架结合了小型高分辨率作物和大型低分辨率作物，以捕获细分细节和远距离上下文依赖性。实验结果表明，五个不同基准的性能有了显着改善。
+
+标题: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+摘要: 本文提出使用合成孔径异常成像在存在叶子闭塞的情况下改善异常检测。作者证明，整合检测到的异常比在积分中检测异常更有效，从而增加了闭塞的去除，异常抑制，并且在视觉上以及计算检测靶标的较高的机会。该论文包括模拟和现场实验，以验证该假设，并提出了一种实时应用，旨在解决由植被引起的强烈遮挡的用例，例如搜索和救援，野生动植物观察，早期野火检测和监视。
+
+标题: [Cluster Entropy: Active Domain Adaptation in Pathological Image Segmentation](http://arxiv.org/pdf/2304.13513v1)     
+摘要: 本文提出了一种通过引入一个用于选择有效的全幻灯片图像（WSI）的集群熵测量的病理图像分割中半监督结构域适应的方法。群集熵方法计算每个群集的熵，以测量WSI的图像特征，并覆盖目标域的整个分布。所提出的方法可以针对从两家医院收集的数据集上的先前艺术取得竞争成果。
+
+标题: [EasyPortrait - Face Parsing and Portrait Segmentation Dataset](http://arxiv.org/pdf/2304.13509v1)     
+摘要: 本文介绍了一个名为EasyPortrait的新数据集，该数据集由20,000张室内图像组成，这些图像分为9个类，主要用于人像分割和面部解析任务。这些图像是从众包平台中收集和标记的，并可以公开使用。该论文还概述了使用众包创建大规模且干净的图像分割数据集的管道，而无需其他合成数据。拟议的数据集和训练有素的模型已公开可用，本文使用了在EasyporTrait上培训的几种模型讨论了实验结果。
+
+标题: [Compensation Learning in Semantic Segmentation](http://arxiv.org/pdf/2304.13428v1)     
+摘要: 本文提出了在语义细分中进行补偿学习，这是一个识别和补偿歧义性以及语义分割中的标签噪声的框架。提出的方法采用基本真理，这取决于对分类逻辑的偏见，并引入了神经网络的新型不确定性分支，以仅引起相关区域的补偿偏见。该方法可提高训练期间对标签噪声的鲁棒性，并允许在推理过程中以目标为导向的操作。在广泛使用的数据集CityScapes，Kitti-Step，Ade20k和Coco-Stuff10k上评估了所提出的方法。
+
+标题: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+摘要: 本文提出了一个可学习的提示层，称为可学习的眼科细分段（SAM），用于在眼科多模式图像中多个目标分割。及时层从每个变压器层中学习医学知识，并根据一声机制进行训练。本文使用九个公开可用的数据集证明了这种方法对四个医疗细分任务的有效性。该论文属于图像分割，医学图像，变压器和少量/零照片学习的类别。
+
+标题: [Exploiting CNNs for Semantic Segmentation with Pascal VOC](http://arxiv.org/pdf/2304.13216v1)     
+摘要: 本文通过Pascal VOC数据集介绍了关于语义细分的研究。作者使用完全卷积网络（FCN）基线，并解决基线中的问题，并进行了三个改进：余弦退火率调度率，数据增强和类不平衡权重。他们还探索了三种不同的体系结构：高级FCN，使用Resnet进行转移学习和U-NET。作者观察到，数据集扩展对绩效改进和转移学习模型的贡献最大，在Pascal数据集中表现最好。他们使用损失，准确性和图块以及细分图来吸取有关模型工作的宝贵见解。
+
+</details>
+<details>
+<summary>Object Detection</summary>
+    
+标题: [A marker-less human motion analysis system for motion-based biomarker discovery in knee disorders](http://arxiv.org/pdf/2304.13678v1)     
+摘要: 本文提出了一个无标记的系统，用于使用标准RGB摄像机在膝盖疾病中发现基于运动的生物标志物。使用主成分分析（PCA）确定生物标志物，并通过案例研究对统计学意义进行验证。该系统为当前商业替代品提供了一种廉价且敏感的替代方法，用于分析生物力学和跟踪康复进度。
+
+标题: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+摘要: 本文提出使用合成孔径异常成像在存在叶子闭塞的情况下改善异常检测。作者证明，整合检测到的异常比在积分中检测异常更有效，从而增加了闭塞的去除，异常抑制，并且在视觉上以及计算检测靶标的较高的机会。该论文包括模拟和现场实验，以验证该假设，并提出了一种实时应用，旨在解决由植被引起的强烈遮挡的用例，例如搜索和救援，野生动植物观察，早期野火检测和监视。
+
+标题: [Konzeption und Umsetzung einer mobilen Applikation zur Validierung von fälschungssicheren Produktlabeln](http://arxiv.org/pdf/2304.13519v1)     
+摘要: 本文提出了一种具有成本效益的方式，可以使用由金纳米球或杆组成的假冒标签来验证产品的真实性。可以使用智能手机摄像头和其他技术来精确测量标签的元素独特位置。本文提供了用于在移动应用程序中实现此系统的概念证明，并概述了传输和保护所需信息的合适方法。分析了验证假货产品标签的结果，并指出了现有的弱点。
+
+标题: [From Chaos Comes Order: Ordering Event Representations for Object Detection](http://arxiv.org/pdf/2304.13455v2)     
+摘要: 本文提出了一种通过使用Gromov-Wasserstein差异选择最佳事件表示以进行对象检测的新方法。该方法比传统的神经网络培训要快得多，并且揭示了改善最先进结果的新型和强大的表示。通过对大型事件表示家庭进行超参数搜索，作者表明，其优化表示形式的表现优于多个数据集中的现有表示，高于大幅度的余量。这项工作为基于事件的学习方法开辟了一个新的明确表示优化领域。
+
+标题: [Training-Free Location-Aware Text-to-Image Synthesis](http://arxiv.org/pdf/2304.13427v1)     
+摘要: 本文提出了一种使用稳定扩散模型训练无位置感知文本对图像合成的新方法。该方法允许用户在没有其他培训的情况下指定生成对象的位置，并提出了基于对象检测的评估度量标准以评估控制能力。实验结果表明，所提出的方法在控制容量和图像质量上都优于最先进的方法。
+
+标题: [Group Equivariant BEV for 3D Object Detection](http://arxiv.org/pdf/2304.13390v1)     
+摘要: 该论文提出了一个在动态驾驶场景中进行3D对象检测的组鸟类视图网络（GEQBEVNET）。该网络基于组模棱两可的理论，并将其嵌入Fused BEV特征图中以提取旋转模棱两可的特征，从而导致平均方向误差较低。在Nuscenes验证数据集上验证了GEQBEVNET，实验结果证明了对象取向预测的性能得到改善。
+
+标题: [Machine Vision-Based Crop-Load Estimation Using YOLOv8](http://arxiv.org/pdf/2304.13282v1)     
+摘要: 该学术论文提出了一个基于机器视觉的系统，用于苹果园的作物负载估算，以优化自动修剪和稀疏平台。使用基于Yolov8的实例分割技术，该系统确定了苹果树的树干和分支来估计几何和拓扑参数，例如分支直径和方向。拟议的工作流程在识别商业果园环境中的树冠零件方面表现出很高的精度和效率，为机器人修剪，花稀释和水果稀疏提供了基础，以达到所需的产量和质量。
+
+</details>
+<details>
+<summary>Object Tracking</summary>
+    
+标题: [Development of a Realistic Crowd Simulation Environment for Fine-grained Validation of People Tracking Methods](http://arxiv.org/pdf/2304.13403v1)     
+摘要: 本文介绍了人群模拟环境的发展及其在对人追踪算法的细粒度验证中的使用。使用Unity 3D引擎开发的模拟器专注于环境，天气条件，交通和单个代理模型中的现实主义。使用了三种跟踪方法来验证生成的数据集，即Iou-Tracker，Deep-Sort和Deep-Tama。
+
+</details>
+<details>
+<summary>Point Cloud</summary>
+    
+标题: [Non-rigid Point Cloud Registration for Middle Ear Diagnostics with Endoscopic Optical Coherence Tomography](http://arxiv.org/pdf/2304.13618v1)     
+摘要: 本文提出了一个非刚性点云登记管道C2P-NET，用于将前后耳模型与体内的OCT体积数据合并，以促进中耳感染的快速诊断和测量。该管道能够处理合成和真实OCT数据中逼真的噪声和不完整性。提出的方法可以首次支持对体内嘈杂和部分OCT图像的解释。
+
+</details>
+<details>
+<summary>Neural Rendering</summary>
+    
+标题: [Super-NeRF: View-consistent Detail Generation for NeRF super-resolution](http://arxiv.org/pdf/2304.13518v1)     
+摘要: 本文提出了一种称为Super-NERF的NERF超分辨率方法，该方法通过构造一个一致性控制的超分辨率模块来从低分辨率输入中生成高分辨率NERF。该模块对每个低分辨率图像使用可优化的潜在代码来控制2D超分辨率图像以收敛到视图一致的输出。Super-NERF在高分辨率细节生成和跨视图一致性上实现了最新的NERF超分辨率性能。
+
+标题: [Neural-PBIR Reconstruction of Shape, Material, and Illumination](http://arxiv.org/pdf/2304.13445v1)     
+摘要: 本文介绍了一个可靠的对象重建管道，结合了基于神经的对象重建和基于物理的逆渲染。该管道使用神经阶段产生高质量的对象形状，反射率和照明预测，然后使用基于物理的逆渲染阶段对其进行完善。该管道在质量和性能方面大大优于现有的重建方法。
+
+标题: [VGOS: Voxel Grid Optimization for View Synthesis from Sparse Inputs](http://arxiv.org/pdf/2304.13386v1)     
+摘要: 本文提出了VGO，这是一种从稀疏输入中进行新型视图合成的快速辐射场重建方法。引入了两种方法，以在稀疏输入方案中提高基于体素的辐射场的性能，防止过度拟合并使用几种正则化技术使体素平滑。实验证明了具有超快速收敛的稀疏输入的最新性能。
+
+标题: [Neuro-symbolic Zero-Shot Code Cloning with Cross-Language Intermediate Representation](http://arxiv.org/pdf/2304.13350v1)     
+摘要: 本文提出了一种基于元模型的方法，用于通过使用抽象语法树（ASTS）的形式使用中间表示（ir）来查找COBOL中的语义相似的代码克隆，而无需任何培训数据。作者用C代码的SBT IRS微调了Unixcoder模型，并获得了12.85 MAP@2改进COBOL代码的预训练模型，这证明了其方法在交叉编程语言传输方面的功效。
+
+标题: [TextDeformer: Geometry Manipulation using Text Guidance](http://arxiv.org/pdf/2304.13348v1)     
+摘要: 该论文介绍了TextDeformer，这是一种神经渲染框架，使用文本指导产生输入网格几何形状的变形。该框架能够处理大型低频形状的变化以及小型高频细节。该方法依赖于可区分的渲染和预先训练的图像编码器，例如夹子和Dino。变形是通过雅各布人表示的，以全局，平滑的方式更新变形。在渲染的2D编码上计算出的深度功能用于从所有3D观点确保连贯性。证明该方法能够平稳地构成各种源网格和目标文本提示。
+
+标题: [EverLight: Indoor-Outdoor Editable HDR Lighting Estimation](http://arxiv.org/pdf/2304.13207v1)     
+摘要: 本文提出了一种称为Everlight的方法，该方法将参数光模型与360度全景合并，以为室内和室外环境提供可编辑的照明功能。该方法使用基于GAN的LDR Panorama外推，并引入了照明共调制方法，以在全景生成过程中融合原始或编辑的场景照明。Everlight使用户能够编辑光方向，强度，数字等，以影响阴影和反射，同时无缝将其与编辑无缝融合。该论文即使与域特异性方法相比，也证明了最先进的结果。
+
+</details>
+<details>
+<summary>Domain Generalization/Adaptation</summary>
+    
+标题: [FVP: Fourier Visual Prompting for Source-Free Unsupervised Domain Adaptation of Medical Image Segmentation](http://arxiv.org/pdf/2304.13672v1)     
+摘要: 本文提出了傅立叶视觉提示（FVP），这是一种医学图像分割的无源无监督域适应（SFUDA）的方法。FVP添加了一个视觉提示以输入目标数据，这是通过最小化分割损失来学习的，并引导冷冻的预训练模型在目标域中表现良好。使用三个公共数据集对所提出的方法进行了验证，实验表明，与现有方法相比，FVP可以产生更好的分割结果。
+
+标题: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+摘要: 本文提出了针对语义图像细分中无监督域的适应和概括的新网络体系结构和培训策略。拟议的Daformer网络基于变形金刚，并使用三种策略进行训练，以避免过度适合源域。作者还引入了一个称为HRDA的多分辨率框架，该框架结合了小型高分辨率作物和大型低分辨率作物，以捕获细分细节和远距离上下文依赖性。实验结果表明，五个不同基准的性能有了显着改善。
+
+</details>
+<details>
+<summary>Few-Shot/Zero-Shot Learning</summary>
+    
+标题: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+摘要: 本文介绍了Semeval-2023 Task 12的结果，这是使用Twitter数据针对低资源非洲语言的情感分析任务。该任务具有三个子任务，包括零击的情感分类。该研究利用了包括非洲XLMR-LARGE和BERT在内的预先培训的大语言模型，以14种非洲语言进行情感分析。研究结果表明，非洲 -  XLMR-LARGE的性能要比其他模型更好，而且由于数据量较大，尼日利亚语言的性能更高。该论文还在GitHub上发布了代码。
+
+标题: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+摘要: 本文提出了一个可学习的提示层，称为可学习的眼科细分段（SAM），用于在眼科多模式图像中多个目标分割。及时层从每个变压器层中学习医学知识，并根据一声机制进行训练。本文使用九个公开可用的数据集证明了这种方法对四个医疗细分任务的有效性。该论文属于图像分割，医学图像，变压器和少量/零照片学习的类别。
+
+标题: [Neuro-symbolic Zero-Shot Code Cloning with Cross-Language Intermediate Representation](http://arxiv.org/pdf/2304.13350v1)     
+摘要: 本文提出了一种基于元模型的方法，用于通过使用抽象语法树（ASTS）的形式使用中间表示（ir）来查找COBOL中的语义相似的代码克隆，而无需任何培训数据。作者用C代码的SBT IRS微调了Unixcoder模型，并获得了12.85 MAP@2改进COBOL代码的预训练模型，这证明了其方法在交叉编程语言传输方面的功效。
+
+标题: [Zero-Shot Slot and Intent Detection in Low-Resource Languages](http://arxiv.org/pdf/2304.13292v1)     
+摘要: 本文介绍了一项有关低资源语言中零击插槽和意图检测的研究。测试了各种模型和设置，包括使用大型语言模型最近成功的多任务指定的微调方法。结果表明，最佳模型的表现优于基线，这两个任务都有很大的差距，这证明了零击学习对低资源语言理解的潜力。
+
+标题: [ESPT: A Self-Supervised Episodic Spatial Pretext Task for Improving Few-Shot Learning](http://arxiv.org/pdf/2304.13287v1)     
+摘要: 本文提出了一种称为ESPT的新型自我监督方法，以提高几次学习表现。ESPT使用借口任务来捕获和利用整个情节的本地视觉信息和数据结构信息，从而促进学习更可转移的特征表示。该实验表明，ESPT在三个基准数据集上实现了最新的性能，以进行几个图像分类。
+
+标题: [From Association to Generation: Text-only Captioning by Unsupervised Cross-modal Mapping](http://arxiv.org/pdf/2304.13273v2)     
+摘要: 本文提出了一种零拍的方法，即K-Nearest-Neighbor跨模式映射（骑士），用于通过将图像/视频映射到语言模式来生成图像和视频字幕。所提出的方法以零拍的方式实现了最先进的性能，用于图像和视频字幕，并使用仅文本无监督的培训。本文解决了不同模态的剪辑表示与剪辑无法转移基于生成任务的概念之间的模态差距。
+
+标题: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+摘要: 该论文介绍了Stepformer，这是一种自制的变压器解码器模型，可以在没有任何人类注释的情况下发现和本地化视频中的指令步骤。该模型使用自动生成的字幕在大型教学视频数据集上进行了训练，并且在逐步检测和本地化任务上，它优于先前的无监督和弱监督的方法，并具有很大的余量。此外，该模型可以执行零拍的多步骤本地化，并证明了新兴属性，使其比相关基线获得更好的性能。
+
+标题: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+摘要: 本文引入了一个名为Tablet的基准数据集，该数据集由20个不同的表格数据集组成，并带有自然语言指令，用于使用大语言模型（LLMS）解决表格预测问题。该研究发现，在平板电脑上，在flan-t5 11b和chatgpt的零射击F1性能中提高了零摄像的F1性能。但是，LLM通常忽略指令，即使有示例也无法正确预测特定实例，这表明需要从表格数据的说明中学习新功能。
+
+</details>
+<details>
+<summary>Visual Question Answering (VQA)</summary>
+    
+标题: [HeySQuAD: A Spoken Question Answering Dataset](http://arxiv.org/pdf/2304.13689v1)     
+摘要: 该论文介绍了一个新的大规模社区共享的口语答案（SQA）数据集（Heysquad），由人类口语和机器生成的问题和相应的文本答案组成。该数据集旨在衡量机器能够理解嘈杂的口头问题并准确回答它们的能力。本文还提出了基准和观察，对人类口语和机器生成的问题对模型的噪声影响以及回答准确性的影响。值得注意的是，该论文强调，使用转录的人口语问题进行培训导致对SQA任务的原始文本问题的培训对培训进行了重大改进。
+
+标题: [A Symmetric Dual Encoding Dense Retrieval Framework for Knowledge-Intensive Visual Question Answering](http://arxiv.org/pdf/2304.13649v1)     
+摘要: 本文提出了一个新的框架，用于知识密集的视觉问题回答（KI-VQA）任务，该任务由猎犬和读者组成。该猎犬基于一个称为DEDR的对称双重编码密集检索框架，该框架的表现优于两个KI-VQA数据集上的最先进的基线。该论文还引入了MM-FID，这是一种编码器二十个多模式融合模型，该模型利用检索到的段落来为KI-VQA任务生成文本答案，并提高了与文献中竞争性基础相比的问题答案的准确性。
+
+</details>
+<details>
+<summary>Image-to-Image Translation</summary>
+    
+</details>
+<details>
+<summary>Transformer</summary>
+    
+标题: [UniNeXt: Exploring A Unified Architecture for Vision Recognition](http://arxiv.org/pdf/2304.13700v1)     
+摘要: 本文提出了Uninext，这是视觉主链的统一体系结构，可以显着提高各种空间令牌混合器的性能，而不管其设计如何。该研究表明，视力识别的一般结构的重要性，表明出色的空间令牌混合器可能会被次优的一般体系结构扼杀。uninext配备了幼稚的本地窗户注意力，即使表现优于先前的最先前。
+
+标题: [Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation](http://arxiv.org/pdf/2304.13615v1)     
+摘要: 本文提出了针对语义图像细分中无监督域的适应和概括的新网络体系结构和培训策略。拟议的Daformer网络基于变形金刚，并使用三种策略进行训练，以避免过度适合源域。作者还引入了一个称为HRDA的多分辨率框架，该框架结合了小型高分辨率作物和大型低分辨率作物，以捕获细分细节和远距离上下文依赖性。实验结果表明，五个不同基准的性能有了显着改善。
+
+标题: [SIMARA: a database for key-value information extraction from full pages](http://arxiv.org/pdf/2304.13606v1)     
+摘要: 本文介绍了Simara，这是一个数据库，用于从历史手写文档中提取信息。该语料库包括来自法国国家档案馆的带注释的发现辅助工具。所提出的模型基于训练有端到端信息提取的变压器体系结构，并提供了三组用于培训，验证和测试。该数据库是可以自由访问的。
+
+标题: [Impact of Position Bias on Language Models in Token Classification](http://arxiv.org/pdf/2304.13567v1)     
+摘要: 本文研究了位置偏见对令牌分类任务中语言模型性能的影响。该研究包括各种用于指定实体识别和词性标签的基准数据集。作者提出了两种方法来减轻位置偏差的影响并显示模型性能的改善。本文着重于在特定的语言模型问题中评估变压器模型的性能。
+
+标题: [Key-value information extraction from full handwritten pages](http://arxiv.org/pdf/2304.13530v1)     
+摘要: 本文提出了一种基于变压器的方法，用于从完整手写页面中提取键值信息。该模型在单个模型中结合了特征提取，手写识别和命名实体识别，并与传统的两阶段方法进行了比较。基于注意力的模型能够从钥匙值注释中学习，并在三个公共数据库上胜过以前的方法。
+
+标题: [Learnable Ophthalmology SAM](http://arxiv.org/pdf/2304.13425v1)     
+摘要: 本文提出了一个可学习的提示层，称为可学习的眼科细分段（SAM），用于在眼科多模式图像中多个目标分割。及时层从每个变压器层中学习医学知识，并根据一声机制进行训练。本文使用九个公开可用的数据集证明了这种方法对四个医疗细分任务的有效性。该论文属于图像分割，医学图像，变压器和少量/零照片学习的类别。
+
+标题: [STIR: Siamese Transformer for Image Retrieval Postprocessing](http://arxiv.org/pdf/2304.13393v2)     
+摘要: 本文提出了一种称为暹罗变压器的新方法，用于图像检索（搅拌），该方法重读顶部图像检索会导致单个正向通行证，从而在图像检索数据集上实现了最新的性能。该方法使用注意机制在不依赖于全球/局部特征提取的情况下比较查询图像并在像素级别检索候选物。该论文还使用三重损失和硬质量挖掘的三重损失引入了更简单的模型，该模型在最先进的水平上执行，但对生产环境更可扩展。
+
+标题: [The Closeness of In-Context Learning and Weight Shifting for Softmax Regression](http://arxiv.org/pdf/2304.13276v1)     
+摘要: 该论文研究了自然语言处理任务中变形金刚的文化学习能力。作者显示了由单个自我发项层引起的数据转换的上限，以及通过梯度散发出对SoftMax预测函数的回归损失的上限。结果表明，当训练只有自我注意力的变压器来进行回归任务时，梯度偏生和变压器学到的模型表现出极大的相似性。
+
+标题: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+摘要: 该论文介绍了Stepformer，这是一种自制的变压器解码器模型，可以在没有任何人类注释的情况下发现和本地化视频中的指令步骤。该模型使用自动生成的字幕在大型教学视频数据集上进行了训练，并且在逐步检测和本地化任务上，它优于先前的无监督和弱监督的方法，并具有很大的余量。此外，该模型可以执行零拍的多步骤本地化，并证明了新兴属性，使其比相关基线获得更好的性能。
+
+标题: [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/pdf/2304.13166v1)     
+摘要: 本文介绍了一种称为LEMART的自我监督的预训练方法，用于使用大规模的未经通知的图像数据集进行图像协调。他们使用标签有效的蒙版区域变换（LEMART）管道生成预训练数据，并通过使用局部和全局自我注意力专门机制的组合对SWIN Transform进行改造，预先培训新的图像协调模型Swinih。Swinih的表现优于Iharmony4数据集上的艺术状态，并且标签有效。
+
+</details>
+<details>
+<summary>Semi-supervised learning</summary>
+    
+标题: [Diffsurv: Differentiable sorting for censored time-to-event data](http://arxiv.org/pdf/2304.13594v1)     
+摘要: 本文提出了一种新的方法，称为DiffsUrv用于生存分析，这是机器学习中至关重要的半监督任务，其中有许多现实世界的应用，尤其是在医疗保健中。DIFFSURV是一种可区分的排序方法，可以通过预测可能考虑到审查样本引入的标签不确定性的可能排列的矩阵来考虑数据集中的审查。实验结果表明，在各种模拟和现实世界的风险预测方案中，DIFFSURV优于建立的基线。本文还提出了一种新的TOP-K风险预测方法，该预测利用了DIFFSURV实现的算法监督。
+
+标题: [SEAL: Simultaneous Label Hierarchy Exploration And Learning](http://arxiv.org/pdf/2304.13374v1)     
+摘要: 本文提出了同时标签层次结构探索和学习（密封）框架，该框架通过用遵循先前层次结构的潜在标签增强观察到的标签来探索标签层次结构。它在树度量空间上使用1-Wasserstein度量，以学习数据驱动的标签层次结构，并同时进行监督和半监督的学习。该方法在各种数据集上显示出卓越的结果，并揭示了有见地的标签结构。
+
+</details>
+<details>
+<summary>Self-supervised learning</summary>
+    
+标题: [ESPT: A Self-Supervised Episodic Spatial Pretext Task for Improving Few-Shot Learning](http://arxiv.org/pdf/2304.13287v1)     
+摘要: 本文提出了一种称为ESPT的新型自我监督方法，以提高几次学习表现。ESPT使用借口任务来捕获和利用整个情节的本地视觉信息和数据结构信息，从而促进学习更可转移的特征表示。该实验表明，ESPT在三个基准数据集上实现了最新的性能，以进行几个图像分类。
+
+标题: [Self-Supervised Multi-Modal Sequential Recommendation](http://arxiv.org/pdf/2304.13277v1)     
+摘要: 本文提出了一种用于顺序推荐系统的自我监管的多模式预处理方法。该方法使用双重检索体系结构，并可以使各种功能组合的对齐方式对齐，从而推广到具有不同项目功能的不同数据集。所提出的方法在五个公开可用的数据集上优于传统的顺序推荐方法。
+
+标题: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+摘要: 该论文介绍了Stepformer，这是一种自制的变压器解码器模型，可以在没有任何人类注释的情况下发现和本地化视频中的指令步骤。该模型使用自动生成的字幕在大型教学视频数据集上进行了训练，并且在逐步检测和本地化任务上，它优于先前的无监督和弱监督的方法，并具有很大的余量。此外，该模型可以执行零拍的多步骤本地化，并证明了新兴属性，使其比相关基线获得更好的性能。
+
+标题: [Learning to Predict Navigational Patterns from Partial Observations](http://arxiv.org/pdf/2304.13242v1)     
+摘要: 本文提出了一种学习的学习方法，用于学习仅从部分观察中推断现实环境中的导航模式。该模型预测了无偏的局部定向软车道概率，并使用最大似然图侵入全局导航模式。实验表明，SSL模型的表现优于Nuscenes数据集上的两个SOTA监督车道图预测模型。提出的SSL方法被认为是一种可扩展的，可解释的持续学习范式，以通过感知导航。
+
+标题: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+摘要: 本文提出了一种特定于样本的偏见方法，以提高医疗应用自我监督图像文本表示学习中学到的表示的质量。该方法通过使用估计的特定于样本的类概率来纠正假否定性。本文提供了所提出方法优势的理论分析和经验证据。
+
+标题: [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/pdf/2304.13166v1)     
+摘要: 本文介绍了一种称为LEMART的自我监督的预训练方法，用于使用大规模的未经通知的图像数据集进行图像协调。他们使用标签有效的蒙版区域变换（LEMART）管道生成预训练数据，并通过使用局部和全局自我注意力专门机制的组合对SWIN Transform进行改造，预先培训新的图像协调模型Swinih。Swinih的表现优于Iharmony4数据集上的艺术状态，并且标签有效。
+
+</details>
+<details>
+<summary>UAV/Remote Sensing/Satellite Image</summary>
+    
+标题: [An Investigation into Active Control for Accessible Orbital Flight](http://arxiv.org/pdf/2304.13704v1)     
+摘要: 本文讨论了使用基于Arduino的飞行计算机，州机器控制软件和Active-Crotrol硬件的微型尺度飞行的可访问和微型推力矢量控制技术的开发。初始测试飞行和地面测试数据显示稳定的控制，提供适用于小型和大型测试车辆的适应性和控制。该技术具有更快的业余火箭开发和可访问的轨道飞行的潜力，用于进行并发实验。
+
+标题: [Drones on the Rise: Exploring the Current and Future Potential of UAVs](http://arxiv.org/pdf/2304.13702v1)     
+摘要: 本文概述了无人机（UAV）技术的当前状态和潜在进步及其在各个领域的应用，例如航空摄影，测量，农业，基础设施检查，灾难管理和军事运营。本文还讨论了与无人机对社会的影响有关的问题。
+
+标题: [Synthetic Aperture Anomaly Imaging](http://arxiv.org/pdf/2304.13590v1)     
+摘要: 本文提出使用合成孔径异常成像在存在叶子闭塞的情况下改善异常检测。作者证明，整合检测到的异常比在积分中检测异常更有效，从而增加了闭塞的去除，异常抑制，并且在视觉上以及计算检测靶标的较高的机会。该论文包括模拟和现场实验，以验证该假设，并提出了一种实时应用，旨在解决由植被引起的强烈遮挡的用例，例如搜索和救援，野生动植物观察，早期野火检测和监视。
+
+标题: [Thermal Vision for Soil Assessment in a Multipurpose Environmental Chamber under Martian Conditions towards Robot Navigation](http://arxiv.org/pdf/2304.13525v1)     
+摘要: 本文提出了一个使用多功能环境室的框架来生成昼夜数据集对，该框架对机器人遥感数据与目标行星勘探条件的地球上土壤的热行为可能很有用。提出的框架用于使用UMA-LASERLAB室生成数据集，该室复制火星的大气组成。由此产生的数据集对已为科学界提供。
+
+标题: [Leveraging Compositional Methods for Modeling and Verification of an Autonomous Taxi System](http://arxiv.org/pdf/2304.13517v1)     
+摘要: 本文提出了用于自主出租车系统的组成形式建模和验证方法。作者确定了几种研究需求，例如正式模型的库，概率合同框架和标准的高级功能体系结构。他们认为，满足这些需求将改善在包括学习支持系统在内的自主系统设计中的形式方法，并提高对安全操作的信心。
+
+标题: [Routing Heterogeneous Traffic in Delay-Tolerant Satellite Networks](http://arxiv.org/pdf/2304.13501v1)     
+摘要: 本文提议改编以联系图形路由（CGR），以优先考虑延迟耐耐力网络（DTN）卫星网络的服务质量不同（QoS）要求的流量。提出的算法在满足潜伏期限制的同时有效提高了交付比和能源效率。整数线性编程优化模型也作为性能上限提出。模拟显示出有希望的结果，可改善符合异质交通路由的QoS兼容率。
+
+标题: [A Cooperative NOMA User Pairing in UAV-Based Wireless Networks](http://arxiv.org/pdf/2304.13499v1)     
+摘要: 本文提出了在基于无人机的无线网络中进行合作的NOMA用户配对，以增强功率和带宽资源的下行链路传输性能和最佳使用。论文研究联合用户对和基于资源分配的距离以优化公平吞吐量，该吞吐量集中于来自不同无线动力节点的无人机通信，模拟结果表明，提出的用户配对策略可以提高系统的效率。
+
+标题: [Network Coding Power Control Mechanisms for Time Varying Channels](http://arxiv.org/pdf/2304.13498v1)     
+摘要: 本文提出了一种网络编码结构，用于使用Markov过程模型来补偿卫星通信中的通道变化，以大规模褪色通道。该模型利用通道延迟曲线和信道状态之间的依赖性，以预测引起的褪色和闭合形式延迟下的变化。所提出的机制在固定功率和自适应功率控制下工作，为零数据包传输提供补偿。
+
+标题: [An Adaptive Control Strategy for Neural Network based Optimal Quadcopter Controllers](http://arxiv.org/pdf/2304.13460v1)     
+摘要: 该论文为基于神经网络的最佳四方控制器提供了一种自适应控制策略。该策略通过识别未建模的音高时刻并提出一种自适应控制策略来解决SIM到现实转移中遇到的现实差距问题，该策略从受恒定的外部音高，滚动和偏航时刻影响的系统的最佳轨迹中学习。该方法的有效性是通过能量最佳的悬停飞行来证明的，并将优势与最先进的基于差速器的控制器进行了比较。
+
+标题: [ESCM: An Efficient and Secure Communication Mechanism for UAV Networks](http://arxiv.org/pdf/2304.13244v1)     
+摘要: 本文提出了一种称为ESCM的通信机制，该机制是专门为无人机网络设计的。ESCM包括基于人工蜜蜂菌落算法的路由协议和基于网络编码的共识算法的区块链系统。数字双胞胎的概念用于将无人机从物理世界映射到网络空间，将无人机网络转换为静态网络。提出的机制分别通过网络编码和加密提高了通信效率和安全性，并且适合高移动性网络方案。模拟结果证实了ESC在绩效改善方面的优势。
+
+标题: [Single-View Height Estimation with Conditional Diffusion Probabilistic Models](http://arxiv.org/pdf/2304.13214v1)     
+摘要: 本文提出了使用在光学和DSM图像训练的生成扩散模型的单视高度估计方法。该模型在源图像上进行条件，以生成高分辨率3D表面。该方法在Vaihingen基准数据集上显示出令人鼓舞的结果。
+
+标题: [Autoencoder-based Radio Frequency Interference Mitigation For SMAP Passive Radiometer](http://arxiv.org/pdf/2304.13158v1)     
+摘要: 本文提出了一种基于自动编码器的方法，用于在1400-1427 MHz受保护的频带中运行的被动太空传播辐射仪中缓解射频干扰（RFI）。提出的方法旨在从被动接收器侧接收的受污染信号中删除潜在共存的地面用户（即5G基站）引起的主要RFI，并有可能保留有价值的信息并防止被污染的数据被丢弃。
+
+</details>
+<details>
+<summary>Image Synthesis/Generation</summary>
+    
+标题: [Controllable Image Generation via Collage Representations](http://arxiv.org/pdf/2304.13722v1)     
+摘要: 本文通过使用图像拼贴画提出了一种新的方法，以实现图像生成中的细粒度场景可控性。该方法称为“混合和匹配场景”，采用了经过对抗训练的生成图像模型，该模型基于拼贴物中对象的外观特征和空间位置，以生成相干图像。该模型在开放型和MS-Coco数据集上进行评估，并在细粒度的可控性方面优于基准，同时保持有竞争力的图像质量和样本多样性。该研究突出了基于拼贴的生成模型的潜力，以创建有效的内容。
+
+标题: [Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation](http://arxiv.org/pdf/2304.13681v1)     
+摘要: 本文提出了一种称为射线调节的技术，该技术通过在灯场上的2D GAN进行调节，从而生成多视图图像。该方法允许明确的观点控制，最新的光真实主义和身份一致性，使其适合观点编辑任务。通过放松照片矛盾的约束，该方法可以在光合遇到和现实主义之间达到平衡，从而解决了两者之间的权衡。
+
+标题: [Video Frame Interpolation with Densely Queried Bilateral Correlation](http://arxiv.org/pdf/2304.13596v1)     
+摘要: 本文提出了一种新的视频框架插值方法（VFI），称为密集查询双侧相关（DQBC）。这种方法以对小型和快速移动的对象更友好的方式建模相邻帧之间的相关性。在基于CNN的Synthnet合成最终插值框架之前，将DQBC生成的运动场进行了完善并用上下文特征进行上下采样。与最先进的方法相比，该方法导致更高的准确性和更少的推理时间。
+
+标题: [Super-NeRF: View-consistent Detail Generation for NeRF super-resolution](http://arxiv.org/pdf/2304.13518v1)     
+摘要: 本文提出了一种称为Super-NERF的NERF超分辨率方法，该方法通过构造一个一致性控制的超分辨率模块来从低分辨率输入中生成高分辨率NERF。该模块对每个低分辨率图像使用可优化的潜在代码来控制2D超分辨率图像以收敛到视图一致的输出。Super-NERF在高分辨率细节生成和跨视图一致性上实现了最新的NERF超分辨率性能。
+
+标题: [Training-Free Location-Aware Text-to-Image Synthesis](http://arxiv.org/pdf/2304.13427v1)     
+摘要: 本文提出了一种使用稳定扩散模型训练无位置感知文本对图像合成的新方法。该方法允许用户在没有其他培训的情况下指定生成对象的位置，并提出了基于对象检测的评估度量标准以评估控制能力。实验结果表明，所提出的方法在控制容量和图像质量上都优于最先进的方法。
+
+标题: [DiffuseExpand: Expanding dataset for 2D medical image segmentation using diffusion models](http://arxiv.org/pdf/2304.13416v1)     
+摘要: 本文提出了一种使用扩散概率模型（DPMS）扩展2D医疗图像分割数据集的称为diffuseexpand的方法。diffuseexpand首先从高斯噪声中采样了各种掩模，以确保多样性，然后合成图像以确保图像和掩模的对齐。通过比较-19和CGMH骨盆数据集进行了比较和消融实验，可以证明扩散量的有效性。
+
+标题: [A Portrait of Emotion: Empowering Self-Expression through AI-Generated Art](http://arxiv.org/pdf/2304.13324v1)     
+摘要: 本文研究了AI生成的艺术品反映人类认知过程和自我表达的能力。研究发现，AI可以促进情绪的创造力和自我表达，这表明其在心理健康干预措施中的潜在使用。具有生成AIS的研究框架可以帮助设计基于AI的干预措施，例如治疗和咨询。
+
+标题: [Single-View Height Estimation with Conditional Diffusion Probabilistic Models](http://arxiv.org/pdf/2304.13214v1)     
+摘要: 本文提出了使用在光学和DSM图像训练的生成扩散模型的单视高度估计方法。该模型在源图像上进行条件，以生成高分辨率3D表面。该方法在Vaihingen基准数据集上显示出令人鼓舞的结果。
+
+标题: [EverLight: Indoor-Outdoor Editable HDR Lighting Estimation](http://arxiv.org/pdf/2304.13207v1)     
+摘要: 本文提出了一种称为Everlight的方法，该方法将参数光模型与360度全景合并，以为室内和室外环境提供可编辑的照明功能。该方法使用基于GAN的LDR Panorama外推，并引入了照明共调制方法，以在全景生成过程中融合原始或编辑的场景照明。Everlight使用户能够编辑光方向，强度，数字等，以影响阴影和反射，同时无缝将其与编辑无缝融合。该论文即使与域特异性方法相比，也证明了最先进的结果。
+
+标题: [Generating Procedural Materials from Text or Image Prompts](http://arxiv.org/pdf/2304.13172v1)     
+摘要: 本文提出了用于高质量程序材料综合的多模式节点图生成神经结构，可以使用基于夹子的编码器在不同的输入上进行调节。它还创建了一个实质上增强的材料图数据集，以提高发电质量。提出的模型使用正规化采样过程生成了高质量的图样品，并通过对顶级样本的可区分优化提高了匹配质量。本文将提出的方法与基于夹的数据库搜索基线进行比较，并在不需要大量数据存储的情况下实现卓越或类似的性能。该模型可以无条件地产生一组材料图，以图像，文本提示或部分图为条件，作为自动视觉编程完成的工具。
+
+标题: [LumiGAN: Unconditional Generation of Relightable 3D Human Faces](http://arxiv.org/pdf/2304.13153v1)     
+摘要: 本文介绍了Lumigan，这是一种无条件的GAN，用于生成3D人脸，具有基于物理的照明模块，可在推理时在新颖的照明下重新确定。Lumigan可以使用有效的可见性公式来创造逼真的阴影效果，该公式以一种自我监督的方式学习，并为可靠的面孔生成合理的物理特性，而没有任何地面真相数据。与最先进的3D gan相比，本文展示的几何产生显着改善了几何形状的产生，并且比现有可重新固定的gan是更好的光真相。
+
+</details>
+<details>
+<summary>Graph Neural Networks</summary>
+    
+标题: [Hitting Subgraphs in Sparse Graphs and Geometric Intersection Graphs](http://arxiv.org/pdf/2304.13695v1)     
+摘要: 本文研究了图理论中（诱导的）子图击问题，其目的是计算不包含任何禁止子图的最小尺寸的顶点集。作者提出了一个有效的近似方案，其中包括各种宽图类别的线性运行时间，包括几何相交图。本文中引入的还原技术在计算机科学的不同领域中具有潜在的应用，例如近似算法，参数化复杂性和图理论。
+
+标题: [ElegansNet: a brief scientific report and initial experiments](http://arxiv.org/pdf/2304.13538v1)     
+摘要: 该论文介绍了秀丽隐犬，这是一种灵感来自Caenorhabditis elegans蠕虫的连接仪的神经网络架构。蠕虫的网络拓扑用于设计和生成改进的深度学习系统，这些系统与随机有线网络和最先进的人工神经网络进行了比较。在监督图像分类任务中的验证集上，在CIFAR10上，Elegansnet的表现优于随机有线网络，并在CIFAR10上获得99.99％的TOP-1准确性，而MNIST UNSUST的准确性为99.84％。该研究探讨了Connectome拓扑结构与深度学习系统之间的相互作用，展示了生物可靠结构在有效解决复杂任务中的潜力。
+
+标题: [SCV-GNN: Sparse Compressed Vector-based Graph Neural Network Aggregation](http://arxiv.org/pdf/2304.13532v1)     
+摘要: 本文提出了一种新的稀疏压缩向量的图形神经网络聚合方法，称为SCV-GNN。作者使用Z-Morton Ordering来得出针对聚合操作优化的基于数据局限性的计算顺序和分区方案。与传统的压缩稀疏列和压缩的稀疏行方法相比，所提出的方法可实现明显的加速并减少内存流量。本文提供了各种数据集的实验结果，以支持其提出的方法的有效性。
+
+标题: [Scene Graph Lossless Compression with Adaptive Prediction for Objects and Relations](http://arxiv.org/pdf/2304.13359v1)     
+摘要: 本文提出了一个新的框架，以使用自适应预测指标和图形上下文卷积方法对场景图数据进行无损压缩。该框架由统一的先验提取器和专业元素预测值组成，以适应不同的数据元素。实验显示了该框架对场景图压缩的有效性。
+
+标题: [An Approximation Algorithm for Two-Edge-Connected Subgraph Problem via Triangle-free Two-Edge-Cover](http://arxiv.org/pdf/2304.13228v1)     
+摘要: 本文提出了使用图表中的最小三角形的2-范围的最小三角形的2-边缘，建议使用2 edge-connected跨度子图问题（2-ECS）的$（1.3+ \ varepsilon）$  - 近似算法。该算法对先前已知的最佳近似比的改进，并使用从以前的2-ECSS问题找到最大的无三角2匹配和参数来使用技术。
+
+标题: [Reconfiguration of the Union of Arborescences](http://arxiv.org/pdf/2304.13217v1)     
+摘要: 该论文证明了k arborescences在Digraphs中的结合的可重构性，从而推广了k = 1的先前结果。k arborescences的结合可以表示为两个矩形的共同基质基，给出了一个非平凡的示例，这是矩阵对的，始终可以彼此重新配置两个共同的基础。本文属于图神经网络和理论的类别。
+
+标题: [Graph-CoVis: GNN-based Multi-view Panorama Global Pose Estimation](http://arxiv.org/pdf/2304.13201v1)     
+摘要: 本文介绍了GraphCovis，这是一种新型的基于图形神经网络的结构，用于全局多视图球形摄像头姿势估计。所提出的方法通过以端到端和完全监督的方法共同学习可提供的结构和全球运动，从相对的两视图扩展到全局多视图球形摄像头姿势估计。使用ZIND数据集评估了模型的性能，该模型的性能在呈现宽的基地，遮挡和有限的视觉重叠上进行评估。结果表明，Graph Covis通过最先进的方法竞争性能。
+
+标题: [Connector 0.5: A unified framework for graph representation learning](http://arxiv.org/pdf/2304.13195v1)     
+摘要: 本文引入了一个称为图表学习的统一框架。该框架涵盖了从浅层到最新模型的各种图形嵌入模型，并且包括构造具有不同结构关系的各种图形的能力。该框架旨在为深图嵌入模型提供有效的开源解决方案，以表示图中的结构关系。该框架可在https://github.com/nslab-cuk/connector上的GitHub上获得。
+
+标题: [Jet: Multilevel Graph Partitioning on GPUs](http://arxiv.org/pdf/2304.13194v1)     
+摘要: 本文引入了一种名为JET的新的并行算法，用于在多级图分区中进行细化，该算法是专门为GPU设计的。该算法与GPU-Aware Coarsening合并，以开发K道图分区仪。研究表明，新分区者在大量测试图上的最先进的共享存储器图分区者优于最先进的共享内存图分区器。
+
+标题: [Generating Procedural Materials from Text or Image Prompts](http://arxiv.org/pdf/2304.13172v1)     
+摘要: 本文提出了用于高质量程序材料综合的多模式节点图生成神经结构，可以使用基于夹子的编码器在不同的输入上进行调节。它还创建了一个实质上增强的材料图数据集，以提高发电质量。提出的模型使用正规化采样过程生成了高质量的图样品，并通过对顶级样本的可区分优化提高了匹配质量。本文将提出的方法与基于夹的数据库搜索基线进行比较，并在不需要大量数据存储的情况下实现卓越或类似的性能。该模型可以无条件地产生一组材料图，以图像，文本提示或部分图为条件，作为自动视觉编程完成的工具。
+
+标题: [SAFE: Machine Unlearning With Shard Graphs](http://arxiv.org/pdf/2304.13169v1)     
+摘要: 该论文提供了安全的，这是一种使用碎片图进行的机器学习方法。该方法介绍了碎片图的概念，其中在训练过程中合并了来自其他碎片的有限信息，而不是将每个碎片视为独立。这会导致预期忘记成本的增加，但准确性的显着提高，同时仍能完全消除遗忘后的残余影响。SAFE在碎片上接受了小于当前最新方法的质量顺序，同时保持了高精度，正如在细粒度的计算机视觉数据集上所证明的那样。
+
+</details>
+<details>
+<summary>Vision-Language (Multimodality)</summary>
+    
+标题: [Controllable Image Generation via Collage Representations](http://arxiv.org/pdf/2304.13722v1)     
+摘要: 本文通过使用图像拼贴画提出了一种新的方法，以实现图像生成中的细粒度场景可控性。该方法称为“混合和匹配场景”，采用了经过对抗训练的生成图像模型，该模型基于拼贴物中对象的外观特征和空间位置，以生成相干图像。该模型在开放型和MS-Coco数据集上进行评估，并在细粒度的可控性方面优于基准，同时保持有竞争力的图像质量和样本多样性。该研究突出了基于拼贴的生成模型的潜力，以创建有效的内容。
+
+标题: [Multimodal Grounding for Embodied AI via Augmented Reality Headsets for Natural Language Driven Task Planning](http://arxiv.org/pdf/2304.13676v1)     
+摘要: 本文提议将增强现实（AR）耳机用于体现人工智能（EAI）系统的多模式接地。该研究表明，使用AR耳机共同存在的人类机器人组合的可行性，以进行EAI代理商和人类操作员之间进行各种检查任务之间的信息交换。本文强调了EAI建筑中的潜在陷阱，并以迅速的鲁棒性提供了定量和定性分析。
+
+标题: [Towards Multi-Modal DBMSs for Seamless Querying of Texts and Tables](http://arxiv.org/pdf/2304.13559v1)     
+摘要: 本文提出了多模式数据库（MMDB），这是一种新的数据库系统，可以无缝地使用SQL查询文本和表。他们基于最近的大语言模型将关系数据库与多模式运算符（MMOP）扩展，以允许文本数据被视为无手动转换的表。评估表明，MMDB原型在准确性和性能方面的表现优于文本到餐桌的方法，需要更少的训练数据来微调未见文本收集的模型。
+
+标题: [From Association to Generation: Text-only Captioning by Unsupervised Cross-modal Mapping](http://arxiv.org/pdf/2304.13273v2)     
+摘要: 本文提出了一种零拍的方法，即K-Nearest-Neighbor跨模式映射（骑士），用于通过将图像/视频映射到语言模式来生成图像和视频字幕。所提出的方法以零拍的方式实现了最先进的性能，用于图像和视频字幕，并使用仅文本无监督的培训。本文解决了不同模态的剪辑表示与剪辑无法转移基于生成任务的概念之间的模态差距。
+
+</details>
+<details>
+<summary>Model Compression/Knowledge Distillation/Pruning</summary>
+    
+标题: [Sparsified Model Zoo Twins: Investigating Populations of Sparsified Neural Network Models](http://arxiv.org/pdf/2304.13718v1)     
+摘要: 本文研究了大量模型人群中神经网络的两种稀疏方法的鲁棒性和性能。作者在模型动物园上应用了这些方法来创建动物园的稀疏版本，并将其与原始型号进行比较。他们发现这两种方法都与原始模型相关，并且在大多数情况下，幅度较高的脱落。模型和稀疏版本公开可用。
+
+标题: [Tensor Decomposition for Model Reduction in Neural Networks: A Review](http://arxiv.org/pdf/2304.13539v1)     
+摘要: 本文回顾了六种张量分解方法及其减少计算机视觉和自然语言处理任务中使用过度参数化神经网络的计算成本的能力。审查包括对改善准确性，模型尺寸，运行时间和能耗的压缩模型的评估。这种方法非常适合在边缘设备中实现神经网络。
+
+标题: [Scene Graph Lossless Compression with Adaptive Prediction for Objects and Relations](http://arxiv.org/pdf/2304.13359v1)     
+摘要: 本文提出了一个新的框架，以使用自适应预测指标和图形上下文卷积方法对场景图数据进行无损压缩。该框架由统一的先验提取器和专业元素预测值组成，以适应不同的数据元素。实验显示了该框架对场景图压缩的有效性。
+
+标题: [Concept-Monitor: Understanding DNN training through individual neurons](http://arxiv.org/pdf/2304.13346v1)     
+摘要: 本文提出了一个称为概念监测器的框架，该框架通过新颖的嵌入空间和概念多样性指标来帮助理解和可视化DNN训练过程。该论文还引入了一种新的培训正常化程序，该调整器激励隐藏的神经元学习各种概念，从而提高培训性能。该论文应用概念监测器来对各种培训范式进行多项案例研究，包括对抗性培训，微调和通过彩票假设进行修剪。
+
+标题: [Making Models Shallow Again: Jointly Learning to Reduce Non-Linearity and Depth for Latency-Efficient Private Inference](http://arxiv.org/pdf/2304.13274v1)     
+摘要: 本文提出了一种关节优化方法，以减少深层神经网络中的非线性和深度，以进行潜伏期效率的私人推断。该方法利用了卷积块的恢复敏感性去除偏度层并合并其周围的卷积层以创建较浅的块。关节还原方法可以产生模型，而没有明显的精度下降，可以改善非线性和线性操作的降低。CIFAR-100对RESNET18的评估分别显示出1.73倍和1.47倍的改善，分别减少恢复和线性操作。
+
+标题: [C2PI: An Efficient Crypto-Clear Two-Party Neural Network Private Inference](http://arxiv.org/pdf/2304.13266v1)     
+摘要: 该论文提出了C2PI，这是一个两党的私人推理框架，用于神经网络，与现有框架相比，它大大降低了计算和通信成本。他们通过基于推理数据隐私攻击引入经验定义的隐私评估来实现这一目标，并利用调查结果对神经网络模型进行更有效的分区。根据实验评估，C2PI可以加快现有的私人推理框架并节省沟通成本。
+
+标题: [Towards Compute-Optimal Transfer Learning](http://arxiv.org/pdf/2304.13164v1)     
+摘要: 本文提出了一种解决鉴定鉴定的高计算和记忆要求或通过实施预审预周化模型的零击结构化修剪的转移学习中的较高计算和记忆要求的解决方案。作者表明，这种方法可以提高计算效率，而绩效的最小降低，并将低计算方案的性能提高超过20％。该方法在Nevis'22持续学习基准上进行评估，该基准提供了多种转移方案。
+
+</details>
+<details>
+<summary>Contrastive Learning</summary>
+    
+标题: [Sample-Specific Debiasing for Better Image-Text Models](http://arxiv.org/pdf/2304.13181v1)     
+摘要: 本文提出了一种特定于样本的偏见方法，以提高医疗应用自我监督图像文本表示学习中学到的表示的质量。该方法通过使用估计的特定于样本的类概率来纠正假否定性。本文提供了所提出方法优势的理论分析和经验证据。
+
+</details>
+<details>
+<summary>Continual Learning</summary>
+    
+标题: [Deep Lifelong Cross-modal Hashing](http://arxiv.org/pdf/2304.13357v1)     
+摘要: 本文提出了一种终身交叉模式哈希的方法，该方法允许有效地检索具有新类别的数据，而无需重新训练哈希功能。该方法引入了终身学习策略和哈希损失，使原始的哈希守则能够参与终身学习，同时保持原始和增量哈希码之间的相似性和差异。实验结果显示了与最先进的跨模式散列方法的比较性能，当新数据连续到达时，检索准确性和训练时间的缩短显着提高。
+
+标题: [Evaluation of Regularization-based Continual Learning Approaches: Application to HAR](http://arxiv.org/pdf/2304.13327v1)     
+摘要: 该论文评估了三种基于正规化的方法，用于在人类活动识别（HAR）的领域连续学习，并比较了它们在UCI HAR数据集上的表现。本文强调了每种方法的优势和局限性，并得出结论，在每种情况下，没有任何一项技术都超过所有其他技术。本文有助于持续学习的不断增长的领域，这使机器学习模型的演变无需完整的再培训。
+
+标题: [SAFE: Machine Unlearning With Shard Graphs](http://arxiv.org/pdf/2304.13169v1)     
+摘要: 该论文提供了安全的，这是一种使用碎片图进行的机器学习方法。该方法介绍了碎片图的概念，其中在训练过程中合并了来自其他碎片的有限信息，而不是将每个碎片视为独立。这会导致预期忘记成本的增加，但准确性的显着提高，同时仍能完全消除遗忘后的残余影响。SAFE在碎片上接受了小于当前最新方法的质量顺序，同时保持了高精度，正如在细粒度的计算机视觉数据集上所证明的那样。
+
+</details>
+<details>
+<summary>Adversarial Learning</summary>
+    
+标题: [Robust decentralised proof-of-position algorithms for smart city applications](http://arxiv.org/pdf/2304.13543v1)     
+摘要: 该论文介绍了一类分散的算法，称为智能城市应用的名为Tree-Prove-Prove-Position（T-Pop）。T-POP算法旨在确定代理处于其声称处于其位置的可能性，即使在对抗条件下也是如此。本文为T-POP提供了一种理论公式，分析其安全性和可靠性属性，并通过蒙特卡罗模拟验证模型。还讨论了智能城市环境中T-POP的用例和应用。
+
+标题: [Improving Adversarial Transferability by Intermediate-level Perturbation Decay](http://arxiv.org/pdf/2304.13410v1)     
+摘要: 本文提出了一种新型的中级方法，称为中级扰动衰减（ILPD），以提高对抗性实例的可传递性。ILPD在一个优化的单个阶段中制作了对抗性示例，鼓励中级扰动朝着有效的对抗方向，并同时拥有大范围。实验结果表明，在攻击ImageNet和CIFAR-10数据集上的各种受害者模型时，ILPD的表现优于最先进的东西。
+
+标题: [Concept-Monitor: Understanding DNN training through individual neurons](http://arxiv.org/pdf/2304.13346v1)     
+摘要: 本文提出了一个称为概念监测器的框架，该框架通过新颖的嵌入空间和概念多样性指标来帮助理解和可视化DNN训练过程。该论文还引入了一种新的培训正常化程序，该调整器激励隐藏的神经元学习各种概念，从而提高培训性能。该论文应用概念监测器来对各种培训范式进行多项案例研究，包括对抗性培训，微调和通过彩票假设进行修剪。
+
+标题: [SHIELD: Thwarting Code Authorship Attribution](http://arxiv.org/pdf/2304.13255v1)     
+摘要: 本文介绍了SHIELD，这是一种检验不同代码作者归因方法的鲁棒性，以防止对抗性攻击。本文使用对抗代码扰动对归因技术定义并实施了四次攻击，并使用来自Google Code JAM竞争的200名程序员的数据集进行了实验。该研究表明，成功率超过98.5％的非针对性攻击的当前作者归因方法的脆弱性，并且可能使用目标逆转扰动来模仿程序员，成功率在66％至88％之间。
+
+标题: [Analyzing In-browser Cryptojacking](http://arxiv.org/pdf/2304.13253v1)     
+摘要: 本文分析了浏览器内加密劫持的静态，动态和经济方面，该方面涉及通过恶意JavaScript代码未经授权使用设备资源来开采加密货币的静态，动态和经济方面。本文使用机器学习技术对隐脚脚本的样本进行了分类和分析，测试了加密劫持对系统资源的效果，并构建了一个分析模型，以评估加密劫持作为在线广告的替代方案的可行性。该论文还提出了对浏览器内的加密劫持的对策，以改善现有补救措施。
+
+标题: [Generating Adversarial Examples with Task Oriented Multi-Objective Optimization](http://arxiv.org/pdf/2304.13229v1)     
+摘要: 本文提出了一种名为“任务为导向的多目标优化”（TAMOO）的新方法，以生成满足特定目标的对抗示例。拟议的方法旨在维护已经实现的任务目标，并为改善尚未实现的任务目标分配更多的努力。全面的实验表明，Tamoo在产生有效和多样化的对抗性示例方面优于现有方法。
+
+</details>
+<details>
+<summary>Federated Learning</summary>
+    
+标题: [Unlocking the Potential of Collaborative AI -- On the Socio-technical Challenges of Federated Machine Learning](http://arxiv.org/pdf/2304.13688v2)     
+摘要: 该学术论文重点介绍了协作AI项目的挑战，以及联合机器学习如何可能解锁未开发的数据孤岛。通过系统的文献综述，焦点小组和专家访谈，本文提供了社会技术挑战的集合和扩展的商业模型帆布，用于协作AI项目的初始可行性评估。
+
+标题: [FLCC: Efficient Distributed Federated Learning on IoMT over CSMA/CA](http://arxiv.org/pdf/2304.13549v1)     
+摘要: 本文提出了一种称为FLCC的有效分布式联合学习方法，以改善临时网络的远程医疗保健系统。FL模型利用CSMA/CA来安排传输并消除不受信任的设备。该方法使用空间聚类和频率分配技术来改善节点之间的数据交换过程。拟议的FLCC方法在明确定义用户标准并在稳健的网络中实现了高精度方面超过了基线FL算法。
+
+标题: [Killing Two Birds with One Stone: Quantization Achieves Privacy in Distributed Learning](http://arxiv.org/pdf/2304.13545v1)     
+摘要: 本文提出了一种基于量化的解决方案，以解决分布式设置中的隐私机器学习和通信效率。提出的方法将二项式噪声添加到均匀量化的梯度中，以达到差异隐私水平，同时保持沟通效率。该方法在分布式随机梯度下降的背景下进行了证明，并为沟通，隐私和学习绩效之间的权衡提供了新的见解。
+
+标题: [Byzantine-Resilient Learning Beyond Gradients: Distributing Evolutionary Search](http://arxiv.org/pdf/2304.13540v1)     
+摘要: 本文提出了一种在无梯度环境中创建拜占庭式分布式学习算法的方法。作者在机器学习中介绍了拜占庭 - 弹性的一般定义 - 模型传感器 - 扩展了经典的分布式共识。他们表明，无梯度（$ 1，\ lambda $） - 可以将进化搜索算法与经典的分布式共识算法相结合，以生成无梯度的拜占庭式分布式学习算法。使用总订单广播和工作证明领导者选举来证明该方法。
+
+标题: [Fair Selection of Edge Nodes to Participate in Clustered Federated Multitask Learning](http://arxiv.org/pdf/2304.13423v1)     
+摘要: 本文介绍了一种两步的客户选择和调度方法，以提高收敛速度，同时捕获集群联合多任务学习中的所有数据分布。所提出的算法降低了训练时间并提高了收敛速度，同时为每个用户提供了针对其数据分布的自定义模型。
+
+标题: [Secure Communication Model For Quantum Federated Learning: A Post Quantum Cryptography (PQC) Framework](http://arxiv.org/pdf/2304.13413v1)     
+摘要: 本文为使用量子加密后（PQC）框架提供了一个安全的通信模型，用于量子联合学习。该模型包括动态服务器选择，并研究收敛和安全条件。该框架的结果和实施是公开可用的。该方法将联合学习与量子计算技术相结合，使其对这两个领域做出了有趣的贡献。
+
+标题: [FedVS: Straggler-Resilient and Privacy-Preserving Vertical Federated Learning for Split Models](http://arxiv.org/pdf/2304.13407v1)     
+摘要: 本文提出了FedVS，该解决方案是解决分裂垂直联合学习中两个主要挑战的解决方案：由于培训和数据期间散布客户的绩效退化，并从客户上载的数据嵌入式中泄漏了隐私泄漏。FedVS使用秘密共享方案用于本地数据和模型，以确保信息理论的隐私并通过从非散布客户端解密计算共享来重建嵌入的聚合。该实验证明了联邦快递在缓解和隐私保护方面的优势，而不是各种类型VFL数据集的基线协议。
+
+标题: [Blockchain-based Federated Learning with SMPC Model Verification Against Poisoning Attack for Healthcare Systems](http://arxiv.org/pdf/2304.13360v1)     
+摘要: 本文提出了一个基于区块链的医疗保健系统联合学习框架。该框架包括一个SMPC模型验证过程，以检测和删除FL客户端的恶意更新。使用各种医疗数据集评估所提出的方法。
+
+标题: [SMPC-based Federated Learning for 6G enabled Internet of Medical Things](http://arxiv.org/pdf/2304.13352v1)     
+摘要: 本文提出了一个安全的多方计算（SMPC）基于第六代（6G）连接供电的医学事物（IOMT）的联合学习框架。该框架采用卷积神经网络（CNN）和加密推理方法来提高模型准确性，并维护具有混合IOMT和Edge设备簇的多家医院之间的数据和模型。通过使用各种CNN模型和数据集的实验来评估所提出的框架的性能。
+
+标题: [Bayesian Federated Learning: A Survey](http://arxiv.org/pdf/2304.13267v1)     
+摘要: 本文提供了贝叶斯联邦学习（BFL）的调查，该调查涉及现有联合学习方法的局限性，包括有限和动态数据和条件，异质性和不确定性。本文讨论了客户端和服务器端以及联合的BFL方法及其利弊，以及BFL研究的现有BFL方法和未来方向的局限性，以解决现实生活中联邦学习应用程序的复杂要求。
+
+</details>
+<details>
+<summary>Video</summary>
+    
+标题: [A Control-Centric Benchmark for Video Prediction](http://arxiv.org/pdf/2304.13723v1)     
+摘要: 本文提出了一种以控制为中心的基准，称为VP2，用于机器人操作的背景下，用于动作条件的视频预测。该基准旨在评估给定模型可以通过基于抽样的计划来预测执行成功的准确程度。作者使用基准分析模型大小，培训数据数量以及结合计划性能的影响。他们发现，尽管规模可以提高感知质量，但不确定性意识对于计划也很重要。
+
+标题: [Video Frame Interpolation with Densely Queried Bilateral Correlation](http://arxiv.org/pdf/2304.13596v1)     
+摘要: 本文提出了一种新的视频框架插值方法（VFI），称为密集查询双侧相关（DQBC）。这种方法以对小型和快速移动的对象更友好的方式建模相邻帧之间的相关性。在基于CNN的Synthnet合成最终插值框架之前，将DQBC生成的运动场进行了完善并用上下文特征进行上下采样。与最先进的方法相比，该方法导致更高的准确性和更少的推理时间。
+
+标题: [Latency Target based Analysis of the DASH.js Player](http://arxiv.org/pdf/2304.13551v1)     
+摘要: 本文分析了dash.js的动态自适应流在HTTP（DASH）播放器上的一系列延迟目标和配置选项上的动态自适应流中自适应比特率（ABR）算法的低潜伏期性能。研究表明，默认动态算法实现了最佳的总体QOE，并突出显示了某些低潜伏期配置设置如何损害性能。该论文还为L2A-LL算法提供了修改，以证明显着改进。
+
+标题: [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/pdf/2304.13265v1)     
+摘要: 该论文介绍了Stepformer，这是一种自制的变压器解码器模型，可以在没有任何人类注释的情况下发现和本地化视频中的指令步骤。该模型使用自动生成的字幕在大型教学视频数据集上进行了训练，并且在逐步检测和本地化任务上，它优于先前的无监督和弱监督的方法，并具有很大的余量。此外，该模型可以执行零拍的多步骤本地化，并证明了新兴属性，使其比相关基线获得更好的性能。
+
+</details>
+<details>
+<summary>3D</summary>
+    
+标题: [Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation](http://arxiv.org/pdf/2304.13681v1)     
+摘要: 本文提出了一种称为射线调节的技术，该技术通过在灯场上的2D GAN进行调节，从而生成多视图图像。该方法允许明确的观点控制，最新的光真实主义和身份一致性，使其适合观点编辑任务。通过放松照片矛盾的约束，该方法可以在光合遇到和现实主义之间达到平衡，从而解决了两者之间的权衡。
+
+标题: [Multi-View Stereo Representation Revisit: Region-Aware MVSNet](http://arxiv.org/pdf/2304.13614v2)     
+摘要: 本文提出了一种具有多视图立体表示的区域感知的MVSNET，该表示可以预测从成本体积的距离体积，以估算表面周围点的签名距离，增强了感知范围，完成无纹理区域，减少边界处的异常值，并产生产生。网格拓扑带有细节。该方法可在DTU和Tanks＆Semples数据集上获得最新的结果，从而证明了其在从多视图中重建完整的几何尾部对象方面的有效性。
+
+标题: [Hydra-Multi: Collaborative Online Construction of 3D Scene Graphs with Multi-Robot Teams](http://arxiv.org/pdf/2304.13487v1)     
+摘要: 本文提出了Hydra-Multi，这是第一个多机器人空间感知系统，能够从团队中机器人收集的传感器数据在线构建联合3D场景图。这是一个集中式系统，它结合了环路闭合检测，并有效地找到了机器人帧之间的相对变换，同时通过融合具有不同传感器套件的机器人构建的不同地图表示来支持异质团队。在模拟和实际场景上评估所提出的方法，并显示准确的3D场景重建。
+
+标题: [Group Equivariant BEV for 3D Object Detection](http://arxiv.org/pdf/2304.13390v1)     
+摘要: 该论文提出了一个在动态驾驶场景中进行3D对象检测的组鸟类视图网络（GEQBEVNET）。该网络基于组模棱两可的理论，并将其嵌入Fused BEV特征图中以提取旋转模棱两可的特征，从而导致平均方向误差较低。在Nuscenes验证数据集上验证了GEQBEVNET，实验结果证明了对象取向预测的性能得到改善。
+
+标题: [ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning](http://arxiv.org/pdf/2304.13219v1)     
+摘要: 本文提出了一个名为ZRG的新数据集，其中包含高分辨率的住宅屋顶航空影像以及相应的数字表面模型，3D屋顶线框以及多视图生成的点云，以启用住宅屋顶的几何形状和场景理解。该论文还为屋顶轮廓提取，单眼高度估计和平面屋顶结构提取的任务提供了基础。
+
+标题: [LumiGAN: Unconditional Generation of Relightable 3D Human Faces](http://arxiv.org/pdf/2304.13153v1)     
+摘要: 本文介绍了Lumigan，这是一种无条件的GAN，用于生成3D人脸，具有基于物理的照明模块，可在推理时在新颖的照明下重新确定。Lumigan可以使用有效的可见性公式来创造逼真的阴影效果，该公式以一种自我监督的方式学习，并为可靠的面孔生成合理的物理特性，而没有任何地面真相数据。与最先进的3D gan相比，本文展示的几何产生显着改善了几何形状的产生，并且比现有可重新固定的gan是更好的光真相。
+
+</details>
+<details>
+<summary>Sound</summary>
+    
+</details>
+<details>
+<summary>Dataset</summary>
+    
+标题: [HeySQuAD: A Spoken Question Answering Dataset](http://arxiv.org/pdf/2304.13689v1)     
+摘要: 该论文介绍了一个新的大规模社区共享的口语答案（SQA）数据集（Heysquad），由人类口语和机器生成的问题和相应的文本答案组成。该数据集旨在衡量机器能够理解嘈杂的口头问题并准确回答它们的能力。本文还提出了基准和观察，对人类口语和机器生成的问题对模型的噪声影响以及回答准确性的影响。值得注意的是，该论文强调，使用转录的人口语问题进行培训导致对SQA任务的原始文本问题的培训对培训进行了重大改进。
+
+标题: [What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging](http://arxiv.org/pdf/2304.13651v1)     
+摘要: 本文介绍了一个名为Thermal-IM的新数据集，该数据集是第一个用于人类运动分析的RGB  - 热数据集。作者还提出了一个三阶段的神经网络模型，以使用热线索进行准确的过去姿势估计。数据集和模型实现了出色的性能，证明了热成像在推断过去的人类对象相互作用中的实用性。
+
+标题: [ChartSumm: A Comprehensive Benchmark for Automatic Chart Summarization of Long and Short Summaries](http://arxiv.org/pdf/2304.13620v1)     
+摘要: 本文介绍了Chartsumm，这是一种用于自动图表摘要的大规模基准数据集，该数据集由84,363个图表组成，其中包含元数据和涵盖各种类型和主题的描述。该数据集是未来研究的具有挑战性的基准，因为强大的基线模型面临幻觉和重要的数据点等问题。还研究了将Chartsumm扩展到其他语言的潜力。
+
+标题: [SIMARA: a database for key-value information extraction from full pages](http://arxiv.org/pdf/2304.13606v1)     
+摘要: 本文介绍了Simara，这是一个数据库，用于从历史手写文档中提取信息。该语料库包括来自法国国家档案馆的带注释的发现辅助工具。所提出的模型基于训练有端到端信息提取的变压器体系结构，并提供了三组用于培训，验证和测试。该数据库是可以自由访问的。
+
+标题: [The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis](http://arxiv.org/pdf/2304.13556v1)     
+摘要: 该论文的标题为“系统的审查局面：促进研究综合中严格和包容性的宣言”，主张HCI内的元级别研究方法的革命，强调了在基本研究报告中需要更严格的严格性，并仔细考虑了对初级和二级研究方法，期望和基础架构。本文要求开发一套包容性但严格的标准集，该标准支持HCI中的系统审查工作。
+
+标题: [LoRaWAN-enabled Smart Campus: The Dataset and a People Counter Use Case](http://arxiv.org/pdf/2304.13366v1)     
+摘要: 本文介绍了基于Lorawan技术的智能校园数据集的详细说明。该数据集公开可用，包括缺少传输分析和使用k-nearest邻居以及通过长期记忆（LSTM）模型的未来读数预测的解决方案。通过深层神经网络证明了一个应用程序，预测房间内的人数为95％。
+
+标题: [ZRG: A High Resolution 3D Residential Rooftop Geometry Dataset for Machine Learning](http://arxiv.org/pdf/2304.13219v1)     
+摘要: 本文提出了一个名为ZRG的新数据集，其中包含高分辨率的住宅屋顶航空影像以及相应的数字表面模型，3D屋顶线框以及多视图生成的点云，以启用住宅屋顶的几何形状和场景理解。该论文还为屋顶轮廓提取，单眼高度估计和平面屋顶结构提取的任务提供了基础。
+
+标题: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+摘要: 本文引入了一个名为Tablet的基准数据集，该数据集由20个不同的表格数据集组成，并带有自然语言指令，用于使用大语言模型（LLMS）解决表格预测问题。该研究发现，在平板电脑上，在flan-t5 11b和chatgpt的零射击F1性能中提高了零摄像的F1性能。但是，LLM通常忽略指令，即使有示例也无法正确预测特定实例，这表明需要从表格数据的说明中学习新功能。
+
+标题: [Dynamic Datasets and Market Environments for Financial Reinforcement Learning](http://arxiv.org/pdf/2304.13174v1)     
+摘要: 该论文介绍了FINRL-META，这是一个开源库，该图书馆从现实世界的金融市场处理动态数据集到体育型市场环境中，以培训金融强化学习剂，这是由于信噪比和幸存比率较低而困难财务数据的偏见。该图书馆通过Jupyter/Python演示提供了数据策划管道，可再现的示例，云部署，社区竞争和文档。AI4FINANCE社区公开访问和维护图书馆。
+
+标题: [Introducing MBIB -- the first Media Bias Identification Benchmark Task and Dataset Collection](http://arxiv.org/pdf/2304.13148v1)     
+摘要: 本文介绍了MBIB，这是一个媒体偏差识别基准，该基准由九个任务和22个相关数据集组成，用于评估媒体偏见检测技术。作者使用最先进的变压器技术评估了基准，并发现研究兴趣和资源分配分配给单个偏见类型的不均匀分布。统一的基准测试将当前的范式转移到开发更强大的系统，以同时解决多个偏差类型。
+
+</details>
+<details>
+<summary>Theory</summary>
+    
+标题: [Cut-restriction: from cuts to analytic cuts](http://arxiv.org/pdf/2304.13657v1)     
+摘要: 本文介绍了一种称为切割限制的程序，以将任意削减限制为分析削减。此过程适用于所有序列的结石，使语言独立和简单的检查条件可通过调整古老的切割灭绝来获得。本文以统一的方式涵盖了现有结果，并建立了新颖的分析性尺寸特性。
+
+标题: [Automatic Amortized Resource Analysis with Regular Recursive Types](http://arxiv.org/pdf/2304.13627v1)     
+摘要: 本文为推断使用复杂自定义数据结构的程序的资源消耗的挑战提供了解决方案。本文提出了一种基于类型的自动摊销资源分析（AARA）技术，该技术使用潜在的摊销分析方法来减少对标准类型推理的界定推断，并使用其他线性约束求解。本文介绍了资源多项式，这些功能是为给定类型值生成可能界限的空间，并证明了它们与AARA集成的能力，同时保留了过去技术的好处。作者表明，资源多项式可以统一为由常规递归类型定义的代数数据结构构造，从而实现了所有先前提出的多项式资源函数的广泛概括。本文还建议使用新技术来说明这种类型的系统的规则并证明其健全性。
+
+标题: [On the Order of Power Series and the Sum of Square Roots Problem](http://arxiv.org/pdf/2304.13605v1)     
+摘要: 该论文重点介绍了功率序列的研究和方形问题的总和。作者表明，用于绑定方形根总和的Wronskian方法是最佳的，直至多项式爆炸。他们还在各种情况下研究了电力系列顺序的上限，并解决了不平等测试问题的特殊情况。本文的第二部分介绍了方形问题之和之和的平等变体的概括，并确定了解决它的关键数学挑战。
+
+标题: [Leapfrog methods for relativistic charged-particle dynamics](http://arxiv.org/pdf/2304.13578v1)     
+摘要: 本文提出并分析了基本的跨越集成剂，它们的能量保存和差异/符号变体，用于在电磁场中相对论带电粒子方程的数值整合。数值方法保存结构，例如保护和长期对能量和质量壳的近距离保存，以及相位空间中体积的保存。在非相关主义极限中，考虑的方法将非偏好的带电粒子动力学及其能量保护和变异/符号变体减少为鲍里斯算法。
+
+标题: [A strongly universal cellular automaton on the heptagrif with seven states, new proof](http://arxiv.org/pdf/2304.13575v1)     
+摘要: 该论文为存在强烈通用的细胞自动机提供了一个新的证明，其在旋转不变的Heptagrid上具有七个状态。新的证明可以通过简化结构并减少所需规则数来改善先前的论文。
+
+标题: [The Systematic Review-lution: A Manifesto to Promote Rigour and Inclusivity in Research Synthesis](http://arxiv.org/pdf/2304.13556v1)     
+摘要: 该论文的标题为“系统的审查局面：促进研究综合中严格和包容性的宣言”，主张HCI内的元级别研究方法的革命，强调了在基本研究报告中需要更严格的严格性，并仔细考虑了对初级和二级研究方法，期望和基础架构。本文要求开发一套包容性但严格的标准集，该标准支持HCI中的系统审查工作。
+
+标题: [Turning block-sequential automata networks into smaller parallel networks with isomorphic limit dynamics](http://arxiv.org/pdf/2304.13550v1)     
+摘要: 本文提出了一种算法，将块序列自动机网络转换为具有同构极限动态的较小并行网络。该算法仅限于称为切向循环的自动机循环家族，并且可以在保存其极限动态的同时减少这些网络的任何实例。该论文还表征了运行的减少数量，并表明该算法降低的任何切向周期都将转换为一个网络，该网络的大小是初始网络的最大循环。此外，本文允许将块序列双周期直接表征为平行。
+
+标题: [A Two-Step Rule for Backpropagation](http://arxiv.org/pdf/2304.13537v1)     
+摘要: 本文介绍了人工神经网络中的后传播算法的简化两步计算规则。该规则纳入了学习过程中涉及的计算的远期和后阶段，并有效地传播了网络中所有突触权重的变化。本文特别着重于计算所有连接的成本函数的部分衍生物，这些连接输入了输出层。
+
+标题: [Towards replicated algorithms](http://arxiv.org/pdf/2304.13524v1)     
+摘要: 本文介绍了复制算法的概念，这些算法能够复制自己并解决与人脑类似的问题。这些算法是将已知输入的已知输入映射到已知输出的模型，并且可以在开放式进化的条件下运行。
+
+标题: [Sequential decomposition of propositional logic programs](http://arxiv.org/pdf/2304.13522v1)     
+摘要: 本文提出了一项研究，研究命题逻辑程序的顺序分解，通过研究格林在程序之间的半群中的众所周知的关系。最终目标是为逻辑编程代数理论的发展做出贡献。
+
+标题: [Deterministic stream-sampling for probabilistic programming: semantics and verification](http://arxiv.org/pdf/2304.13504v1)     
+摘要: 本文介绍了一种以采样器和采样器操作为中心的高阶概率编程语言，并根据拓扑空间之间的连续图提供了操作和指示语义。本文还开发了用于对采样器正确性的形式验证的工具，并提出了一个方程计算，以理论采样器等效性和声音演算以证明采样器的语义正确性。
+
+标题: [How Semantic Information G Measure Relates to Distortion, Freshness, Purposiveness, and Efficiency](http://arxiv.org/pdf/2304.13502v1)     
+摘要: 本文提出了一种称为G MAUSE的语义信息度量，该方法结合了失真，新鲜度，有目的性和效率，以提高沟通效率并提供更多有用的信息。该度量是在语义预测信息和目的信息的背景下讨论的，并应用于优化问题。本文还表明，G量度可能在深度学习中具有潜在的应用。需要进一步的研究来探索结合实用程序的语义沟通优化。
+
+标题: [Fundamental Tradeoffs in Learning with Prior Information](http://arxiv.org/pdf/2304.13479v1)     
+摘要: 本文探讨了在统计估计问题中，先前信息的准确性与学习绩效之间的权衡。它介绍了优先风险的概念，并提出了一种基于减少限制优先级风险的方法。该方法为不同问题（包括估计，回归和强化学习）提供了对先前信息与学习绩效之间的权衡的见解。
+
+标题: [An efficient multiple harmonic balance method for computing quasi-periodic responses of nonlinear systems](http://arxiv.org/pdf/2304.13446v1)     
+摘要: 本文提出了用于计算非线性系统准周期响应的重建多谐波平衡（RMHB）方法。该方法基于离散的时域搭配，并解决了由异叠引起的现有时域MHB样方法中非物理解决方案的问题。在数值示例中，所提出的方法比最新方法更有效，更强大。
+
+标题: [The Logic of Logic Programming](http://arxiv.org/pdf/2304.13430v1)     
+摘要: 本文探讨了逻辑编程的逻辑，并认为它不是在“喇叭”子句中编程的经典逻辑，而是在（归纳性）定义的逻辑中编程。他们建议这为逻辑编程及其扩展的主要语义问题提供了自然解决方案。
+
+标题: [With a little help from your friends: semi-cooperative games via Joker moves](http://arxiv.org/pdf/2304.13417v1)     
+摘要: 该论文介绍了“ Joker Games”的概念，其中玩家2通过在半合作游戏中玩Joker举动来帮助玩家1。该论文将这些游戏正式为成本游戏，并研究其理论属性。本文还说明了在基于模型的测试中使用小丑游戏。
+
+标题: [MacWilliams' Extension Theorem for rank-metric codes](http://arxiv.org/pdf/2304.13341v1)     
+摘要: 本文探讨了MacWilliams的扩展定理对等级代码的适用性，该代码具有指标，该指标可以测量两个代码字之间的等级距离。它提供了障碍的示例，以扩展和积极的结果。
+
+标题: [Game-Theoretically Secure Protocols for the Ordinal Random Assignment Problem](http://arxiv.org/pdf/2304.13338v1)     
+摘要: 论文研究从理论上讲，游戏从序数随机分配问题上确保了协议，在该问题上，玩家对项目的总偏好顺序。作者研究了最大化安全性的游戏理论概念，并给出了不可能的结果，表明没有最大值安全协议可以达到公平和序效率。他们还提出了一种最大化的安全协议，该方案可实现公平和稳定性，并受到概率序列机制的启发，该机制实现了公平，稳定性和统一的优势。
+
+标题: [Nominal Topology for Data Languages](http://arxiv.org/pdf/2304.13337v1)     
+摘要: 该论文介绍了有关轨道 - 芬特名义上的单体识别的数据语言的新拓扑观点。他们提出了亲轨的名义拓扑空间，并将可识别的数据语言描述为拓扑上的可粘液式单词。该论文还通过建立Reiterman的伪动物定理的名义版本来探讨亲轨方程的表达能力。
+
+标题: [Entropy-based convergence rates of greedy algorithms](http://arxiv.org/pdf/2304.13332v1)     
+摘要: 本文根据基础紧凑型集合的度量熵进行了两种类型的贪婪算法的收敛估计。第一部分测量了参数PDE的标准贪婪减少基础方法的误差，而第二部分则得出了对非线性词典近似的经典正交贪婪算法的新颖而简单的收敛分析。将基于熵的收敛估计与基于经典宽度的分析进行比较，以减少基础方法，并改善了字典近似的现有结果。
+
+标题: [Specifying programs with propositions and with congruences](http://arxiv.org/pdf/2304.13321v1)     
+摘要: 该论文在推论模型中介绍了Krivine和Parigot的二阶功能算术，并突出了该理论的独特方面，其中计划与一致而不是命题指定程序。
+
+标题: [Simple Type Theory as a Clausal Theory](http://arxiv.org/pdf/2304.13319v1)     
+摘要: 该论文将简单的类型理论呈现为两极分化扣除模量中的clausal重写系统。它给出了理论的正式介绍，并演示了如何将其用作逻辑推理的基础。该论文属于理论类别。
+
+标题: [The physical Church thesis and the sensitivity to initial conditions](http://arxiv.org/pdf/2304.13318v1)     
+摘要: 本文讨论了物理教会论文及其与混乱动力学系统的兼容性。它认为存在可计算的混沌系统，从而表明混乱与可计算性并不矛盾，类似于它与确定性不兼容的方式。
+
+标题: [Preconditioned discontinuous Galerkin method and convection-diffusion-reaction problems with guaranteed bounds to resulting spectra](http://arxiv.org/pdf/2304.13315v1)     
+摘要: 本文为线性二阶偏微分方程提供了一个新的预处理概念，特别是针对对流 - 扩散反应问题，由Galerkin或不连续的Galerkin方法离散。该方法为所得的光谱提供了保证的界限，包括在对称问题的情况下，包括预处理矩阵的所有单个特征值，以及在非对称问题的情况下，所得特征值的真实和想象中的部分。该方法通过数值实验显示出有效。
+
+标题: [Technical Note: Defining and Quantifying AND-OR Interactions for Faithful and Concise Explanation of DNNs](http://arxiv.org/pdf/2304.13312v1)     
+摘要: 本文提出了一种通过量化输入变量之间的和 - 或相互作用的新方法来解释深神经网络（DNN）的推理逻辑。作者重新定义了相互作用的定义，并证明了量化输入变量之间关系效果时的独特性和和或相互作用。他们还提出了技术，以增强解释的简洁性，同时保持忠诚。本文提供了一种使用符号概念来解释DNN行为的新方法。
+
+标题: [Solution of planar elastic stress problems using stress basis functions](http://arxiv.org/pdf/2304.13251v1)     
+摘要: 本文提出了两种使用应力基函数解决线性弹性中应力问题的方法。第一种方法涉及使用互补能原理最小化应变能。第二种方法仅限于平面均匀的各向同性体，并涉及最大程度地减少应力痕迹的平方l^2标准。本文证明了这些方法在解决各种应力问题上的应用，包括那些角落尖锐的问题，多重连接和材料不均匀性。所提出的方法列出了线性弹性领域中的新原理。
+
+标题: [Numerical Approximation of Andrews Plots with Optimal Spatial-Spectral Smoothing](http://arxiv.org/pdf/2304.13239v1)     
+摘要: 本文介绍了对安德鲁斯图的技术分析，并为从欧几里得空间到$ l^2（[0,1]）$的线性异构体进行了无限二维二次最小化程序的解决方案。作者还引入了光谱平滑项，以诱导安德鲁斯图中最佳的空间光谱平滑，并表明所得图具有有效的数值近似值。
+
+标题: [Performance of the Gittins Policy in the G/G/1 and G/G/k, With and Without Setup Times](http://arxiv.org/pdf/2304.13231v1)     
+摘要: 该学术论文研究了G/G/1和G/G/K队列模型的Gittins政策的性能，具有和不设置时间，并评估该政策是否仍然有效，超出M/G/1模型。该论文确定，在流量繁忙的情况下，吉廷斯在这些系统中是最佳的，具有可忽略的次优差距，并提供了可以处理多个服务器，非毒品到达和设置时间的策略的理论分析。
+
+标题: [The Nonlocal Neural Operator: Universal Approximation](http://arxiv.org/pdf/2304.13221v1)     
+摘要: 本文介绍了一种新的操作员近似器，称为非局部神经操作员（NNOS），它们能够在任意几何形状定义的功能之间近似运算符，并将其作为特殊情况。本文还对NNO进行了分析，该分析表明，如果架构包括空间平均值的计算，则可以从通用近似中受益。结果统一了对广泛的神经操作架构的分析，并为非局部性和非线性的相互作用提供了新的启示。
+
+标题: [Reconfiguration of the Union of Arborescences](http://arxiv.org/pdf/2304.13217v1)     
+摘要: 该论文证明了k arborescences在Digraphs中的结合的可重构性，从而推广了k = 1的先前结果。k arborescences的结合可以表示为两个矩形的共同基质基，给出了一个非平凡的示例，这是矩阵对的，始终可以彼此重新配置两个共同的基础。本文属于图神经网络和理论的类别。
+
+</details>
+<details>
+<summary>Natural Language Processing</summary>
+    
+标题: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/pdf/2304.13712v2)     
+摘要: 本文为从业者和最终用户提供了与大型语言模型（LLMS）在其下游自然语言处理（NLP）任务中的实用指南。本文讨论了预培训数据，培训数据和测试数据的重要性，并提供了有关LLMS对各种NLP任务的使用和不使用案例的详细讨论。本文还探讨了虚假偏见对LLM的影响以及在实践中部署LLM的其他基本考虑因素。作者旨在为研究人员和从业者提供与LLMS合作的宝贵见解和最佳实践。
+
+标题: [Using Implicit Feedback to Improve Question Generation](http://arxiv.org/pdf/2304.13664v1)     
+摘要: 本文提出了一个名为Gen的系统，该系统从隐式反馈中学习，以改善NLP中的问题产生。Gen将句子/问题对作为输入，并创建模式以产生新问题。每个生成的问题被用户纠正时，都将用作下一个迭代中的新种子，以创建更多模式。Gen利用校正来得分模式和排名产生的问题。结果表明，Gen通过从隐式反馈中学习而改善，并可以将问题产生绩效提高多达10％。
+
+标题: [HausaNLP at SemEval-2023 Task 12: Leveraging African Low Resource TweetData for Sentiment Analysis](http://arxiv.org/pdf/2304.13634v1)     
+摘要: 本文介绍了Semeval-2023 Task 12的结果，这是使用Twitter数据针对低资源非洲语言的情感分析任务。该任务具有三个子任务，包括零击的情感分类。该研究利用了包括非洲XLMR-LARGE和BERT在内的预先培训的大语言模型，以14种非洲语言进行情感分析。研究结果表明，非洲 -  XLMR-LARGE的性能要比其他模型更好，而且由于数据量较大，尼日利亚语言的性能更高。该论文还在GitHub上发布了代码。
+
+标题: [Shades of meaning: Uncovering the geometry of ambiguous word representations through contextualised language models](http://arxiv.org/pdf/2304.13597v1)     
+摘要: 本文探讨了词汇歧义的挑战及其在上下文化语言模型中的表示。作者使用模拟表明这些模型可以捕获明确，同义词和多义单词之间的细粒度区分，并与词典分类和心理理论保持一致。这些发现为词汇歧义的现代心理概念化提供了定量支持，并提出了理解上下文信息塑造不同时间尺度词的含义的新挑战。
+
+标题: [Impact of Position Bias on Language Models in Token Classification](http://arxiv.org/pdf/2304.13567v1)     
+摘要: 本文研究了位置偏见对令牌分类任务中语言模型性能的影响。该研究包括各种用于指定实体识别和词性标签的基准数据集。作者提出了两种方法来减轻位置偏差的影响并显示模型性能的改善。本文着重于在特定的语言模型问题中评估变压器模型的性能。
+
+标题: ["I'm" Lost in Translation: Pronoun Missteps in Crowdsourced Data Sets](http://arxiv.org/pdf/2304.13557v1)     
+摘要: 本文讨论了在自然语言处理（NLP）任务中英语和日语之间代词之间的偏见和挑战。作者确定了对男性代词的偏见以及对女性，中性和非二进制代词的细微反应。他们的解决方案包括嵌入多个NLP数据集中以解决这些偏见。
+
+标题: [Zero-Shot Slot and Intent Detection in Low-Resource Languages](http://arxiv.org/pdf/2304.13292v1)     
+摘要: 本文介绍了一项有关低资源语言中零击插槽和意图检测的研究。测试了各种模型和设置，包括使用大型语言模型最近成功的多任务指定的微调方法。结果表明，最佳模型的表现优于基线，这两个任务都有很大的差距，这证明了零击学习对低资源语言理解的潜力。
+
+标题: [Improving Conversational Passage Re-ranking with View Ensemble](http://arxiv.org/pdf/2304.13290v1)     
+摘要: 该论文提出了一种称为Convrerank的对话段落的重新疗程，该循环使用了一种新的伪标记方法来改善其微调。所提出的观看式方法可以增强伪标记的数据的质量，从而在与级联管道中的对话式密集回寻回术结合使用时，在有效性和效率之间达到平衡。该方法显示出提高对话搜索有效性的潜力。
+
+标题: [Structure Diagram Recognition in Financial Announcements](http://arxiv.org/pdf/2304.13240v1)     
+摘要: 本文提出了一种新方法，以准确识别和从财务公告的结构图中提取结构化数据，该图可用于构建财务知识图并提高财务应用程序的效率。该方法包括检测和提取不同类型的连接线，合成和注释大量图以创建基准测试，并通过实验验证与先前方法相比的显着性能优势。
+
+标题: [Towards Explainable and Safe Conversational Agents for Mental Health: A Survey](http://arxiv.org/pdf/2304.13191v1)     
+摘要: 本文介绍了对心理健康中现有的对话代理的调查，并讨论了建立负责任的虚拟心理健康助理（VMHA）的更全面，安全和可解释的方法的必要性。本文提出了新的方向，以通过解释性，安全性和有益健康的信任度丰富VMHA的用户体验。该论文还为VMHA提供了评估指标和实际考虑，超越了当前文献，以在主动沟通中建立VMHA和患者之间的信任。
+
+标题: [TABLET: Learning From Instructions For Tabular Data](http://arxiv.org/pdf/2304.13188v1)     
+摘要: 本文引入了一个名为Tablet的基准数据集，该数据集由20个不同的表格数据集组成，并带有自然语言指令，用于使用大语言模型（LLMS）解决表格预测问题。该研究发现，在平板电脑上，在flan-t5 11b和chatgpt的零射击F1性能中提高了零摄像的F1性能。但是，LLM通常忽略指令，即使有示例也无法正确预测特定实例，这表明需要从表格数据的说明中学习新功能。
+
+标题: [Sebis at SemEval-2023 Task 7: A Joint System for Natural Language Inference and Evidence Retrieval from Clinical Trial Reports](http://arxiv.org/pdf/2304.13180v1)     
+摘要: 本文描述了一种自然语言推断的联合系统，并从临床试验报告中检索了证据。开发了两个系统：一个管道和一个具有共享表示形式和多任务学习方法的联合系统。最终系统将其输出结合在整体系统中。本文正式化了模型，提出了它们的特征和挑战，并对已实现的结果进行了分析。
+
+标题: [Modeling Spoken Information Queries for Virtual Assistants: Open Problems, Challenges and Opportunities](http://arxiv.org/pdf/2304.13149v1)     
+摘要: 这篇学术论文重点介绍了为虚拟助手建模口语信息查询的挑战和机遇。作者建议使用查询域分类，知识图，用户交互数据和查询个性化来提高语音识别精度。该论文还涵盖了语音识别的当前问题和挑战。
+
+标题: [Introducing MBIB -- the first Media Bias Identification Benchmark Task and Dataset Collection](http://arxiv.org/pdf/2304.13148v1)     
+摘要: 本文介绍了MBIB，这是一个媒体偏差识别基准，该基准由九个任务和22个相关数据集组成，用于评估媒体偏见检测技术。作者使用最先进的变压器技术评估了基准，并发现研究兴趣和资源分配分配给单个偏见类型的不均匀分布。统一的基准测试将当前的范式转移到开发更强大的系统，以同时解决多个偏差类型。
 
 </details>
 </details>
