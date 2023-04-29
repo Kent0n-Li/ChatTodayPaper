@@ -2,7 +2,7 @@
 
 <details>
 <summary>展开查看</summary>
-<pre><code>
+<pre>
 System.out.println("Hello to see U!");
-</code></pre>
+</pre>
 </details>
